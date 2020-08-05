@@ -1,0 +1,17 @@
+---
+title: Fluxo de trabalho com dados - Do zero à prática
+author: Escola de Dados
+rights: Creative Commons BY-SA 4.0
+lang: pt-br
+tags: [jornalismo de dados, raspagem de dados, análise de dados, estatística, jornalismo, visualização de dados]
+abstract: |
+  Esta publicação é um guia prático destinado a profissionais e estudantes interessados em trabalhar com dados no campo da comunicação, 
+  em especial no jornalismo e na produção de conteúdos para organizações da sociedade civil. O guia é baseado no fluxo de trabalho com dados 
+  (data pipeline), uma metodologia desenvolvida pela rede da Escola de Dados internacionalmente, que aborda todas etapas do trabalho, 
+  da definição das questões à visualização dos dados.  
+mainfont: Ubuntu
+# fontfamily: arev
+# Filter preferences:
+# - pandoc-crossref
+linkReferences: true
+---
