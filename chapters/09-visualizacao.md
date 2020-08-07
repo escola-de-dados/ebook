@@ -417,8 +417,7 @@ Dito isso, separamos uma seleção de 10 ferramentas para visualização de dado
 | **Datawrapper** | Web | ✔️ Gráficos elegantes✔️ Atualização dos gráficos em tempo real✔️ Edição colaborativa |
 | **Raw Graphs** | Web | ✔️ Bom para gráficos pouco usuais✔️ Baseado em D3 e de código-aberto |
 | **Ggplot2** | R | ✔️ Tem uma &quot;gramática&quot; para visualização de dados que é referência✔️ Gráficos elegantes com poucas linhas |
-| **Tableau** | Windows
- MacOS | ✔️ Bom para análises exploratórias✔️ Fácil de usar, não requer programação |
+| **Tableau** | Windows; MacOS | ✔️ Bom para análises exploratórias✔️ Fácil de usar, não requer programação |
 | **Matplotlib** | Python | ✔️ Bom para gráficos simples✔️ Bom para análises exploratórias |
 | **Seaborn** | Python | ✔️ Permite a criação de gráficos mais complexos |
 | **Google Charts** | JavaScript | ✔️ Diversos modelos/templates✔️ Gráficos responsivos |
