@@ -413,7 +413,9 @@ Dito isso, separamos uma seleção de 10 ferramentas para visualização de dado
 
 | **Ferramenta** | **Plataforma** | **Pontos positivos** |
 | --- | --- | --- |
-| **Flourish** | Web | ✔️ Interface amigável✔️ Gráficos interativos✔️ Permite unir visualizações em histórias |
+| **Flourish** | Web | ✔️ Interface amigável
+✔️ Gráficos interativos
+✔️ Permite unir visualizações em histórias |
 | **Datawrapper** | Web | ✔️ Gráficos elegantes✔️ Atualização dos gráficos em tempo real✔️ Edição colaborativa |
 | **Raw Graphs** | Web | ✔️ Bom para gráficos pouco usuais✔️ Baseado em D3 e de código-aberto |
 | **Ggplot2** | R | ✔️ Tem uma &quot;gramática&quot; para visualização de dados que é referência✔️ Gráficos elegantes com poucas linhas |
