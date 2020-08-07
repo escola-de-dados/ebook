@@ -38,9 +38,7 @@ Outro importante mecanismo de obtenção de dados são as requisições oficiais
 
 Esta legislação que entrou em vigor em 2012 regulamentou o direito à informação garantido pela Constituição Federal brasileira em seu artigo quinto, reforçando o entendimento da publicidade como regra e o sigilo como exceção. Ela obriga órgãos públicos de diferentes esferas e poderes a fornecer ativamente e abertamente, na web, informações de interesse da sociedade. Assim, o caminho inicial para quem quer obter dados governamentais é verificar se eles já estão disponíveis no site do órgão sobre o qual se busca a informação.
 
-Além de regulamentar esta transparência ativa, quando o próprio órgão disponibiliza a informação proativamente, a Lei de Acesso à Informação
-# 2
- também criou o Serviço de Informação ao Cidadão, que implementa na prática a chamada transparência passiva. É o SIC - ou eSIC, nos casos de atendimento online - que garante acesso do público aos dados que são de interesse coletivo, mas por algum motivo não estão disponíveis para consulta.
+Além de regulamentar esta transparência ativa, quando o próprio órgão disponibiliza a informação proativamente, a Lei de Acesso à Informação - Lei nº 12.527, de 18 de novembro de 2011, em vigor desde maio do ano seguinte - também criou o Serviço de Informação ao Cidadão, que implementa na prática a chamada transparência passiva. É o SIC - ou eSIC, nos casos de atendimento online - que garante acesso do público aos dados que são de interesse coletivo, mas por algum motivo não estão disponíveis para consulta.
 
 Mas a LAI vale para todos? Vejamos a quem se aplica esta legislação. Tanto a União quanto os estados, o Distrito Federal e os municípios estão sujeitos à LAI. Isso vale no âmbito dos três poderes: legislativo, executivo e judiciário. Além deles, também devem obedecer a LAI as autarquias, fundações ou empresas públicas, sociedades de economia mista e entidades controladas direta ou indiretamente por entes da federação. Entidades privadas que recebam recursos públicos igualmente devem fornecer as informações relacionadas ao uso dessas verbas.
 
