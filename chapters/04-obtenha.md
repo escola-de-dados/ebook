@@ -1,4 +1,4 @@
-### Obtenha
+# Obtenha
 
 Agora que vimos alguns pontos importantes para definir o escopo de nossa pesquisa e a diversidade de formatos que os dados podem assumir, vamos voltar aos dados tabulares para entender como podemos obtê-los. Basicamente, existem três formas de se obter dados.
 
