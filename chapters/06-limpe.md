@@ -1,1 +1,11 @@
 # Limpeza 
+A limpeza de dados é uma etapa fundamental de qualquer trabalho com dados. Em geral, ela não é muito empolgante, mas pode tomar um tempo considerável do seu trabalho. Aqui, você irá organizar os dados para que seja possível posteriormente realizar análises, operações matemáticas, filtros, ordenações, enfim, tudo que você precisa para responder às perguntas desejadas.
+
+Ao limpar seus dados, você irá alterar as informações originais da planilha. Por isso, é importante tomar nota das alterações, bem com manter uma cópia da versão original. Em caso de problemas com seu trabalho de verificação e limpeza, você sempre poderá recomeçar do zero. 
+
+Caso você utilize linguagens de programação, o próprio código já serve como esta documentação. Além disso, há os chamados notebooks, que costumam ser ótimas ferramentas para documentar códigos e processos de limpeza e análise dos dados. Eles também permitem que você acrescente comentários e lembretes para si ou para seus colegas. Entre os notebooks mais conhecidos estão o Jupyter Notebook e o Colab do Google.
+
+Antes de começarmos a listar os problemas mais comuns para limpeza de dados, é importante que você conheça o conceito de “dados organizados” (tidy data). Trata-se de um forma de organizar dados tabulares, proposto por Hadley Wickham, um dos desenvolvedores de maior destaque da comunidade de R. 
+Apesar do tempo que cientistas de dados passam limpando a matéria-prima do seu trabalho, ele notou que há pouca reflexão sobre este processo, ao contrário do que acontece com etapas como a análise e visualização de dados, onde há um largo acúmulo de reflexões teóricas e práticas. Por isso, ele concebeu a ideia de tidy data.
+De acordo com esta noção, cada tabela registra um certo fenômeno (despesas de um órgão do governo, as notas de alunos, resultados de jogos de futebol ou da situação de pacientes de um hospital, por exemplo). Cada ocorrência será registrada em uma linha ou em uma observação. Cada característica deste fenômeno será uma variável ou coluna e, por fim, a descrição destas características serão chamadas de valores e ocuparão as células.
+Ou seja, resumidamente, o modelo do “tidy data” significa que cada variável deve ter sua própria coluna, cada observação deve ter sua própria linha e cada valor deve ter sua própria célula. 
