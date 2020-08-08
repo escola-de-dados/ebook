@@ -6,12 +6,12 @@
 
 BUILD = build
 MAKEFILE = Makefile
-OUTPUT_FILENAME = book
+OUTPUT_FILENAME = livro
 METADATA = metadata.yml
-CHAPTERS = chapters/*.md
+CHAPTERS = capitulos/*.md
 TOC = --toc --toc-depth=2
 METADATA_ARGS = --metadata-file=$(METADATA)
-IMAGES_FOLDER = images
+IMAGES_FOLDER = imagens
 IMAGES = $(IMAGES_FOLDER)/*
 COVER_IMAGE = $(IMAGES_FOLDER)/cover.png
 MATH_FORMULAS = --webtex

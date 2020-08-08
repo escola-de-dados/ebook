@@ -14,4 +14,5 @@ mainfont: Ubuntu
 # Filter preferences:
 # - pandoc-crossref
 linkReferences: true
+cover-image: images/cover.png
 ---

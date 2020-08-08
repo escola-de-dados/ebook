@@ -10,8 +10,7 @@ O termo, na rotina de trabalho, faz algum sentido. Na hierarquia da maioria dos 
 
 Segundo Cairo, porém, o uso desse termo gera um problema. É frequente que, na hora de produzir um jornal, as peças visuais que acompanham o conteúdo da reportagem sejam vistas como mero complemento ou ilustração. Sob essa perspectiva, o conteúdo realmente importante de uma matéria ficaria no texto, enquanto o gráfico serve para resumir o assunto para um leitor pouco interessado ou, simplesmente, para preencher o espaço em branco ou tornar uma página mais agradável esteticamente.
 
-Entretanto, a função de um gráfico não é decorativa. A função primordial de um gráfico é informar - tanto quanto um bloco de texto. Uma visualização de dados impactante concentra tanta informação quanto o _lead_
-_# 6_de uma reportagem.
+Entretanto, a função de um gráfico não é decorativa. A função primordial de um gráfico é informar - tanto quanto um bloco de texto. Uma visualização de dados impactante concentra tanta informação quanto o _lead_ de uma reportagem.
 
 Para Cairo, a relação entre visualizações e arte é como a relação entre jornalismo e literatura. Segundo ele, um jornalista pode se inspirar nas técnicas e no estilo de um grande ficcionista. Entretanto, seu trabalho nunca deve virar literatura, porque é de outra natureza.
 
@@ -411,18 +410,31 @@ Pensar dessa maneira, porém, é ignorar um dos maiores potenciais da visualiza�
 
 Dito isso, separamos uma seleção de 10 ferramentas para visualização de dados, que são úteis tanto para quem está começando quanto para pessoas com mais conhecimento. Todas são gratuitas e aquelas baseadas na web são altamente indicadas para iniciantes, que podem gerar visualizações de alto nível, sem precisar recorrer à programação.
 
-| **Ferramenta** | **Plataforma** | **Pontos positivos** |
-| --- | --- | --- |
-| **Flourish** | Web | ✔️ Interface amigável
-✔️ Gráficos interativos
-✔️ Permite unir visualizações em histórias |
-| **Datawrapper** | Web | ✔️ Gráficos elegantes✔️ Atualização dos gráficos em tempo real✔️ Edição colaborativa |
-| **Raw Graphs** | Web | ✔️ Bom para gráficos pouco usuais✔️ Baseado em D3 e de código-aberto |
-| **Ggplot2** | R | ✔️ Tem uma &quot;gramática&quot; para visualização de dados que é referência✔️ Gráficos elegantes com poucas linhas |
-| **Tableau** | Windows; MacOS | ✔️ Bom para análises exploratórias✔️ Fácil de usar, não requer programação |
-| **Matplotlib** | Python | ✔️ Bom para gráficos simples✔️ Bom para análises exploratórias |
-| **Seaborn** | Python | ✔️ Permite a criação de gráficos mais complexos |
-| **Google Charts** | JavaScript | ✔️ Diversos modelos/templates✔️ Gráficos responsivos |
-| **D3** | JavaScript | ✔️ Visualizações complexas na web✔️ Conta com ampla documentação e exemplos |
-| **C3** | JavaScript | ✔️ Baseado em D3, porém, mais simples✔️ Visualizações interativas e responsivas |
+: Ferramentas para visualização de dados.
+
++----------------+------------+-----------------------------------+
+|Ferramenta      | Plataforma | Vantagens                         |
++================+============+===================================+
+| Flourish	     | Web        | - Interface amigável			  |
+|          		 |            | - Gráficos interativos    		  |
+|				 | 			  | - Junta visualizações em histórias|
++----------------+------------+-----------------------------------+
+| Datawrapper    | Web        | - Gráficos elegantes     		  |
+|                |            | - Atualização em tempo real       |
+|                |            | - Edição colaborativa             |
++----------------+------------+-----------------------------------+
+| Raw Graphs     | Web        | - Bom para gráficos pouco usuais  |
+|                |            | - Baseado em D3 				  |
+|                |            | - Código aberto                   |
++----------------+------------+-----------------------------------+
+| Ggplot2	     | R          | - Sua "gramática" para  construir visualizações  |
+|                |            | - Gráficos elegantes com poucas linhas 				  |
++----------------+------------+-----------------------------------+
+| Raw Graphs     | Web        | - Bom para gráficos pouco usuais  |
+|                |            | - Baseado em D3 				  |
+|                |            | - Código aberto                   |
++----------------+------------+-----------------------------------+
+| Tableau        | Windows    | - Fácil de usar  				  |
+|                | MacO       | - Bom para análises exploratórias |				  
++----------------+------------+-----------------------------------+
 
