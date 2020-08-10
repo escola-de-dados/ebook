@@ -4,7 +4,7 @@ A **Escola de Dados** é um programa da [Open Knowledge Brasil](http://ok.org.br
 
 Esta publicação é um guia prático destinado a profissionais e estudantes interessados em trabalhar com dados no campo da comunicação, em especial no jornalismo. O guia é baseado no fluxo de trabalho com dados (*data pipeline*), uma metodologia desenvolvida pela rede da Escola de Dados internacionalmente, que aborda todas etapas do trabalho. O fluxo tem como ponto de partida a definição de uma pergunta ou hipótese, seguida da busca, localização e obtenção dos dados. O passo subsequente envolve a verificação e a limpeza das informações nas bases de dados, de modo que fiquem preparadas para a etapa de análise e, finalmente, para a visualização do conteúdo. Neste material, todas essas etapas serão detalhadas. Por isso, se você é iniciante na área, não se preocupe - este livro foi pensado para você. 
 
-![Data pipeline ou o fluxo de trabalho com dados](images/apresentacao/datapipeline.png)
+![Data pipeline ou o fluxo de trabalho com dados - Fonte: Escola de Dados](images/apresentacao/datapipeline.png)
 
 Apesar de o apresentarmos de forma linear, tenha em mente que na prática estas etapas em geral costumam ser mais intercaladas. Às vezes, você chegará na etapa de visualização e perceberá que existe um erro nos dados que não foi checado antes e precisará refazer esta etapa. Como veremos, de fato, a checagem é uma etapa que deve ser transversal a todo o trabalho com dados. Do mesmo modo, um insight obtido com uma visualização pode gerar uma nova questão, que por sua vez irá demandar uma nova coleta e análise. Ainda assim, a representação do trabalho com dados como um fluxo (pipeline) é útil, especialmente para quem está começando.
 

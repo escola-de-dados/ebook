@@ -11,7 +11,7 @@ METADATA = metadata.yml
 CHAPTERS = capitulos/*.md
 TOC = --toc --toc-depth=2
 METADATA_ARGS = --metadata-file=$(METADATA)
-IMAGES_FOLDER = imagens
+IMAGES_FOLDER = images
 IMAGES = $(IMAGES_FOLDER)/*
 COVER_IMAGE = $(IMAGES_FOLDER)/cover.png
 MATH_FORMULAS = --webtex

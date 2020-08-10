@@ -15,6 +15,8 @@ Mas nem sempre você terá os dados de antemão ou poderá criá-los. Especialme
 
 - Moda: neste excelente trabalho do [The Pudding](https://pudding.cool/2018/08/pockets/), eles investigaram como a indústria da moda lida com as questões de gênero ao desenhar o tamanho dos bolsos nas roupas, a partir de dados;
 
+![Para investigar o tema, os jornalistas pegaram o tamanho do bolso da frente de 80 calças de ambos os sexos para então calcular o tamanho médio. Fonte: The Pudding](images/definicao/pudding.png)
+
 - Transporte por bicicletas: no projeto [Radmesser](https://interaktiv.tagesspiegel.de/radmesser/), o jornal alemão Der Tagesspiegel investigou a segurança no trânsito para os ciclistas em Berlim, criando um dispositivo que media a distância entre os carros e as bicicletas e distribuindo entre seus leitores, que coletaram dados e compartilharam com o jornal. O trabalho recebeu o prêmio de inovação do Data Journalism Awards em 2019.
 
 Enfim, você consegue usar dados para abordar qualquer assunto. Depois de encontrar um tema de seu interesse, você precisa gerar algumas perguntas iniciais que possam ser investigadas e respondidas com auxílio de dados. A definição desta "pauta" inicial é bastante importante para o desenrolar da pesquisa. Então, vejamos como criar boas questões ao iniciar um trabalho com dados.
@@ -33,7 +35,9 @@ Enquanto você formula e detalha sua pergunta, faça uma pesquisa intensa sobre 
 
 **Atenção:** Tenha um cuidado especial ao formular questões que envolvam causalidade. Estabelecer a causalidade entre dois fenômenos é algo bastante complexo. Falaremos mais sobre isso no capítulo sobre análise de dados.
 
-A pergunta mencionada sobre o transporte rodoviário foi a questão seminal da investigação realizada por Adriano Belisário (coautor e organizador do ebook) e a equipe da Agência Pública, que resultou em uma série de reportagens publicadas no [Especial Catraca](https://apublica.org/especial/especial-catraca/). A partir de levantamentos de dados para responder àquela pergunta inicial, a investigação revelou relações inéditas entre deputados e empresários do ramo, por exemplo.
+A pergunta mencionada sobre o transporte rodoviário foi a questão seminal da investigação realizada por Adriano Belisário (coautor e organizador do ebook) e a equipe da Agência Pública, que resultou em uma série de reportagens publicadas no [Especial Catraca](https://apublica.org/especial/especial-catraca/). A partir de levantamentos de dados para responder àquela simples pergunta inicial, a investigação revelou relações inéditas entre deputados e empresários do ramo, por exemplo.
+
+![Visualização interativa da rede de empresas e empresários de ônibus no município do Rio de Janeiro](images/defina/redes.png)
 
 Obviamente, esboçar uma questão sempre requer algum grau de conhecimento sobre o tema e, quanto mais você se aprofundar, melhores perguntas conseguirá fazer. Ao longo de sua pesquisa, é comum que você detalhe, aprofunde ou mesmo mude completamente a questão que irá te guiar. Não se preocupe em fazer a pergunta perfeita ou definitiva, mas esforce-se para que ela seja detalhada e o mais objetiva possível.
 
@@ -100,7 +104,7 @@ Outra forma de representar dados é em forma de redes ou grafos. Na prática, mu
 
 Estes mesmos dados poderiam ser "traduzidos" para uma representação em redes com o grafo abaixo.
 
-[grafo]
+**[grafo]**
 
 Ao invés de organizar a informação em uma matriz ou uma tabela, os dados são estruturados a partir de nós (os pontos nas imagens acima) e arestas (os traços que conectam os pontos). Essa estrutura é especialmente útil quando seu interesse são relações entre entidades. Não é à toa que os grafos se tornaram bastante populares para entender a disseminação da informação e relações entre pessoas na análise de dados redes sociais. Assim como os dados geográficos, as redes possuem conceitos, metodologias e técnicas de análises próprias, que seriam impossíveis ou muito difíceis de serem realizadas utilizando tabelas.
 

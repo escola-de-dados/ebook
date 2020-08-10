@@ -27,15 +27,18 @@
 </header>
 <nav id="TOC" role="doc-toc">
 <ul>
-<li><a href="#apresentação">Apresentação</a></li>
+<li><a href="#créditos">Créditos</a>
+<ul>
+<li><a href="#organização">Organização</a></li>
+<li><a href="#revisão-e-edição">Revisão e edição</a></li>
+<li><a href="#autores">Autores</a></li>
+<li><a href="#apoiadores">Apoiadores</a></li>
+</ul></li>
 <li><a href="#introdução">Introdução</a>
 <ul>
 <li><a href="#nada-dado-nos-dados">Nada dado nos dados</a></li>
 <li><a href="#trabalhando-com-dados">Trabalhando com dados</a></li>
 <li><a href="#iniciação-à-programação">Iniciação à programação</a></li>
-</ul></li>
-<li><a href="#defina">Defina</a>
-<ul>
 <li><a href="#criando-boas-perguntas">Criando boas perguntas</a></li>
 <li><a href="#reconhecendo-um-bom-escopo">Reconhecendo um bom escopo</a></li>
 <li><a href="#dados-para-além-de-tabelas">Dados para além de tabelas</a></li>
@@ -51,9 +54,10 @@
 <li><a href="#biografando-dados">Biografando dados</a></li>
 <li><a href="#tópicos-de-atenção">Tópicos de atenção</a></li>
 </ul></li>
-<li><a href="#limpeza">Limpeza</a></li>
-<li><a href="#limpeza-de-dados">Limpeza de dados</a>
+<li><a href="#limpe">Limpe</a>
 <ul>
+<li><a href="#ferramentas-e-técnicas-de-limpeza">Ferramentas e técnicas de limpeza</a></li>
+<li><a href="#tópicos-de-atenção-1">Tópicos de atenção</a></li>
 <li><a href="#vieses-e-limitações">Vieses e limitações</a></li>
 <li><a href="#operações-matemáticas-básicas">Operações matemáticas básicas</a></li>
 <li><a href="#estatística-para-leigos">Estatística para leigos</a></li>
@@ -66,18 +70,29 @@
 <li><a href="#objetividade-vs-emoção">Objetividade vs emoção</a></li>
 <li><a href="#tarefas-perceptivas-e-gráficos">Tarefas perceptivas e gráficos</a></li>
 <li><a href="#enxergar-a-distribuição">Enxergar a distribuição</a></li>
-<li><a href="#section-2"></a></li>
+<li><a href="#section-1"></a></li>
 <li><a href="#ferramentas-para-visualização-de-dados">Ferramentas para visualização de dados</a></li>
 </ul></li>
 <li><a href="#conclusão">Conclusão</a></li>
 <li><a href="#referências">Referências</a></li>
 </ul>
 </nav>
-<h1 id="apresentação">Apresentação</h1>
-<p>A <strong>Escola de Dados</strong> é um programa da Open Knowledge Brasil que tem o objetivo de ajudar pessoas e organizações a transformarem dados em histórias, evidências e mudanças sociais, compartilhando conhecimento, encontros, plataformas e materiais didáticos gratuitos. Desde 2013, já envolvemos mais de 18 mil pessoas em nossas atividades, em todas as regiões do Brasil, e realizamos diversas edições do Coda.Br, a maior conferência de jornalismo de dados e métodos digitais da América Latina. Reunindo esta experiência e aproveitando o acúmulo de diversas colaborações com profissionais externos, preparamos esta publicação, que foi viabilizada com o apoio de mais de 280 pessoas em nossa primeira campanha de financiamento coletivo.</p>
-<p>Esta publicação é um guia prático destinado a profissionais e estudantes interessados em trabalhar com dados no campo da comunicação, em especial no jornalismo e na produção de conteúdos para organizações da sociedade civil. O guia é baseado no fluxo de trabalho com dados (data pipeline), uma metodologia desenvolvida pela rede da Escola de Dados internacionalmente, que aborda todas etapas do trabalho. O fluxo tem como ponto de partida a definição de uma pergunta ou hipótese, seguida da busca, localização e obtenção dos dados. O passo subsequente envolve a verificação e a limpeza das informações nas bases de dados, de modo que fiquem preparadas para a etapa de análise e, finalmente, para a visualização do conteúdo. Neste material, todas essas etapas serão detalhadas. Por isso, se você é iniciante na área, não se preocupe - este livro foi pensado para você.</p>
-<p>Apesar de o apresentarmos de forma linear, tenha em mente que na prática estas etapas em geral costumam ser mais intercaladas. Às vezes, você chegará na etapa de visualização e perceberá que existe um erro nos dados que não foi checado antes e precisará refazer esta etapa. Como veremos, de fato, a checagem é uma etapa que deve ser transversal a todo o trabalho com dados. Do mesmo, um insight gerado por uma visualização pode gerar uma nova questão, que por sua vez irá demandar uma nova coleta e análise. Ainda assim, a representação do trabalho com dados como um fluxo (pipeline) é útil, especialmente para quem está começando.</p>
-<p>Assim, inicialmente, apresentamos uma breve retrospectiva da comunicação baseada em dados e sua relação com a ciência e o jornalismo. Nesta mesma linha, falamos sobre o jornalismo de dados e seus precursores, cujas raízes estão assentadas sobre o método científico, o princípio da replicabilidade e a transparência na comunicação das informações. Apresentamos, ainda, a tecnologia utilizada nessas práticas atualmente e uma introdução às linguagens de programação.</p>
+<h1 id="créditos">Créditos</h1>
+<h2 id="organização">Organização</h2>
+<p>Adriano Belisário</p>
+<h2 id="revisão-e-edição">Revisão e edição</h2>
+<p>Adriano Belisário e Marília Gherke</p>
+<h2 id="autores">Autores</h2>
+<p>Adriano Belisário Marina Gamas Rodrigo Menegat</p>
+<h2 id="apoiadores">Apoiadores</h2>
+<p>Esta publicação foi produzida graças aos recursos obtidos com o primeiro financiamento coletivo da Escola de Dados, que alcançou sua meta e contou com o apoio de 282 pessoas. A listagem completa dos nomes encontra-se no final do livro. # Apresentação</p>
+<p>A <strong>Escola de Dados</strong> é um programa da <a href="http://ok.org.br/">Open Knowledge Brasil</a> que tem o objetivo de ajudar pessoas e organizações a transformarem dados em histórias, evidências e mudanças sociais, compartilhando conhecimento, encontros, plataformas e materiais didáticos gratuitos. De 2013 até 2020, já envolvemos mais de 18 mil pessoas em nossas atividades, em todas as regiões do Brasil, e realizamos quatro edições do Coda.Br, a maior conferência de jornalismo de dados e métodos digitais da América Latina. Reunindo esta experiência e aproveitando o acúmulo de diversas colaborações com profissionais externos, preparamos esta publicação, que foi viabilizada com o apoio de mais de 280 pessoas em nossa primeira campanha de financiamento coletivo.</p>
+<p>Esta publicação é um guia prático destinado a profissionais e estudantes interessados em trabalhar com dados no campo da comunicação, em especial no jornalismo. O guia é baseado no fluxo de trabalho com dados (<em>data pipeline</em>), uma metodologia desenvolvida pela rede da Escola de Dados internacionalmente, que aborda todas etapas do trabalho. O fluxo tem como ponto de partida a definição de uma pergunta ou hipótese, seguida da busca, localização e obtenção dos dados. O passo subsequente envolve a verificação e a limpeza das informações nas bases de dados, de modo que fiquem preparadas para a etapa de análise e, finalmente, para a visualização do conteúdo. Neste material, todas essas etapas serão detalhadas. Por isso, se você é iniciante na área, não se preocupe - este livro foi pensado para você.</p>
+<figure>
+<img src="images/apresentacao/datapipeline.png" alt="Data pipeline ou o fluxo de trabalho com dados - Fonte: Escola de Dados" /><figcaption aria-hidden="true">Data pipeline ou o fluxo de trabalho com dados - Fonte: Escola de Dados</figcaption>
+</figure>
+<p>Apesar de o apresentarmos de forma linear, tenha em mente que na prática estas etapas em geral costumam ser mais intercaladas. Às vezes, você chegará na etapa de visualização e perceberá que existe um erro nos dados que não foi checado antes e precisará refazer esta etapa. Como veremos, de fato, a checagem é uma etapa que deve ser transversal a todo o trabalho com dados. Do mesmo modo, um insight obtido com uma visualização pode gerar uma nova questão, que por sua vez irá demandar uma nova coleta e análise. Ainda assim, a representação do trabalho com dados como um fluxo (pipeline) é útil, especialmente para quem está começando.</p>
+<p>Assim, inicialmente, apresentamos uma breve retrospectiva da comunicação baseada em dados. Falaremos sobre o jornalismo de dados e seus precursores, cujas raízes estão assentadas sobre o método científico, ou seja, o princípio da replicabilidade e a transparência na comunicação das informações. Apresentamos, ainda, as principais tecnologias utilizadas nessas práticas atualmente e uma introdução às linguagens de programação mais relevantes da área.</p>
 <p>No capítulo sobre definição, vamos discutir como formular uma boa pergunta, refletir sobre temas de interesse público e conhecer os princípios para identificar um bom escopo de investigação. Também veremos que os dados vão muito além do formato de tabelas e indicam não só a quantificação de fenômenos.</p>
 <p>Em seguida, falaremos sobre a obtenção dos dados. Veremos as diferentes técnicas utilizadas, ferramentas úteis e problemas recorrentes. Nesta etapa, também aprenderemos como usar a Lei de Acesso à Informação para obter dados inéditos e conheceremos os principais formatos de dados abertos.</p>
 <p>Posteriormente, trataremos da checagem e limpeza dos dados. Veremos que dados podem ser imperfeitos, assim como nós, e aprenderemos como podemos biografar os dados para, assim, identificar suas limitações e possíveis vieses. Na etapa de limpeza, revisaremos ferramentas importantes para deixar os dados prontos para serem analisados e destacaremos alguns pontos que merecem atenção especial. Essas etapas podem parecer menos empolgantes que as demais, mas acredite: elas são essenciais e você provavelmente irá passar bastante tempo nelas ao realizar seus trabalhos.</p>
@@ -85,12 +100,12 @@
 <p>No capítulo de visualização de dados, veremos as características principais deste trabalho e mostraremos como esta técnica permite ampliar nossas capacidades cognitivas. Você também irá aprender princípios práticos para elaborar gráficos e conhecerá ferramentas úteis para colocar a mão na massa.</p>
 <p>Por fim, na conclusão, você encontra dicas de como seguir sua aprendizagem. Este livro funciona como um guia, e por meio de inúmeros exemplos, poderá ser consultado inclusive durante a prática jornalística. Ao final desta publicação, separamos referências e dicas de comunidades e plataformas para você se conectar e continuar aprendendo.</p>
 <h1 id="introdução">Introdução</h1>
-<p>Durante a pandemia da Covid-19, gráficos representando o aumento do número de casos ao longo do tempo, por meio de curvas de distribuição, ganharam as notícias e o debate público. A visualização de dados se tornou ‘mainstream’, com o apelo de salvar vidas. Gráficos são debatidos por especialistas e leigos nas redes sociais, e a interpretação dos dados se revela uma habilidade crucial para os governos conseguirem controlar a pandemia, assim como a qualidade das estatísticas oficiais.</p>
+<p>Durante a pandemia da Covid-19, gráficos representando o aumento do número de casos ao longo do tempo, por meio de curvas de distribuição, ganharam as notícias e o debate público. A visualização de dados se tornou <em>mainstream</em>;, com o apelo de salvar vidas. Gráficos são debatidos por especialistas e leigos nas redes sociais, e a interpretação dos dados se revela uma habilidade crucial para os governos conseguirem controlar a pandemia, assim como a qualidade das estatísticas oficiais.</p>
 <p>A escala do coronavírus e suas implicações não têm precedentes, mas a visualização de dados sobre mortalidade tem um histórico que se confunde com os próprios primórdios da prática de entender e comunicar dados por meio de gráficos. Dois dos trabalhos mais icônicos da história da comunicação baseada em dados estão intimamente ligados à área de saúde e também buscavam, em última instância, salvar vidas.</p>
 <p>Um deles é o gráfico de Florence Nightingale sobre as mortes durante a Guerra da Crimeia. Hoje considerada mãe da enfermagem moderna, ela esteve à frente dos cuidados aos soldados ingleses durante as batalhas e também compilou estatísticas sobre a causa de mortalidade dos combatentes. Por meio de um gráfico elaborado em 1858, hoje considerado um clássico, ela mostrou que as mortes em combate eram minoritárias, se comparadas àquelas causadas por doenças preveníveis, como aquelas provocadas por má condições de higienes no hospital.</p>
 <p>Esta forma de representar os dados é conhecida como diagrama de área polar (ou <em>coxcomb,</em> em inglês) e é utilizada até os dias atuais. Na imagem, é possível ver como a proporção de mortes por causas evitáveis era constantemente maior ao longo dos meses.</p>
 <p>[Florence Nightingale]</p>
-<p>Além de diversas guerras e batalhas, o século XIX teve também seis epidemias de cólera, que mataram milhões de pessoas em diversos continentes. E foi na mesma Inglaterra dos anos 1850 que o médico John Snow decidiu levantar dados “geolocalizados” sobre a doença, mapeando os casos e óbitos. Assim, ele elaborou o chamado “mapa da cólera”, que representou os casos da doença como pontos no mapa. A partir da análise dos padrões espaciais e uma intensiva investigação por meio de entrevistas, descobriu uma bomba d'água como vetor de disseminação da cólera no bairro de Soho. À época, Londres experimentava uma expansão urbana somada ao crescimento populacional em condições precárias de moradia e saneamento.</p>
+<p>Além de diversas guerras e batalhas, o século XIX teve também seis epidemias de cólera, que mataram milhões de pessoas em diversos continentes. E foi na mesma Inglaterra dos anos 1850 que o médico John Snow decidiu levantar dados “geolocalizados” sobre a doença, mapeando os casos e óbitos. Assim, ele elaborou o chamado “mapa da cólera”, que representou os casos da doença como pontos no mapa. A partir da análise dos padrões espaciais e uma intensiva investigação por meio de entrevistas, descobriu uma bomba d’água como vetor de disseminação da cólera no bairro de Soho. À época, Londres experimentava uma expansão urbana somada ao crescimento populacional em condições precárias de moradia e saneamento.</p>
 <p>Com isso, John Snow reforçou sua teoria de que a água poderia ser um dos vetores de contaminação, na contramão da chamada teoria miasmática, que era predominante à época e supunha a transmissão por meio do ar. A história mostrou que ele estava certo. Hoje, Snow é considerado um dos nomes fundadores da epidemiologia.</p>
 <p>[IMG 2- mapa Snow / mapa coronavírus]</p>
 <p>Retomamos os exemplos de Snow e Nightingale por uma dupla razão: primeiro, para desfazer um aura de novidade (“hype”) em torno do tema. Lidar com dados não é exatamente algo recente na experiência humana, tampouco teve início com os computadores digitais. Na verdade, no fundo, a utilização de dados é praticamente indissociável da experiência humana tal como a conhecemos.</p>
@@ -147,7 +162,7 @@
 <p>De fato, as possibilidades são muitas, mas, se você está começando, vá com calma. Um passo de cada vez. Antes de se aventurar com visualizações interativas ou modelos estatísticos elaborados, é importante dominar o básico, como o uso de editores de planilha e a criação de gráficos simples.</p>
 <p>De fato, muito se ouve falar em big data, mas saiba que <a href="https://www.youtube.com/watch?v=2oFGpDFUnMc">boas histórias também podem ser extraídas de planilhas</a> de menor porte. A dica para começar a trabalhar com dados é encontrar algum tema que te motive por alguma razão, seja porque você tem paixão pelo assunto, seja porque é uma demanda do seu trabalho ou simplesmente algo que você gostaria aprender mais a fundo.</p>
 <p>Não existe uma definição única para ‘big data’. Uma possível definição é que ‘big data’ indica um volume de dados tão grande que um computador só não consegue processar. Você provavelmente não precisará disso em suas análises. Para bases muito grandes, você pode importar os dados em um banco de dados SQL, seja no seu próprio computador ou utilizando serviços online como o BigQuery da Google.</p>
-<p>A ideia aqui é aprender a trabalhar com dados a partir de um “mini-projeto” real que te motive de alguma forma, buscando soluções para os problemas reais que enfrentar, ao invés de tentar dar conta de todas as possibilidades de aprendizado na área de antemão. Na próxima seção, falaremos sobre uma outra dúvida comum para quem está começando na área: é preciso aprender a programar para trabalhar com dados?</p>
+<p>A ideia aqui é aprender a trabalhar com dados a partir de um “mini-projeto”; real que te motive de alguma forma, buscando soluções para os problemas reais que enfrentar, ao invés de tentar dar conta de todas as possibilidades de aprendizado na área de antemão. Na próxima seção, falaremos sobre uma outra dúvida comum para quem está começando na área: é preciso aprender a programar para trabalhar com dados?</p>
 <h2 id="iniciação-à-programação">Iniciação à programação</h2>
 <p>Ainda que não seja mais um obstáculo para começar a trabalhar com dados, saber programar de fato abre muitas possibilidades nessa área. Lidar com a obtenção, processamento, análise ou visualização de dados por meio de códigos te dá liberdade quase total para trabalhar. Você pode realizar as operações diretamente, sem as restrições de programas de terceiros, além de automatizar tarefas, documentar e compartilhar todas etapas de manipulação dos dados.</p>
 <p>De modo geral, existem vantagens tanto nas soluções via interface gráfica, quanto nas baseadas em linguagens de programação.</p>
@@ -163,7 +178,9 @@
 <li>Escalabilidade: do mesmo modo, é fácil aumentar a escala de um software próprio para que ele lide com um volume maior de dados, por exemplo.</li>
 </ul>
 <p>É comum, por exemplo, a criação de “notebooks” (blocos de notas), que trazem não só os dados, mas também os códigos que foram utilizados em determinado trabalho, além de comentários adicionais. Esta prática permite um excelente grau de transparência e detalhamento da conclusão e do método utilizado em trabalhos baseados em dados.</p>
-<p>[img notebook]</p>
+<figure>
+<img src="images/introducao/notebook.png" alt="Um notebook sobre análise de texto em ação, mostrando textos, códigos e o resultado dos códigos" /><figcaption aria-hidden="true">Um notebook sobre análise de texto em ação, mostrando textos, códigos e o resultado dos códigos</figcaption>
+</figure>
 <p>É possível trabalhar com dados em qualquer linguagem de programação. Porém, iremos falar aqui especificamente sobre quatro linguagens que se destacam pela sua ampla utilização em projetos baseados em dados atualmente.</p>
 <p>A primeira delas é o SQL, uma abreviação para linguagem de consulta estruturada. O SQL é um excelente ponto de partida para quem ter um primeiro contato com códigos para qualquer tipo de profissional, devido ao uso de palavras comuns em inglês para as operações (“select”,“from”, “group by”, etc). Esta linguagem incrivelmente simples permite consultar tabelas enormes, que “travariam” qualquer editor de planilha.</p>
 <p>O SQL pode ser uma porta de entrada para o mundo da programação, visto que demanda o uso de lógica computacional. Para começar a usar SQL, você pode experimentar softwares como o DB Browser for SQLite e Dbeaver. Você pode também utilizar o SQL em conjunto com linguagens como Python e SQL, que falaremos a seguir, ao lidar com um volume grande de dados. Por ser uma tecnologia voltada especificamente para o armazenamento e processamento de bases de dados, o SQL tem uma performance superior às soluções nativas daquelas linguagens para lidar com muitos registros.</p>
@@ -174,10 +191,8 @@
 <p>Cada uma delas conta com milhares de bibliotecas ou pacotes, que nada mais são que softwares escritos nas respectivas linguagens que expandem suas funcionalidades nativas para melhor performar tarefas específicas. A quantidade de pacotes e bibliotecas disponíveis é surpreendente. Suas funcionalidades são muitas: podem servir para estruturar dados a partir de páginas na web, criar visualizações de dados, modelos estatísticos, rotinas de automação e etc.</p>
 <p>Para quem está começando, os comandos básicos de ambas são igualmente simples, mas a real complexidade de cada linguagem vai depender do seu objetivo, dos softwares já disponíveis para facilitar esta tarefa e do tempo/conhecimento disponível por você ou sua equipe.</p>
 <p>Você pode escolher uma ou aprender ambas, o que te dará bastante flexibilidade. Mas vamos aqui destacar algumas características gerais sobre estas linguagens para você se situar.</p>
-<p>De acordo com a <a href="https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2020">revista do</a><a href="https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2020">Institute of Electrical and Electronics Engineers</a>, Python foi considerada a linguagem mais popular do mundo. Flexível e moderna, permite a utilização em aplicações diversas ao mesmo tempo em que mantém uma curva de aprendizado suave, com códigos simples e legíveis. Python é uma linguagem robusta, que pode ser utilizada não só para trabalhar com dados, como também para distintas aplicações (Web, administração de redes entre outras). O índice de pacotes em Python conta quase 250 mil projetos disponíveis.</p>
-<p>Já o R costuma ser preferido por estatísticos e acadêmicos de diversas áreas. A linguagem leva a fama de ter bibliotecas que produzem gráficos e visualizações mais caprichadas e também conta com um rico universo de bibliotecas de softwares para trabalhar com dados. Atualmente, no <a href="https://cran.r-project.org/web/packages/available_packages_by_name.html">CRAN</a>, o principal repositório da linguagem, estão listadas mais de 16 mil bibliotecas - isso sem contar outras bibliotecas disponíveis em outra fontes.</p>
-<h3 id="section"></h3>
-<h1 id="defina">Defina</h1>
+<p>De acordo com a <a href="https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2020">revista do Institute of Electrical and Electronics Engineers</a>, Python foi considerada a linguagem mais popular do mundo. Flexível e moderna, permite a utilização em aplicações diversas ao mesmo tempo em que mantém uma curva de aprendizado suave, com códigos simples e legíveis. Python é uma linguagem robusta, que pode ser utilizada não só para trabalhar com dados, como também para distintas aplicações (Web, administração de redes entre outras). O índice de pacotes em Python conta quase 250 mil projetos disponíveis.</p>
+<p>Já o R costuma ser preferido por estatísticos e acadêmicos de diversas áreas. A linguagem leva a fama de ter bibliotecas que produzem gráficos e visualizações mais caprichadas e também conta com um rico universo de bibliotecas de softwares para trabalhar com dados. Atualmente, no <a href="https://cran.r-project.org/web/packages/available_packages_by_name.html">CRAN</a>, o principal repositório da linguagem, estão listadas mais de 16 mil bibliotecas - isso sem contar outras bibliotecas disponíveis em outra fontes. # Defina</p>
 <p>Na prática, tudo começa com os dados ou um tema. Ou seja, em geral, no início de um projeto ou investigação baseada em dados, você irá se encontrar em uma destas duas situações: 1) você tem diante de si dados dos quais precisa extrair respostas ou 2) possui um tema, questão ou hipótese a ser estudada.</p>
 <p>Na primeira situação, você já obteve os dados, mas precisa explorá-los para gerar novos conhecimentos ou responder a uma questão já definida a priori. Ou seja, seu escopo inicial de certa forma já está definido. O recomendável aqui é compreender pelo menos o básico sobre análise de dados e análise exploratória para conseguir interpretar melhor os dados - iremos falar sobre isso nos capítulos seguintes.</p>
 <p>Já se você estiver abordando um tema bem específico, pode ser necessário também que você estruture sua própria base de dados. Organizar bases de dados inéditas pode ser um diferencial importante na sua proposta. Projetos premiados e reconhecidos no Brasil, como o <a href="https://g1.globo.com/monitor-da-violencia/noticia/monitor-da-violencia-do-g1-vence-o-data-journalism-awards-na-categoria-escolha-do-publico.ghtml">Monitor da Violência</a> e o <a href="http://produtos.ne10.uol.com.br/umaporuma/index.php">Uma Por Uma</a>, seguiram esta linha. Neste guia, não iremos cobrir o processo de publicação de dados inéditos, porém, de todo modo, as demais etapas do fluxo de trabalho com dados (para além da obtenção) seguem sendo úteis.</p>
@@ -186,7 +201,12 @@
 <li><p>Nutrição: se você se preocupa com sua alimentação, você pode compilar e fazer análises sobre os dados da composição nutricional dos alimentos de sua dieta ou que estão na sua geladeira, por exemplo;</p></li>
 <li><p>Cultura: a produção musical e cinematográfica estão entre as áreas da cultura com bases de dados mais bem estruturadas (vide o Spotify ou <a href="http://www.omdbapi.com/">O</a><a href="http://www.omdbapi.com/">MDB</a>) e você pode tirar proveito disso para investigar seu tipo de música ou filme favorito, por exemplo;</p></li>
 <li><p>Moda: neste excelente trabalho do <a href="https://pudding.cool/2018/08/pockets/">The Pudding</a>, eles investigaram como a indústria da moda lida com as questões de gênero ao desenhar o tamanho dos bolsos nas roupas, a partir de dados;</p></li>
-<li><p>Transporte por bicicletas: no projeto <a href="https://interaktiv.tagesspiegel.de/radmesser/">Radmesser</a>, o jornal alemão Der Tagesspiegel investigou a segurança no trânsito para os ciclistas em Berlim, criando um dispositivo que media a distância entre os carros e as bicicletas e distribuindo entre seus leitores, que coletaram dados e compartilharam com o jornal. O trabalho recebeu o prêmio de inovação do Data Journalism Awards em 2019.</p></li>
+</ul>
+<figure>
+<img src="images/definicao/pudding.png" alt="Para investigar o tema, os jornalistas pegaram o tamanho do bolso da frente de 80 calças de ambos os sexos para então calcular o tamanho médio. Fonte: The Pudding" /><figcaption aria-hidden="true">Para investigar o tema, os jornalistas pegaram o tamanho do bolso da frente de 80 calças de ambos os sexos para então calcular o tamanho médio. Fonte: The Pudding</figcaption>
+</figure>
+<ul>
+<li>Transporte por bicicletas: no projeto <a href="https://interaktiv.tagesspiegel.de/radmesser/">Radmesser</a>, o jornal alemão Der Tagesspiegel investigou a segurança no trânsito para os ciclistas em Berlim, criando um dispositivo que media a distância entre os carros e as bicicletas e distribuindo entre seus leitores, que coletaram dados e compartilharam com o jornal. O trabalho recebeu o prêmio de inovação do Data Journalism Awards em 2019.</li>
 </ul>
 <p>Enfim, você consegue usar dados para abordar qualquer assunto. Depois de encontrar um tema de seu interesse, você precisa gerar algumas perguntas iniciais que possam ser investigadas e respondidas com auxílio de dados. A definição desta “pauta” inicial é bastante importante para o desenrolar da pesquisa. Então, vejamos como criar boas questões ao iniciar um trabalho com dados.</p>
 <h2 id="criando-boas-perguntas">Criando boas perguntas</h2>
@@ -196,7 +216,10 @@
 <p>Primeiro, o que entendemos como empresas atuante no mercado rodoviário da cidade? São aquelas que possuem concessões públicas com a Prefeitura no presente momento? Ou com concessões vencidas também? Os ônibus intermunicipais serão levados em conta? E se a firma dona da concessão for controlada por outra empresa, esta segunda empresa deve entrar em nossa listagem? O interesse é apenas saber o nome das empresas ou gostaríamos de obter outras informações, tais como o nome dos donos ou data de criação das mesmas?</p>
 <p>Enquanto você formula e detalha sua pergunta, faça uma pesquisa intensa sobre o assunto do seu interesse. Quais outras publicações já abordaram o tema? Quais foram as fontes de dados utilizados? Quais foram as análises, seus pontos fortes e fracos?</p>
 <p><strong>Atenção:</strong> Tenha um cuidado especial ao formular questões que envolvam causalidade. Estabelecer a causalidade entre dois fenômenos é algo bastante complexo. Falaremos mais sobre isso no capítulo sobre análise de dados.</p>
-<p>A pergunta mencionada sobre o transporte rodoviário foi a questão seminal da investigação realizada por Adriano Belisário (coautor e organizador do ebook) e a equipe da Agência Pública, que resultou em uma série de reportagens publicadas no <a href="https://apublica.org/especial/especial-catraca/">Especial Catraca</a>. A partir de levantamentos de dados para responder àquela pergunta inicial, a investigação revelou relações inéditas entre deputados e empresários do ramo, por exemplo.</p>
+<p>A pergunta mencionada sobre o transporte rodoviário foi a questão seminal da investigação realizada por Adriano Belisário (coautor e organizador do ebook) e a equipe da Agência Pública, que resultou em uma série de reportagens publicadas no <a href="https://apublica.org/especial/especial-catraca/">Especial Catraca</a>. A partir de levantamentos de dados para responder àquela simples pergunta inicial, a investigação revelou relações inéditas entre deputados e empresários do ramo, por exemplo.</p>
+<figure>
+<img src="images/defina/redes.png" alt="Visualização interativa da rede de empresas e empresários de ônibus no município do Rio de Janeiro" /><figcaption aria-hidden="true">Visualização interativa da rede de empresas e empresários de ônibus no município do Rio de Janeiro</figcaption>
+</figure>
 <p>Obviamente, esboçar uma questão sempre requer algum grau de conhecimento sobre o tema e, quanto mais você se aprofundar, melhores perguntas conseguirá fazer. Ao longo de sua pesquisa, é comum que você detalhe, aprofunde ou mesmo mude completamente a questão que irá te guiar. Não se preocupe em fazer a pergunta perfeita ou definitiva, mas esforce-se para que ela seja detalhada e o mais objetiva possível.</p>
 <p>Com este processo, além de questões robustas, você provavelmente terá uma ou mais hipóteses, ou seja, possíveis respostas ou explicações para suas perguntas iniciais.</p>
 <p>Depois de identificar e obter os dados, certifique-se que se você sabe suficientemente sobre o contexto no qual ele foi produzido. Quem produziu os dados? Quais são os interesses dessa organização ou instituição? Qual foi a metodologia de registro das informações? Ter respostas a essas perguntas é fundamental para você realizar uma leitura crítica dos dados.</p>
@@ -220,7 +243,7 @@
 <p><strong>Dados tabulares</strong></p>
 <p>Como dito, esta é a forma mais “tradicional” de estruturar dados. Ela consiste em organizar os registros em tabelas, com linhas e colunas. As extensões de arquivos mais comuns para dados tabulares são CSV, XLS, XLSX e ODS. Você pode usar editores de planilha para lê-los ou importá-los em bases de dados com SQL, por exemplo. Também pode acontecer de você encontrar tabelas em formato PDF, o que exigirá um trabalho adicional. Falaremos mais sobre isso no capítulo seguinte.</p>
 <p><strong>Dados espaciais</strong></p>
-<p>É possível incluir coordenadas geográficas em planilhas, como informações de latitude e longitude, de modo que você consiga visualizar seus dados em um mapa. Porém, é justo considerar os dados geográficos ou espaciais como uma “família” ou tipo por si só. Isto porque há conceitos e técnicas de análise dos dados espaciais que são únicas e não se aplicam a outros tipos de dados tabulares. Há todo um universo próprio dados no chamado GIS (Sistemas de Informação Geográficas).</p>
+<p>É possível incluir coordenadas geográficas em planilhas, como informações de latitude e longitude, de modo que você consiga visualizar seus dados em um mapa. Porém, é justo considerar os dados geográficos ou espaciais como uma “família” ou tipo por si só. Isto porque há conceitos e técnicas de análise dos dados espaciais que são únicas e não se aplicam a outros tipos de dados tabulares. Há todo um universo próprio de dados geoespaciais no chamado GIS (Sistemas de Informação Geográficas).</p>
 <p>Além disso, visualizar a distribuição territorial dos dados em um mapa nos permite revelar padrões espaciais, que são invisíveis em uma tabela. Vale a máxima do geógrafo Waldo Tobler, considerada a primeira lei da geografia: “todas as coisas estão relacionadas com todas as outras, mas coisas próximas estão mais relacionadas do que coisas distantes”.</p>
 <p>Os dados espaciais possuem uma variedade de formatos/extensões de arquivos bem particulares, por exemplo, KML, GeoJSON, SHP, entre outros. Há também ferramentas e programas específicos para lidar com eles e, neste caso, o destaque fica por conta do QGIS, que é o principal programa de código-aberto para lidar com dados geográficos e produzir mapas.</p>
 <p><strong>Redes</strong></p>
@@ -252,7 +275,7 @@
 </tbody>
 </table>
 <p>Estes mesmos dados poderiam ser “traduzidos” para uma representação em redes com o grafo abaixo.</p>
-<p>[grafo]</p>
+<p><strong>[grafo]</strong></p>
 <p>Ao invés de organizar a informação em uma matriz ou uma tabela, os dados são estruturados a partir de nós (os pontos nas imagens acima) e arestas (os traços que conectam os pontos). Essa estrutura é especialmente útil quando seu interesse são relações entre entidades. Não é à toa que os grafos se tornaram bastante populares para entender a disseminação da informação e relações entre pessoas na análise de dados redes sociais. Assim como os dados geográficos, as redes possuem conceitos, metodologias e técnicas de análises próprias, que seriam impossíveis ou muito difíceis de serem realizadas utilizando tabelas.</p>
 <p>Para lidar com redes, vale a pena conhecer o Gephi, que é a principal solução em código-aberto para visualizar e analisar grafos. Com ele, você consegue carregar tabelas e formatos nativos de grafos (como GEXF ou GML) ou até mesmo conectar-se diretamente a serviços como o Twitter, para extrair dados em tempo real.</p>
 <p><strong>Textos</strong></p>
@@ -275,7 +298,7 @@
 <p>Não raro, os dados encontram-se “escondidos” ou são de difícil acesso. Por isso, é importante conhecer alguns operadores de busca avançada na web. Basicamente, esses operadores funcionam como uma espécie de filtro, que te permite garimpar na vastidão da internet exatamente o que você precisa.</p>
 <p>Talvez você já conheça alguns operadores de busca mais básicos. Por exemplo, se você apenas joga as palavras ou termos no buscador, ele irá vasculhar páginas que contenham os termos inseridos em qualquer lugar da página, mesmo que não estejam em sequência. Porém, se você colocar os termos entre aspas, a busca retornará apenas as expressões exatas, ou seja, quando os termos retornam exatamente na ordem em que foram inseridos. Para ver isso na prática, considere a palavra-chave “obtenção de dados” e primeiro faça uma busca no Google com elas entre aspas e depois sem aspas.</p>
 <p>Este é apenas um entre vários operadores de busca disponíveis. Conhecer estas opções irá ampliar em muito a forma como você busca informações na internet. É possível fazer filtros por data, extensões de arquivo ou sites específicos da internet, entre várias outras opções. Além disso, você consegue combinar os operadores para fazer buscas realmente precisas. Vejamos o exemplo abaixo.</p>
-<p><em>coronavirus filetype:xls site:gov.br</em></p>
+<pre><code>            coronavirus filetype:xls site:gov.br</code></pre>
 <p>Se você digitar isso no Google, o buscador irá retornar todas as planilhas em Excel com extensão XLS que estão hospedados em endereços do governo brasileiro e possuem a palavra ‘coronavírus’.</p>
 <p>Para conhecer os operadores de busca disponíveis e aperfeiçoar suas habilidades de busca na web, recomendamos a leitura deste <a href="https://escoladedados.org/tutoriais/busca-avancada-na-internet/">tutorial introdutório</a> e especialmente deste <a href="https://escoladedados.org/tutoriais/operadores-de-busca-avancada/">texto que publicamos sobre busca avançada</a>. O texto é uma tradução de um artigo de Daniel M. Russell, pesquisador sênior do Google, que documentou todos operadores de busca da ferramenta.</p>
 <p>Se você quiser ir fundo no tema, vale a pena pesquisar por técnicas de inteligência com fontes abertas (open source intelligence - OSINT). Os operadores de busca avançados são uma das técnicas utilizadas em OSINT. No entanto, o campo compreende várias outras abordagens, que inclusive vão além do trabalho com dados, como a geolocalização de imagens a partir de características visuais.</p>
@@ -293,11 +316,16 @@
 <p>Ao solicitar dados, lembre-se ainda que a Lei de Acesso à Informação, especificamente no artigo 8º, explicita a importância de disponibilizar as informações em formatos abertos, estruturados e legíveis por máquina e de forma acessível para todos os cidadãos brasileiros. Para tentar minimizar os riscos de receber dados em formatos inadequados em seus pedidos, você pode inserir uma solicitação explícita para que sejam encaminhados como dados abertos, juntamente com um dicionário de dados ou documentação básica que os explique.</p>
 <p><strong>Dica</strong> : Dicionário de dados é um documento que traz informações sobre as “regras de negócios” por trás dados, explicando a metodologia de sua geração.</p>
 <p>Um exemplo de texto que você pode usar é a frase abaixo.</p>
-<p>“Solicito que os dados sejam fornecidos preferencialmente em formato aberto (planilha em .csv,.ods, etc) de acordo com o determinado no art. 8º, §3º da Lei Federal 12.527/11, o item V do art. 24 da Lei Federal 12.695/14 e a normatiza expressa no item 6.2 da<a href="http://dados.gov.br/pagina/cartilha-publicacao-dados-abertos">Cartilha Técnica para Publicação de Dados Abertos no Brasil</a>, elaborada pelo Governo Federal. Solicito ainda que seja encaminhado também o dicionário de dados, documento ou explicação equivalente que descreva o significado de cada variável/coluna”.</p>
+<p>“Solicito que os dados sejam fornecidos preferencialmente em formato aberto (planilha em .csv,.ods, etc) de acordo com o determinado no art. 8º, §3º da Lei Federal 12.527/11, o item V do art. 24 da Lei Federal 12.695/14 e a normatiza expressa no item 6.2 da <a href="http://dados.gov.br/pagina/cartilha-publicacao-dados-abertos">Cartilha Técnica para Publicação de Dados Abertos no Brasil</a>, elaborada pelo Governo Federal. Solicito ainda que seja encaminhado também o dicionário de dados, documento ou explicação equivalente que descreva o significado de cada variável/coluna”.</p>
 <p>Na sequência, entenderemos melhor o que significa na prática a noção de ‘dados abertos’. Mas antes vamos fazer uma revisão de um checklist para você conferir antes de fazer seus pedidos de LAI.</p>
+<hr />
 <p><strong>Dicas para consultas via Lei de Acesso à Informação</strong></p>
-<div class="line-block">✔️ <strong>Faça o dever de casa</strong> : é importante saber quem detém a informação solicitada para fazer o pedido ao órgão responsável;</div>
-<p>✔️ <strong>Cada um no seu quadrado</strong> : faça um pedido/protocolo para cada dado desejado, principalmente se forem informações diferentes entre si; ✔️ <strong>Tenha f</strong>** oco<strong>: pedidos muito genéricos costumam ser recusados, por isso é importante fazer recortes precisos de período, local e itens específicos. É importantes ser claro. Você pode fazer o pedido usando listas, explicar qual o recorte temporal que deseja ou mesmo quais os campos ou variáveis você gostaria de ter acesso, caso solicite dados; ✔️ </strong>Use artigos/precedentes** : para embasar o pedido é possível recorrer a artigos da lei ou outros precedentes, como decisões em outros estados, por exemplo; ✔️ <strong>Antecipe sigilos</strong> : se os dados podem ter informações sigilosas, você já pode se antecipar e solicitar que eles sejam tarjados ou removidos para evitar possíveis negativas com essa justificativa. | | — |</p>
+<p>✔️ <strong>Faça o dever de casa</strong> : é importante saber quem detém a informação solicitada para fazer o pedido ao órgão responsável;</p>
+<p>✔️ <strong>Cada um no seu quadrado</strong> : faça um pedido/protocolo para cada dado desejado, principalmente se forem informações diferentes entre si;</p>
+<p>✔️ <strong>Tenha foco</strong>: pedidos muito genéricos costumam ser recusados, por isso é importante fazer recortes precisos de período, local e itens específicos. É importantes ser claro. Você pode fazer o pedido usando listas, explicar qual o recorte temporal que deseja ou mesmo quais os campos ou variáveis você gostaria de ter acesso, caso solicite dados;</p>
+<p>✔️ <strong>Use artigos/precedentes</strong> : para embasar o pedido é possível recorrer a artigos da lei ou outros precedentes, como decisões em outros estados, por exemplo;</p>
+<p>✔️ <strong>Antecipe sigilos</strong> : se os dados podem ter informações sigilosas, você já pode se antecipar e solicitar que eles sejam tarjados ou removidos para evitar possíveis negativas com essa justificativa;</p>
+<hr />
 <p><strong>Dados abertos</strong></p>
 <p>De acordo com a <a href="http://opendatahandbook.org/guide/en/what-is-open-data/">Open Knowledge</a>, ‘dados abertos’ são aqueles que qualquer um pode livre e gratuitamente acessar, usar, modificar e compartilhar para qualquer propósito, inclusive para uso de comercial. Eles estão sujeitos, no máximo, à exigência de menção da autoria e abertura de trabalhos derivados.</p>
 <p>Isto diz respeito ao licenciamento dos dados, mas também é importante que o formato do arquivo no qual os dados estão disponibilizados seja um formato aberto. O formato dos arquivos são indicados pela sua extensão. Você deve saber que XLS ou XLSX é a extensão utilizada pelo Excel para planilhas, mas este é um formato de arquivo fechado, que é propriedade privada da Microsoft, portanto, não é um formato aberto. Para saber mais sobre os diferentes níveis de abertura de dados, vale conferir o ranking da iniciativa <a href="https://5stardata.info/en/">5-star Open Data</a>, uma classificação criada por Tim Berners-Lee, inventor da web e defensor de dados interconectados (<em>linked data</em>).</p>
@@ -481,13 +509,136 @@
 <p>Fique atento quanto às unidades de medida (milhas, quilômetros, pés) ou moedas (real, dólar, peso, libra e outros) utilizadas em um banco de dados. Nem sempre essas informações são padronizadas. Para descobrir qual é o caso, leia cuidadosamente a documentação. Não presuma, por exemplo, que todas as planilhas criadas no Brasil estão estruturadas em reais.</p>
 <p>Se estiver trabalhando com dados de diversas fontes, escolha a unidade de medida ou moeda com a qual pretende trabalhar e realize as conversões necessárias. Se possível, acrescente colunas e sinalize as alterações.</p>
 <p>Verifique, sobretudo, em que formato estão os números da base de dados com a qual pretende trabalhar. Em alguns casos, não haverá casas decimais. É o que ocorre com o número de nascimentos, mortes e outros: não é possível que haja 3,2 óbitos ou 10,8 nascimentos, por exemplo. Se uma coluna reúne informações sobre “pageviews” (número de acessos), da mesma forma, não pode conter números decimais.</p>
-<h3 id="section-1"></h3>
-<h1 id="limpeza">Limpeza</h1>
+<h3 id="section"></h3>
+<h1 id="limpe">Limpe</h1>
 <p>A limpeza de dados é uma etapa fundamental de qualquer trabalho com dados. Em geral, ela não é muito empolgante, mas pode tomar um tempo considerável do seu trabalho. Aqui, você irá organizar os dados para que seja possível posteriormente realizar análises, operações matemáticas, filtros, ordenações, enfim, tudo que você precisa para responder às perguntas desejadas.</p>
 <p>Ao limpar seus dados, você irá alterar as informações originais da planilha. Por isso, é importante tomar nota das alterações, bem com manter uma cópia da versão original. Em caso de problemas com seu trabalho de verificação e limpeza, você sempre poderá recomeçar do zero.</p>
 <p>Caso você utilize linguagens de programação, o próprio código já serve como esta documentação. Além disso, há os chamados notebooks, que costumam ser ótimas ferramentas para documentar códigos e processos de limpeza e análise dos dados. Eles também permitem que você acrescente comentários e lembretes para si ou para seus colegas. Entre os notebooks mais conhecidos estão o Jupyter Notebook e o Colab do Google.</p>
-<p>Antes de começarmos a listar os problemas mais comuns para limpeza de dados, é importante que você conheça o conceito de “dados organizados” (tidy data). Trata-se de um forma de organizar dados tabulares, proposto por Hadley Wickham, um dos desenvolvedores de maior destaque da comunidade de R. Apesar do tempo que cientistas de dados passam limpando a matéria-prima do seu trabalho, ele notou que há pouca reflexão sobre este processo, ao contrário do que acontece com etapas como a análise e visualização de dados, onde há um largo acúmulo de reflexões teóricas e práticas. Por isso, ele concebeu a ideia de tidy data. De acordo com esta noção, cada tabela registra um certo fenômeno (despesas de um órgão do governo, as notas de alunos, resultados de jogos de futebol ou da situação de pacientes de um hospital, por exemplo). Cada ocorrência será registrada em uma linha ou em uma observação. Cada característica deste fenômeno será uma variável ou coluna e, por fim, a descrição destas características serão chamadas de valores e ocuparão as células. Ou seja, resumidamente, o modelo do “tidy data” significa que cada variável deve ter sua própria coluna, cada observação deve ter sua própria linha e cada valor deve ter sua própria célula.</p>
-<h1 id="limpeza-de-dados">Limpeza de dados</h1>
+<p>Antes de começarmos a listar os problemas mais comuns para limpeza de dados, é importante que você conheça o conceito de “dados organizados” (tidy data). Trata-se de um forma de organizar dados tabulares, proposto por Hadley Wickham, um dos desenvolvedores de maior destaque da comunidade de R.</p>
+<p>Apesar do tempo que cientistas de dados passam limpando a matéria-prima do seu trabalho, ele notou que há pouca reflexão sobre este processo, ao contrário do que acontece com etapas como a análise e visualização de dados, onde há um largo acúmulo de reflexões teóricas e práticas. Por isso, ele concebeu a ideia de tidy data.</p>
+<p>De acordo com esta noção, cada tabela registra um certo fenômeno (despesas de um órgão do governo, as notas de alunos, resultados de jogos de futebol ou da situação de pacientes de um hospital, por exemplo). Cada ocorrência será registrada em uma linha ou em uma observação. Cada característica deste fenômeno será uma variável ou coluna e, por fim, a descrição destas características serão chamadas de valores e ocuparão as células.</p>
+<p>Ou seja, resumidamente, o modelo do “tidy data” significa que cada variável deve ter sua própria coluna, cada observação deve ter sua própria linha e cada valor deve ter sua própria célula.</p>
+<p><img src="RackMultipart20200810-4-barqwh_html_ff01ea639a6b1792.png" /></p>
+<p>Fonte: xxxx</p>
+<p>A seguir, um exemplo de uma tabela fora do formato tidy data.</p>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Nome/Registro</strong></th>
+<th><strong>Turma</strong></th>
+<th><strong>Biologia</strong></th>
+<th><strong>Química</strong></th>
+<th><strong>Física</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Marcela Nunes - 20351</td>
+<td>A</td>
+<td>7</td>
+<td>6</td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td>Ricardo Fernandes - 20589</td>
+<td>C</td>
+<td>5</td>
+<td>4</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<p>Fonte: XXX</p>
+<p>Na tabela acima, o fenômeno capturado são notas de alunos. Mas repare que a variável “disciplina” ocupa diferentes colunas. No formato tidy data, essa planilha deveria ter uma coluna chamada “disciplina”, onde as matérias estivessem declaradas nas células abaixo dessa coluna.</p>
+<p>Outro problema que pode ser visto na tabela são as linhas referentes à coluna Nome/RA. Nesse caso, há duas informações (valores) em uma mesma célula: o nome do estudante e o registro do aluno (um código identificador).</p>
+<p>Porém, percebemos que os nomes dos alunos estão separados dos registros por um hífen. Deste modo, podemos usar esse padrão para separar estes valores em colunas ou variáveis distintas, utilizando editores de planilha ou linguagens de programação, por exemplo. Como dissemos, o reconhecimento de padrões que permitam a limpeza dos dados será o seu maior aliado nesta etapa.</p>
+<p>Para Hadley Wickham, todas estas questões precisam ser corrigidas antes de qualquer trabalho de análise ou visualização de dados. Assim, a tabela deveria ficar assim para atender o formato do ‘tidy data’.</p>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Nome</strong></th>
+<th><strong>Registro</strong></th>
+<th><strong>Turma</strong></th>
+<th><strong>Disciplina</strong></th>
+<th><strong>Nota</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Marcela Nunes</td>
+<td>20351</td>
+<td>A</td>
+<td>Biologia</td>
+<td>7</td>
+</tr>
+<tr class="even">
+<td>Marcela Nunes</td>
+<td>20351</td>
+<td>A</td>
+<td>Química</td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td>Marcela Nunes</td>
+<td>20351</td>
+<td>A</td>
+<td>Física</td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td>Ricardo Fernandes</td>
+<td>20589</td>
+<td>C</td>
+<td>Biologia</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>Ricardo Fernandes</td>
+<td>20589</td>
+<td>C</td>
+<td>Química</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>Ricardo Fernandes</td>
+<td>20589</td>
+<td>C</td>
+<td>Física</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<p>Com a organização dos dados, as disciplinas se tornaram uma única coluna, com diferentes valores. Além disso, há uma linha para cada observação (ou seja, notas de aluno em disciplinas) e o nome e número de registro do aluno também foram separados.</p>
+<h2 id="ferramentas-e-técnicas-de-limpeza">Ferramentas e técnicas de limpeza</h2>
+<p>Na etapa de limpeza dos dados, mais uma vez, é possível usar tanto linguagens de programação ou softwares com interfaces gráficas. Para trabalhar com planilhas simples e constituídas por poucas linhas, softwares de editores de planilhas (Excel, Google Sheets ou LibreOffice, por exemplo) correspondem à principal solução para quem não domina linguagens de programação.</p>
+<p>Mas há também programas úteis para a limpeza de dados, que são gratuitos e possuem interfaces gráficas. Eles irão ampliar em muito suas habilidades na padronização de dados. Nesta seção, falaremos mais sobre estas soluções e, a seguir, conheceremos uma linguagem para descrição de padrões, que podem ser aplicados em diferentes programas e plataformas: as expressões regulares.</p>
+<p><strong>Expressões regulares</strong></p>
+<p>Uma expressão regular, também conhecida como Regex, é uma forma comum e concisa de representar algum tipo de padrão em texto. Isso ocorre em uma variedade de aplicações e linguagens, seja pesquisando em um documento, seja fazendo operações de ‘Localizar e Substituir’ ou limpando um conjunto de dados. Muitas linguagens de programação e editores de texto/planilha permitem o uso de expressões regulares. As sintaxes, por sua vez, podem diferir levemente de acordo com a linguagem ou o programa em uso.</p>
+<p>As expressões regulares podem parecer enigmáticas e confusas à primeira vista, mas não se assuste. O importante é entender que as letras e caracteres podem ter significados especiais. Um exemplo bastante simples é:</p>
+<p>[0-9]</p>
+<p>Esta é uma expressão regular bem simples, que seleciona todos os números entre 0 e 9 em uma sequência de caracteres. Poderia ser útil se você tem um campo com textos e números e precisa separá-los, por exemplo.</p>
+<p>Se você precisa descrever padrões para obter informações específicas de sequência de texto, por exemplo, então, provavelmente é o caso de começar a aprender expressões regulares. Explorar a fundo esta sintaxe exigiria um guia por si só. Mas se você quiser ter uma introdução ao funcionamento de expressões regulares, vale conferir <a href="https://escoladedados.org/tutoriais/expressao-regular-pode-melhorar-sua-vida/">este tutorial da Escola de Dados</a> e utilizar sites como Regex ou Regex101 para testar as operações na prática. Eles podem ser úteis também para “traduzir” expressões regulares que você encontrar na internet, indicando o significado de cada caractere.</p>
+<p><strong>Programas úteis</strong></p>
+<p>A expressão regular é uma linguagem “universal”, que você poderá utilizar tanto em editores de planilha, quanto ao escrever códigos com Python e R. Ela também pode ser utilizada em outros tipos de programas, que possuem funções específicas para a limpeza de dados.</p>
+<p>Nesta seção, iremos abordar duas destas ferramentas: o OpenRefine e o Workbench.</p>
+<p>O OpenRefine é uma ferramenta voltada à limpeza de dados. Ele consegue carregar arquivos em diferentes formatos (inclusive JSON), transformar para tabelas e então aplicar diversas operações, como a remoção de duplicatas, criação ou remoção de linhas e colunas, normatizações, correção de ortografia entre outras funções.</p>
+<p>Além disso, o OpenRefine mantém um “log” com todas as operações que foram feitas nos dados originais. Este registro é extremamente útil, caso você precise refazer uma operação ou reaplicar as transformações realizadas em outros dados que seguem os mesmos padrões.</p>
+<p>O OpenRefine também conta funcionalidades muito práticas, que permitem padronizar textos com erros de digitação ou grafias distintas. Ele permite até mesmo a consulta a APIs mais simples, que você pode utilizar para preencher novas colunas a partir de dados existentes. O OpenRefineé uma ferramenta de código-aberto, que conta com versões para Windows, Mac e GNU/Linux. Para utilizá-lo, você irá precisar instalá-lo no seu computador.</p>
+<p>Se você preferir utilizar uma solução online, pode utilizar o Workbench. Na realidade, esta plataforma é uma ferramenta útil para todas etapas do trabalho com dados, não só a limpeza.</p>
+<p>Nela, você pode carregar dados em tabelas, realizar raspagens de dados ou carregar informações do Twitter, por exemplo, para em seguida realizar transformações de limpeza ou operações de análise e visualização dos dados. Na área de limpeza, atualmente, o Workbench oferece funções para remoção de colunas duplicadas, preenchimento de células nulas, geração automática de colunas com identificadores únicos, união e separação de colunas, extração de valores com expressão regular, entre outras funcionalidades.</p>
+<h2 id="tópicos-de-atenção-1">Tópicos de atenção</h2>
+<p>Nesta seção, veremos alguns tópicos que merecem atenção especial na hora de limpar dados, independente da ferramenta ou software que você irá utilizar.</p>
+<p><strong>Ausência de valor</strong></p>
+<p>Um problema comum nos conjuntos de dados são a ausência de valor, ou um valor vazio, que pode ser representado de diferentes formas. O nulo (null), a célula em branco, o NA (not available) e o número zero podem significar coisas completamente diferentes, dependendo de quem coletou esses dados. Ainda que na programação cada uma dessas representações tenha significados distintos, é preciso verificar.</p>
+<p>Para o aprendizado introdutório, é importante entender que qualquer um desses valores em uma planilha pode significar 0. Em outra ocasião, porém, o 0 ou a ausência do valor representa que aquele dado não foi coletado ou que foi perdido. Busque mais informações contextuais junto à fonte original. Diante disso, será possível avaliar se a ausência de valor será mantida ou excluída da análise.</p>
+<p><strong>Entradas duplicadas</strong></p>
+<p>Um dos erros mais comuns em bases de dados é quando uma entrada aparece duas vezes por engano. Verifique se há duplicatas exatas no arquivo: em caso positivo, pode ser que você esteja diante de um erro. Porém, só é possível saber se um registro duplicado é um erro ou não conhecendo bem as “regras de negócio” por trás da base de dados.</p>
+<p>Considerando um exemplo sobre a Covid-19, poderíamos pensar que determinado estado ou cidade apresenta duas linhas de informação, quando o correto é apenas uma. Se a linha aparecer duas vezes em um conjunto de dados, é preciso entender o motivo. É um erro ou uma atualização/complementação? Atente também às planilhas que envolvem dados financeiros e transações. Vale contatar a fonte primária dos dados e entender o que houve.</p>
+<p><strong>Cabeçalho com informações inúteis</strong></p>
+<p>Alguns órgãos públicos oferecem, de praxe, informações técnicas no cabeçalho e no rodapé das planilhas (exemplo: nome do órgão responsável, data da coleta, explicações sobre a metodologia). Embora esse conteúdo auxilie a dar contexto ao material coletado, atrapalham na hora de fazer a análise. Por isso, antes de começar a editar as informações, faça uma cópia do arquivo original - as informações extras podem servir para tirar dúvidas e complementar o material. No entanto, essas mesmas informações de cabeçalho atrapalham a análise (ao fazer uma simples ordenação de valores, por exemplo) e precisam ser removidas.</p>
+<p><strong>Grafia distinta</strong></p>
+<p>Ao comparar dados, certifique-se de que nomes de cidades estão registrados com a mesma grafia. Por exemplo, diferentes linhas podem conter a seguinte variação da cidade mais famosa do mundo: Nova Iorque, Nova York, New York, NY - ou, ainda, erros de digitação, como “Nova Yok” e tantas outras possibilidades. Para que possa fazer a análise, é preciso corrigir as grafias estabelecendo uma única versão (as expressões regulares podem ser particularmente úteis aqui). Do contrário, operações realizadas com esses registros podem ficar comprometidas. Não se esqueça de documentar as mudanças.</p>
+<p>Atenção para nomes de pessoas: <strong>nunca faça correções em nomes de pessoas caso não tenha certeza absoluta de que se trata de um erro.</strong> Nomes podem ter variações de grafias que podem não acompanhar sua imaginação. Por isso, não altere se não estiver absolutamente seguro quanto à presença de erro. # Limpeza de dados</p>
 <p>Você já checou como os dados foram coletados e divulgados e não encontrou nenhum problema. Também já entrou em contato com os responsáveis pelo levantamento e os números parecem responder aos mais rigorosos critérios de qualidade. Além disso, você verificou se os arquivos tinham alguns erros comuns e tudo parece estar conforme o esperado. Agora é só sucesso, certo? Nem sempre.</p>
 <p>O maior risco de erro vem de onde menos prestamos atenção: nós mesmos. Nossos próprios vieses e eventuais falhas nas premissas que adotamos na hora de analisar um banco de dados são um estoque inesgotável de cascas de banana.</p>
 <p>Philip Meyer, criador do jornalismo de dados, propõe uma reflexão que ajuda a entender esse problema.</p>
@@ -948,7 +1099,7 @@
 <p>Figura 27</p>
 <p><img src="RackMultipart20200807-4-10x14ou_html_36295b52ee3e7ccf.png" /></p>
 <p>A sobreposição de três histogramas, no caso, revela que a distribuição de notas dos alunos mais ricos tende muito mais para a direita – e para as notas mais altas – do que a dos alunos mais pobres.</p>
-<h2 id="section-2"></h2>
+<h2 id="section-1"></h2>
 <h2 id="ferramentas-para-visualização-de-dados">Ferramentas para visualização de dados</h2>
 <p>Depois da exposição teórica, é hora de criar os próprios gráficos. Existem inúmeros <em>softwares</em> para fazer visualizações de forma fácil e rápida.</p>
 <p>Todavia, é importante dizer que esse tipo de ferramenta importa menos do que os princípios básicos expostos anteriormente. O crucial é entender como gráficos funcionam e quais são os formas mais efetivas de usá-los.</p>
@@ -1033,7 +1184,7 @@
 <p>Além de reconhecer trabalhos de excelência que podem servir de inspiração para outras pessoas com o Prêmio Cláudio Weber Abramo de Jornalismo de Dados, esta plataforma mantém um fórum aberto e gratuito para a resolução de dúvidas, discussões sobre tópicos de interesse e divulgação de oportunidades.</p>
 <p>No Brasil, há uma comunidade de jornalistas de dados bastante colaborativa e disposta a ajudar na disseminação do conhecimento. Espaços como o Fórum de Jornalismo de Dados reúnem profissionais experientes e iniciantes em um mesmo espaço de troca de conhecimento. Há outros canais, como <a href="https://t.me/joinchat/APE1P0zjg2w1mLdAlp9MUg">grupos abertos no Telegram</a> ou no <a href="https://www.facebook.com/groups/jornalismodedados">Facebook</a>.</p>
 <p>E o mesmo vale para linguagens de programação como o R e o Python, que possuem comunidades bastante ativas, como os grupos no Telegram <a href="https://t.me/rbrasiloficial">R Brasil</a> ou <a href="https://t.me/datasciencepython">Pt-BR Data Science &amp; Python</a>. Há também canais como o <a href="https://stackoverflow.com/">Stack Overflow</a>, um lugar que provavelmente terá a resposta para a sua dúvida com linguagens de programação e, caso não tenha, você pode postar sua questão para que outras pessoas possam te ajudar. Há um Stack Overflow em português, porém, assim como toda documentação da área de ciência de dados, a quantidade de conteúdos em inglês é infinitamente maior.</p>
-<p>As comunidades das linguagens R ePython também realizam encontros no Brasil e no mundo. Estes encontros locais são uma excelente porta de entrada para você se aventurar no mundo da programação. Conhecendo e compartilhando experiências com as pessoas localmente, você irá se sentir muito mais motivado a aprender do que lutando contra as dificuldades sozinho com seu computador. Procure os encontros (meetups), grupos e ações das comunidades na sua cidade ou no seu estado.</p>
+<p>As comunidades das linguagens R e Python também realizam encontros no Brasil e no mundo. Estes encontros locais são uma excelente porta de entrada para você se aventurar no mundo da programação. Conhecendo e compartilhando experiências com as pessoas localmente, você irá se sentir muito mais motivado a aprender do que lutando contra as dificuldades sozinho com seu computador. Procure os encontros (meetups), grupos e ações das comunidades na sua cidade ou no seu estado.</p>
 <p>Além dos grupos regionais, há também diversas comunidades voltadas a grupos específicos, com recorte de gênero ou raça, por exemplo. Infelizmente, apesar da contribuição decisiva de mulheres para o desenvolvimento da computação, a área tecnológica ao longo do século XX se tornou um campo predominantemente masculino, o que gera dificuldades na inserção de mulheres ainda hoje. Para superar esse desafio, foram criadas redes como PyLadies e R-Ladies.</p>
 <p>Ambas atuam hoje internacionalmente para fomentar comunidades de tecnologia mais plurais. E nos dois casos o Brasil ocupa um lugar de destaque. Em 2019, o país tinha o maior número de capítulos regionais da PyLadies no mundo e a R-Ladies foi fundada por uma brasileira nos idos de 2012, a estatística Gabriela de Queiroz, que atualmente trabalha na IBM. Também no Brasil surgiram experiências que buscam fomentar uma maior diversidade racial na área, como AfroPython.</p>
 <p>Essas comunidades servem como canais para a troca de experiência e colaboração entre as pessoas. Além de estudar e praticar, participar delas sem dúvida vai ter ajudar a quebrar barreiras e superar dificuldades. Esses espaços servem para tirar dúvidas e tomar conhecimento sobre eventos e atividades da área, mas também existem diversos cursos que podem te dar um empurrão inicial. Em Python, há opções em português como o <a href="https://www.pycursos.com/python-para-zumbis/">Python para Zumbis</a> e, no R, as formações do <a href="https://www.curso-r.com/">Curso-R</a>.</p>
@@ -1044,7 +1195,9 @@
 <li><a href="https://www.oreilly.com/library/view/bad-data-handbook/9781449324957/">Bad Data Handbook - Q. Ethan McCallum</a></li>
 <li><a href="https://escoladedados.org/tutoriais/guia-quartz-para-limpeza-de-dados/#planilha-tem-65536-linhas">Guia para Quartz para Limpeza de Dados</a></li>
 <li><a href="https://escoladedados.org/tutoriais/guia-quartz-para-limpeza-de-dados/#planilha-tem-65536-linhas">Tutoriais da Escola de Dados</a></li>
-<li><a href="">The Functional Art - Alberto Cairo</a></li>
+<li><a href="">The Functional Art - Alberto Cairo</a> # Apoiadores</li>
 </ul>
+<p>Esta publicação foi realizada graças ao apoio de 282 pessoas, que colaboraram com a primeira campanha de financiamento colaborativo da Escola de Dados em 2019.</p>
+<p>Adriana Farias Adriana Ramos Guarani Kaiowá Ailma Teixeira Aisten Baldan Alberto Oliveira Alessandra Ferreira Alessandra Midori Amanda Fernandes de Carvalho Amanda Martins Gomes Lemos Amanda Moura Amanda Rossi Ana Beatriz Assam Ana Carolina Castro Ana Freitas Ana Laura Moura dos Santos Azevedo Ana Paula Borges de Oliveira Ana Paula Gomes Ferreira Andre Spritzer André Tamura Andre Yukio Abe Mota Ângela Prestes Angélica Martins Anna Livia Arida Anne Clinio Anselmo Geraldo do Nascimento Dias Antonio Arles dos Anjos Junior Antônio Rafael Santos Prestes Augusto Conconi Augusto Fadel Barbara Blum Barbara Castro Barbara Jambwisch Bárbara Libório Bianca Berti Bruno Bitencourt Luiz Bruno Costa Teixeira Bruno Elmano Lemos Bruno Evangelista Bruno Luis Marra Silva Bruno Miessa De Barros Bruno Nunes Café.art.br Caio Vinicius do Nascimento Carol Moreno Carol Pacobahyba Carol Queiroz Carolina Assunção Carolina Guimarães Ribeiro Caroline da Rocha Franco Cecília Do Lago Celia Beatriz Rosemblum Cesar Cano de Oliveira Christian Moryah Christina Brentano Clara Sacco Clarissa Rodrigues Mendes Colaboradados Cristian Edel Weiss Cristiane Paião Cristiano Pavini Daniel Augusto Silveira Daniel B Mariani Daniel Bramatti Daniel de Augustinis Daniel Dieb Daniel Fireman Daniel Portugal Daniel Schwabe Daniel Torquato Danilo Torini Dênis Braga Tavares Denise Businaro Denise Maria Neumann Diana Yukari Diego Rabatone Oliveira Diogo Carpanedo do Carmo Diogo Edegar Mafra Diogo Tolezano Pires Edna Simao de Souza Edson Alves Jr Eduardo Belo Eduardo de Moura Almeida Elisângela Mendonça – Lili Emanuele Marques dos Santos Eric Ribeiro Daher Érico Monte Lima Everton Zanella Alvarenga Fabiana Cambricoli Fabiana Pulcineli Fabiano Silos Fábio Luiz Batista de Araujo Fabio Takahashi Felipe Grandin Felippe Mercurio Fernanda Campagnucci Fernanda Costa Távora Fernando Barbalho Filipe Almeida Mendonça da Silva Filipe Augusto Filipe José de Mattos Quintans Filipe Menezes Flavia Alemi Flavio Dal Pozzo Flávio Passos Flavio Shirahige Francisco Alves de Oliveira Júnior Francisco Artur de Lima Moacyr Filho Gabriel Carrasco Santo Gabriel Cortilio Gabriela Caesar Géssica Brandino Gonçalves Gilberto Vieira Gisele Barros Giulia Afiune Glaucia Campregher Guilherme Jardim Duarte Guilherme Paim Mendes Guilherme R. Storck Gustavo Sigal Macedo Gustavo Tosello Pinheiro Guto Schultz Haruan Mossato Justino Helder da Rocha Helio Miguel Filho Henrique Dentzien Henrique França Henrique Parra Iago Bolívar Ígor Passarini Ilito Torquato Isabella Sander Isis Reis Ferreira Ivan Grego Lemos Ivana Bentes Oliveria Jamile Santana Jardel Farias Duque Jean Prado João Vitor Freitas João Vitor Rodrigues Josir Cardoso Gomes Joyce Heurich Juan Torres Juciano Julia Mente Juliana Alves Marques Juliana Lopes Juliana Almeida Juliana Vitor Medeiros de Paula Júlio Boaro Júlio C. Oliveira Karina Barcellos Karla Mendes Katia Brembatti Keila Guimarães Larissa Brainer Leandro Filippi Leonardo Germani Leonardo Mendes Júnior Ligia Guimarães Liraucio Girardi Júnior Lucas de Oliveira Gelape Lucas Marchesini Palma Lucas Rizzi Luciana Junqueira Lui Pillmann Luís Guilherme Julião Luiz Claudio Rezende Reis Luiz Fernando Teixeira Luiz Fernando Toledo Luiz Roberto Barros Farias Luiza Bodenmüller Manoel Galdino Marcela Miller Marcelo Crispim da Fontoura Marcelo Dias Marcelo Granja Marcelo Lima Marcelo Oliveira Marcelo Soares Marcelo Träsel Márcio Aparecido Nogueira Viana Marco Antonio Konopacki Marco Túlio Pires Marcos André Marcos Araujo Côrtes Marcos Huet Nioac de Salles Maria Rosa Mariah Queiroz Mariana Tiemi Marianna Araujo Marilene Oliveira Marília Gehrke Marina Merlo Mário Sérgio Marlise Marlos Pereira Mateus de Carvalho Sousa Matheus de Araújo Max Stabile Melissa Lüdeman Michele Cruz Vieira Moisés Tedeschi de Melo Nitai Bezerra da Silva Patricia Bado Patrícia Santos da Silva Pedro Burgos Pedro Capetti Pedro dos Santos Maia Pedro Futuro Rodrigues Hazan Pedro Markun Pedro Renaux Wanderley Pedro Rocha Franco Pedro Sarvat Pedro Vilanova dos Reis Philippe Watanabe Priscila Santos Rachel Bertol Domingues Rafael Aldin Vazquez Rafael Cunha Alves Moreira Rafael Kenski Rayan Tinoco Alves Reinaldo Chaves da Silva Renata Massami Hirota Renata Montechiare Renato Rebelo Revista AzMina Ricardo Rossetto Robson Junqueira da Rosa Rodolfo Almeida Rodrigo Cunha Rodrigo Duarte Guedes Rodrigo Godoy Coelho Rodrigo Schuinski Rodrigo Takenouchi Rosangela Lotfi Rose angélica do nascimento Rosental Calmon Alves Rui Barros Rute Pina Sérgio Lüdtke Sérgio Seabra Sérgio Spagnuolo Silvana Torquato Fernandes Silvia Rodrigues Follador Stefano Wrobleski Stephanie de Paula Suzana Oliveira Barbosa Tadeu Henriques Junior Tadeu Teixeira Taís Seibt Talita Duvanel Tatiana Balachova tatiana coelho testecolab Thays Mariana de Oliveira Lavor Thiago Aguiar de Moraes Thiago Reis Corte Thomaz Barbosa Thomaz Rezende Tiago Maranhao Barreto Pereira Tiago Rogero Tomas Rodriguez Martinez Verónica Goyzueta Victor Dias Grinberg Vinícius Valle Vitor de Oliveira Mafra Vitor Paulos Bellini Vívian Vaghetti Vieira Viviane Machado Yan Dutra Hill Yuri Almeida</p>
 </body>
 </html>

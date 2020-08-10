@@ -10,6 +10,8 @@ abstract: |
   (data pipeline), uma metodologia desenvolvida pela rede da Escola de Dados internacionalmente, que aborda todas etapas do trabalho, 
   da definição das questões à visualização dos dados.  
 mainfont: Ubuntu
+fontsize: 13pt
+linestretch: 1.5
 # fontfamily: arev
 # Filter preferences:
 # - pandoc-crossref
