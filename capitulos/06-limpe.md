@@ -20,11 +20,16 @@ Assim como acontece com as pessoas do outro lado do balcão, que produzem dados 
 
 Entretanto, o próprio Philip Meyer propõe uma saída para o problema que levantou - e ela funciona também para minimizar tanto os efeitos dos vieses cognitivos quanto dos deslizes mundanos.Para ele, o _jornalismo de precisão_ deveria adotar, na medida do possível, os ideais, os métodos e o conceito de objetividade dos cientistas.
 
+A seguir, um exemplo de uma tabela fora do formato tidy data.
+
+
 O que isso significa, porém?
 
 De saída, significa formalizar, enunciar e tomar consciência das hipóteses, teorias e premissas que assumimos na hora de apurar uma matéria - ou, no nosso caso, de fazer uma análise de dados. Só assim é possível fazer uma análise mais criteriosa dos pressupostos que envolvem nossa forma de pensar e as conclusões que derivam dela.
 
 Além disso, é importante adotar o **maior rigor metodológico possível.** Antes de mergulhar nos números, vale listar quais são os elementos que você procura, que evidências seriam necessárias para comprovar a hipótese que você investiga e, em contraste, o que seria necessário para admitir que não há nada ali. A ciência estatística pode ser aliada nesse processo, como veremos adiante.
+
+Na tabela acima, o fenômeno capturado são notas de alunos. Mas repare que a variável &quot;disciplina&quot; ocupa diferentes colunas. No formato tidy data, essa planilha deveria ter uma coluna chamada &quot;disciplina&quot;, onde as matérias estivessem declaradas nas células abaixo dessa coluna.
 
 Por fim, Meyer também destaca a importância de assumir uma postura de **transparência radical** , semelhante àquela que os bons cientistas adotam ao divulgar seus estudos de forma que possam ser meticulosamente avaliados e até reproduzidos pelos pares.
 
@@ -95,6 +100,7 @@ A primeira recomendação é não esquecer daquilo que importa para todos os rep
 
 Uma das melhores explicações sobre o que isso significa veio de Tim Berners Lee, pesquisador e criador da internet moderna (World Wide Web).
 
+<<<<<<< HEAD
 Em uma [entrevista](https://www.theguardian.com/technology/organgrinder/2010/nov/19/berners-lee-journalism-data) de 2010 para o jornal britânico The Guardian, Lee resumiu a questão: segundo ele, jornalistas estão acostumados a encontrar histórias conversando com pessoas, e vão continuar fazendo isso. Entretanto, em mundo cada vez mais digitalizado, eles também vão encontrar histórias em bancos de dados, e portanto precisam estar equipados para analisá-los.
 
 Esse pensamento se materializa quando percebemos que, hoje, praticamente todas as ações humanas acabam se tornado um registro numérico, no final das contas. Quando um parlamentar compra uma refeição, o registro vai parar em uma planilha em algum canto do site da Câmara. Quando o Presidente da República publica um tweet, um banco de dados é atualizado. Quando alguém faz uma busca no Google, um algoritmo é posto para funcionar.
@@ -396,3 +402,6 @@ Se você quer entrar a fundo na análise de dados, vá para o Python ou R. Na li
 Já em Python, um componente fundamental para manuseio de dados é o **pandas**. Trata-se de um pacote bastante robusto, considerado a principal referência para análise de dados nesta linguagem. Em vez de lidar com loops e condicionais, como é comum no mundo da programação, o pandas implementa uma estrutura de dados chamada _dataframe_, de mod semelhante ao Tidyverse, citado acima. Assim, na prática, a análise de dados se assemelha bastante ao trabalho com planilhas, com uma estrutura de colunas e linhas.
 
 Ele pode ainda ser combinado com outras bibliotecas, como o _matplotlib_, parar criar gráficos simples de maneira rápida. Além disso, ele se destaca pela performance ao lidar com grandes volumes de dados ou realizar operações complexas.
+=======
+Atenção para nomes de pessoas: **nunca faça correções em nomes de pessoas caso não tenha certeza absoluta de que se trata de um erro.** Nomes podem ter variações de grafias que podem não acompanhar sua imaginação. Por isso, não altere se não estiver absolutamente seguro quanto à presença de erro.
+>>>>>>> 58e30bf76c36e7715cc0dff0f637c1dbaf075845

@@ -4,7 +4,7 @@
 Adriano Belisário
 
 ## Revisão e edição
-Adriano Belisário e Marília Gherke
+Adriano Belisário e Marília Gehrke
 
 ## Autores
 Adriano Belisário
