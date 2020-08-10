@@ -1,5 +1,5 @@
 # Introdução
-Durante a pandemia da Covid-19, gráficos representando o aumento do número de casos ao longo do tempo, por meio de curvas de distribuição, ganharam as notícias e o debate público. A visualização de dados se tornou &#39;mainstream&#39;, com o apelo de salvar vidas. Gráficos são debatidos por especialistas e leigos nas redes sociais, e a interpretação dos dados se revela uma habilidade crucial para os governos conseguirem controlar a pandemia, assim como a qualidade das estatísticas oficiais.
+Durante a pandemia da Covid-19, gráficos representando o aumento do número de casos ao longo do tempo, por meio de curvas de distribuição, ganharam as notícias e o debate público. A visualização de dados se tornou *mainstream*;, com o apelo de salvar vidas. Gráficos são debatidos por especialistas e leigos nas redes sociais, e a interpretação dos dados se revela uma habilidade crucial para os governos conseguirem controlar a pandemia, assim como a qualidade das estatísticas oficiais.
 
 A escala do coronavírus e suas implicações não têm precedentes, mas a visualização de dados sobre mortalidade tem um histórico que se confunde com os próprios primórdios da prática de entender e comunicar dados por meio de gráficos. Dois dos trabalhos mais icônicos da história da comunicação baseada em dados estão intimamente ligados à área de saúde e também buscavam, em última instância, salvar vidas.
 
@@ -9,7 +9,7 @@ Esta forma de representar os dados é conhecida como diagrama de área polar (ou
 
 ![Florence Nightingale]
 
-Além de diversas guerras e batalhas, o século XIX teve também seis epidemias de cólera, que mataram milhões de pessoas em diversos continentes. E foi na mesma Inglaterra dos anos 1850 que o médico John Snow decidiu levantar dados "geolocalizados" sobre a doença, mapeando os casos e óbitos. Assim, ele elaborou o chamado "mapa da cólera", que representou os casos da doença como pontos no mapa. A partir da análise dos padrões espaciais e uma intensiva investigação por meio de entrevistas, descobriu uma bomba d&#39;água como vetor de disseminação da cólera no bairro de Soho. À época, Londres experimentava uma expansão urbana somada ao crescimento populacional em condições precárias de moradia e saneamento.
+Além de diversas guerras e batalhas, o século XIX teve também seis epidemias de cólera, que mataram milhões de pessoas em diversos continentes. E foi na mesma Inglaterra dos anos 1850 que o médico John Snow decidiu levantar dados "geolocalizados" sobre a doença, mapeando os casos e óbitos. Assim, ele elaborou o chamado "mapa da cólera", que representou os casos da doença como pontos no mapa. A partir da análise dos padrões espaciais e uma intensiva investigação por meio de entrevistas, descobriu uma bomba d'água como vetor de disseminação da cólera no bairro de Soho. À época, Londres experimentava uma expansão urbana somada ao crescimento populacional em condições precárias de moradia e saneamento.
 
 Com isso, John Snow reforçou sua teoria de que a água poderia ser um dos vetores de contaminação, na contramão da chamada teoria miasmática, que era predominante à época e supunha a transmissão por meio do ar. A história mostrou que ele estava certo. Hoje, Snow é considerado um dos nomes fundadores da epidemiologia.
 
@@ -144,7 +144,7 @@ De modo geral, existem vantagens tanto nas soluções via interface gráfica, qu
 
 É comum, por exemplo, a criação de "notebooks" (blocos de notas), que trazem não só os dados, mas também os códigos que foram utilizados em determinado trabalho, além de comentários adicionais. Esta prática permite um excelente grau de transparência e detalhamento da conclusão e do método utilizado em trabalhos baseados em dados.
 
-[img notebook]
+![Um notebook sobre análise de texto em ação, mostrando textos, códigos e o resultado dos códigos](images/introducao/notebook.png)
 
 É possível trabalhar com dados em qualquer linguagem de programação. Porém, iremos falar aqui especificamente sobre quatro linguagens que se destacam pela sua ampla utilização em projetos baseados em dados atualmente.
 
@@ -166,9 +166,6 @@ Para quem está começando, os comandos básicos de ambas são igualmente simple
 
 Você pode escolher uma ou aprender ambas, o que te dará bastante flexibilidade. Mas vamos aqui destacar algumas características gerais sobre estas linguagens para você se situar.
 
-De acordo com a [revista do](https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2020)[Institute of Electrical and Electronics Engineers](https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2020), Python foi considerada a linguagem mais popular do mundo. Flexível e moderna, permite a utilização em aplicações diversas ao mesmo tempo em que mantém uma curva de aprendizado suave, com códigos simples e legíveis. Python é uma linguagem robusta, que pode ser utilizada não só para trabalhar com dados, como também para distintas aplicações (Web, administração de redes entre outras). O índice de pacotes em Python conta quase 250 mil projetos disponíveis.
+De acordo com a [revista do Institute of Electrical and Electronics Engineers](https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2020), Python foi considerada a linguagem mais popular do mundo. Flexível e moderna, permite a utilização em aplicações diversas ao mesmo tempo em que mantém uma curva de aprendizado suave, com códigos simples e legíveis. Python é uma linguagem robusta, que pode ser utilizada não só para trabalhar com dados, como também para distintas aplicações (Web, administração de redes entre outras). O índice de pacotes em Python conta quase 250 mil projetos disponíveis.
 
 Já o R costuma ser preferido por estatísticos e acadêmicos de diversas áreas. A linguagem leva a fama de ter bibliotecas que produzem gráficos e visualizações mais caprichadas e também conta com um rico universo de bibliotecas de softwares para trabalhar com dados. Atualmente, no [CRAN](https://cran.r-project.org/web/packages/available_packages_by_name.html), o principal repositório da linguagem, estão listadas mais de 16 mil bibliotecas - isso sem contar outras bibliotecas disponíveis em outra fontes.
-
-###
-

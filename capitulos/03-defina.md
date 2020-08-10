@@ -17,7 +17,7 @@ Mas nem sempre você terá os dados de antemão ou poderá criá-los. Especialme
 
 - Transporte por bicicletas: no projeto [Radmesser](https://interaktiv.tagesspiegel.de/radmesser/), o jornal alemão Der Tagesspiegel investigou a segurança no trânsito para os ciclistas em Berlim, criando um dispositivo que media a distância entre os carros e as bicicletas e distribuindo entre seus leitores, que coletaram dados e compartilharam com o jornal. O trabalho recebeu o prêmio de inovação do Data Journalism Awards em 2019.
 
-Enfim, você consegue usar dados para abordar qualquer assunto. Depois de encontrar um tema de seu interesse, você precisa gerar algumas perguntas iniciais que possam ser investigadas e respondidas com auxílio de dados. A definição desta &quot;pauta&quot; inicial é bastante importante para o desenrolar da pesquisa. Então, vejamos como criar boas questões ao iniciar um trabalho com dados.
+Enfim, você consegue usar dados para abordar qualquer assunto. Depois de encontrar um tema de seu interesse, você precisa gerar algumas perguntas iniciais que possam ser investigadas e respondidas com auxílio de dados. A definição desta "pauta" inicial é bastante importante para o desenrolar da pesquisa. Então, vejamos como criar boas questões ao iniciar um trabalho com dados.
 
 ## Criando boas perguntas
 
@@ -49,7 +49,7 @@ Para te ajudar neste processo, vamos elencar aqui algumas características de um
 
 **É objetivo**
 
-Busque definir seu escopo objetivamente e de forma concisa. Isto implica abordar um único problema ou tópico central por vez, mesmo que você tenha várias questões relacionadas a ele. Um escopo bem definido descreve a definição de cada termo ou conceito envolvido nas questões centrais, bem como explicita recortes temporais ou territoriais que serão aplicados. E também não depende de juízos subjetivos. Então, no geral, evite noções como &quot;melhor&quot; ou &quot;pior&quot; em perguntas tais como &quot;isto é melhor que aquilo?&quot;.
+Busque definir seu escopo objetivamente e de forma concisa. Isto implica abordar um único problema ou tópico central por vez, mesmo que você tenha várias questões relacionadas a ele. Um escopo bem definido descreve a definição de cada termo ou conceito envolvido nas questões centrais, bem como explicita recortes temporais ou territoriais que serão aplicados. E também não depende de juízos subjetivos. Então, no geral, evite noções como "melhor" ou "pior" em perguntas tais como "isto é melhor que aquilo?".
 
 **Pode ser abordado com dados**
 
@@ -57,7 +57,7 @@ Pode ser redundante, mas não custa afirmar que suas questões precisam ser reso
 
 **É complexo**
 
-Ser objetivo não quer dizer que seu escopo deva ser simplista. Ao contrário, um bom escopo é complexo e não pode ser respondido simplesmente com um &quot;sim&quot; ou &quot;não&quot;.
+Ser objetivo não quer dizer que seu escopo deva ser simplista. Ao contrário, um bom escopo é complexo e não pode ser respondido simplesmente com um "sim" ou "não".
 
 **É viável de ser realizado**
 
@@ -77,19 +77,19 @@ Para compreender as diferentes possibilidades de trabalhar com dados e pensar um
 
 **Dados tabulares**
 
-Como dito, esta é a forma mais &quot;tradicional&quot; de estruturar dados. Ela consiste em organizar os registros em tabelas, com linhas e colunas. As extensões de arquivos mais comuns para dados tabulares são CSV, XLS, XLSX e ODS. Você pode usar editores de planilha para lê-los ou importá-los em bases de dados com SQL, por exemplo. Também pode acontecer de você encontrar tabelas em formato PDF, o que exigirá um trabalho adicional. Falaremos mais sobre isso no capítulo seguinte.
+Como dito, esta é a forma mais "tradicional" de estruturar dados. Ela consiste em organizar os registros em tabelas, com linhas e colunas. As extensões de arquivos mais comuns para dados tabulares são CSV, XLS, XLSX e ODS. Você pode usar editores de planilha para lê-los ou importá-los em bases de dados com SQL, por exemplo. Também pode acontecer de você encontrar tabelas em formato PDF, o que exigirá um trabalho adicional. Falaremos mais sobre isso no capítulo seguinte.
 
 **Dados espaciais**
 
-É possível incluir coordenadas geográficas em planilhas, como informações de latitude e longitude, de modo que você consiga visualizar seus dados em um mapa. Porém, é justo considerar os dados geográficos ou espaciais como uma &quot;família&quot; ou tipo por si só. Isto porque há conceitos e técnicas de análise dos dados espaciais que são únicas e não se aplicam a outros tipos de dados tabulares. Há todo um universo próprio dados no chamado GIS (Sistemas de Informação Geográficas).
+É possível incluir coordenadas geográficas em planilhas, como informações de latitude e longitude, de modo que você consiga visualizar seus dados em um mapa. Porém, é justo considerar os dados geográficos ou espaciais como uma "família" ou tipo por si só. Isto porque há conceitos e técnicas de análise dos dados espaciais que são únicas e não se aplicam a outros tipos de dados tabulares. Há todo um universo próprio de dados geoespaciais no chamado GIS (Sistemas de Informação Geográficas).
 
-Além disso, visualizar a distribuição territorial dos dados em um mapa nos permite revelar padrões espaciais, que são invisíveis em uma tabela. Vale a máxima do geógrafo Waldo Tobler, considerada a primeira lei da geografia: &quot;todas as coisas estão relacionadas com todas as outras, mas coisas próximas estão mais relacionadas do que coisas distantes&quot;.
+Além disso, visualizar a distribuição territorial dos dados em um mapa nos permite revelar padrões espaciais, que são invisíveis em uma tabela. Vale a máxima do geógrafo Waldo Tobler, considerada a primeira lei da geografia: "todas as coisas estão relacionadas com todas as outras, mas coisas próximas estão mais relacionadas do que coisas distantes".
 
 Os dados espaciais possuem uma variedade de formatos/extensões de arquivos bem particulares, por exemplo, KML, GeoJSON, SHP, entre outros. Há também ferramentas e programas específicos para lidar com eles e, neste caso, o destaque fica por conta do QGIS, que é o principal programa de código-aberto para lidar com dados geográficos e produzir mapas.
 
 **Redes**
 
-Outra forma de representar dados é em forma de redes ou grafos. Na prática, muitas vezes, você consegue &quot;traduzir&quot; dados tabulares em redes e vice-versa. Por exemplo, considere a tabela abaixo, com informações fictícias sobre os proprietários de algumas empresas de ônibus.
+Outra forma de representar dados é em forma de redes ou grafos. Na prática, muitas vezes, você consegue "traduzir" dados tabulares em redes e vice-versa. Por exemplo, considere a tabela abaixo, com informações fictícias sobre os proprietários de algumas empresas de ônibus.
 
 | **Empresa** | **Proprietário** |
 | --- | --- |
@@ -98,7 +98,7 @@ Outra forma de representar dados é em forma de redes ou grafos. Na prática, mu
 | Viação 1 | Luiza |
 | Viação 2 | Joaquim |
 
-Estes mesmos dados poderiam ser &quot;traduzidos&quot; para uma representação em redes com o grafo abaixo.
+Estes mesmos dados poderiam ser "traduzidos" para uma representação em redes com o grafo abaixo.
 
 [grafo]
 
@@ -120,4 +120,4 @@ Para entender as possibilidades de trabalhar com texto como dados, vale conferir
 
 Este é um terreno mais difícil de ser trabalhado, se você está começando. De todo modo, é bom que você saiba que ele existe. Imagens e vídeos também podem ser trabalhados como dados, ainda que isto seja algo avançado e demande alguma familiaridade com programação. Neste caso, a chave é compreender as tecnologias de visão computacional. A principal ferramenta em código-aberto para isso é o OpenCV e você encontra implementações tanto em Python como em R.
 
-A tecnologia de visão computacional permite que o computador consiga &quot;ler&quot; imagens para reconhecer entidades (animais, pessoas ou objetos, por exemplo) ou até mesmo expressões faciais. Um ótimo exemplo no jornalismo de dados deste tipo de abordagem é [este trabalho](https://www.estadao.com.br/infograficos/politica,o-que-revela-uma-analise-das-emocoes-dos-candidatos-durante-o-debate,923037) realizado por Rodrigo Menegat (coautor deste ebook) no Estadão. Na reportagem, softwares de visão computacional foram utilizados para identificar e analisar os sentimentos dos candidatos à presidência durante um debate televisivo a partir de suas expressões faciais.
+A tecnologia de visão computacional permite que o computador consiga "ler" imagens para reconhecer entidades (animais, pessoas ou objetos, por exemplo) ou até mesmo expressões faciais. Um ótimo exemplo no jornalismo de dados deste tipo de abordagem é [este trabalho](https://www.estadao.com.br/infograficos/politica,o-que-revela-uma-analise-das-emocoes-dos-candidatos-durante-o-debate,923037) realizado por Rodrigo Menegat (coautor deste ebook) no Estadão. Na reportagem, softwares de visão computacional foram utilizados para identificar e analisar os sentimentos dos candidatos à presidência durante um debate televisivo a partir de suas expressões faciais.
