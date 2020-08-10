@@ -6,7 +6,7 @@ O maior risco de erro vem de onde menos prestamos atenção: nós mesmos. Nossos
 
 Philip Meyer, criador do jornalismo de dados, propõe uma reflexão que ajuda a entender esse problema.
 
-Em seu livro de 1973, _Precision Journalism_, ele discute a maneira como repórteres encaram a missão de reportar fatos com objetividade. De acordo com Meyer, jornalistas gostam de se entender como pessoas de mente aberta, capazes de embarcar em investigações como &quot;tábulas rasas&quot;, sem qualquer prejulgamento.
+Em seu livro de 1973, "_Precision Journalism_", ele discute a maneira como repórteres encaram a missão de reportar fatos com objetividade. De acordo com Meyer, jornalistas gostam de se entender como pessoas de mente aberta, capazes de embarcar em investigações como &quot;tábulas rasas&quot;, sem qualquer prejulgamento.
 
 O autor aponta, porém, que isso é impossível. Na prática, não dá para começar a pensar sobre qualquer problema sem partir de um enquadramento teórico ou de uma hipótese. Nós começamos a investigar um assunto porque achamos que pode existir algo de interesse ali, afinal.
 
@@ -114,7 +114,7 @@ Além disso, ele percebe que o roubo é um fenômeno quantificável: a ação ac
 
 Quando jornalistas e editores percebem essa possibilidade, a história sobre roubo de celular fica interessante. Vira até [capa de jornal](https://sao-paulo.estadao.com.br/noticias/geral,roubos-de-celular-atingem-metade-das-ruas-de-sao-paulo,70002022457): o exemplo é real, e resultou em uma matéria que foi publicada pelo Estadão em setembro de 2017. A planilha com todas essas informações sobre os roubos existe, de fato: é o registro dos boletins de ocorrência publicado pela Secretaria de Segurança Pública de São Paulo.
 
-A matéria ecoa o[texto clássico sobre jornalismo de dados](http://www.holovaty.com/writing/fundamental-change/), publicado em 2006 por Adrian Holovaty e sobre o qual falamos na introdução deste livro. Depois que você aprende a enxergar números em todos os lugares, precisa aprender também a entender o que eles revelam. E é aí que entra no jogo algo que parece assustador: a matemática.
+A matéria ecoa o [texto clássico sobre jornalismo de dados](http://www.holovaty.com/writing/fundamental-change/), publicado em 2006 por Adrian Holovaty e sobre o qual falamos na introdução deste livro. Depois que você aprende a enxergar números em todos os lugares, precisa aprender também a entender o que eles revelam. E é aí que entra no jogo algo que parece assustador: a matemática.
 
 Dificilmente um jornalista entrou na profissão porque gosta de fazer contas. Na verdade, o que acontece com frequência é o contrário: muita gente escolhe virar repórter porque quer evitar os números, geralmente depois de passar anos sofrendo para superar provas de matemática.
 
@@ -148,7 +148,7 @@ Figuras2, 3 e 4 - Como calcular percentuais
 
 ![](RackMultipart20200807-4-10x14ou_html_d3b35e2e7e54ee2a.png)
 
-Agora que já entendemos o que é uma porcentagem, podemos dar um passo adiante e falar de variação percentual, outro tema que é comum em jornais. Veja este exemplo real de título: &quot;[Com Bolsonaro, liberação de agrotóxicos cresceu 42%, diz estudo](https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2019/05/17/com-bolsonaro-liberacao-de-agrotoxicos-cresceu-42-diz-estudo.htm)&quot;.
+Agora que já entendemos o que é uma porcentagem, podemos dar um passo adiante e falar de variação percentual, outro tema que é comum em jornais. Veja este exemplo real de título: &quot;[_Com Bolsonaro, liberação de agrotóxicos cresceu 42%, diz estudo_](https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2019/05/17/com-bolsonaro-liberacao-de-agrotoxicos-cresceu-42-diz-estudo.htm)&quot;.
 
 Vamos aos números: de acordo com a reportagem, até abril de 2019, o governo de Jair Bolsonaro havia aprovado o uso de 166 novos agrotóxicos. No mesmo período de 2018, sob outro presidente, haviam sido 117. Como fazemos para chegar nessa variação de 42%, então?
 
