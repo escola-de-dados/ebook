@@ -58,7 +58,7 @@ Agora, já sabemos que dados podem trazer erros e vieses e que esses problemas p
 
 Falta entender, entretanto, como esses dados ruins podem afetar a sociedade de forma negativa - e o que podemos fazer diante disso.
 
-Em 2016, [o veículo americano](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)[_ProPublica_](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)[investigou](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) como um programa de inteligência artificial usado pelo sistema de justiça americano discriminava pessoas negras.
+Em 2016, [o veículo americano _ProPublica_](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) investigou como um programa de inteligência artificial usado pelo sistema de justiça americano discriminava pessoas negras.
 
 Essa inteligência artificial supostamente era capaz de dizer qual era a chance de um prisioneiro reincidir no crime caso fosse solto e, assim, ajudar juízes a tomarem decisões melhores. O programa avalia dados sobre o réu e emite uma nota, em uma escala de 1 a 10, para mensurar o risco. O juiz, depois de consultar o valor, decide o que fazer: concede liberdade condicional ou mantém o sujeito na prisão?
 
@@ -108,7 +108,7 @@ Além disso, ele percebe que o roubo é um fenômeno quantificável: a ação ac
 
 Quando jornalistas e editores percebem essa possibilidade, a história sobre roubo de celular fica interessante. Vira até [capa de jornal](https://sao-paulo.estadao.com.br/noticias/geral,roubos-de-celular-atingem-metade-das-ruas-de-sao-paulo,70002022457): o exemplo é real, e resultou em uma matéria que foi publicada pelo Estadão em setembro de 2017. A planilha com todas essas informações sobre os roubos existe, de fato: é o registro dos boletins de ocorrência publicado pela Secretaria de Segurança Pública de São Paulo.
 
-A matéria ecoa o[texto clássico sobre jornalismo de dados](http://www.holovaty.com/writing/fundamental-change/), publicado em 2006 por Adrian Holovaty e sobre o qual falamos na introdução deste livro. Depois que você aprende a enxergar números em todos os lugares, precisa aprender também a entender o que eles revelam. E é aí que entra no jogo algo que parece assustador: a matemática.
+A matéria ecoa o [texto clássico sobre jornalismo de dados](http://www.holovaty.com/writing/fundamental-change/), publicado em 2006 por Adrian Holovaty e sobre o qual falamos na introdução deste livro. Depois que você aprende a enxergar números em todos os lugares, precisa aprender também a entender o que eles revelam. E é aí que entra no jogo algo que parece assustador: a matemática.
 
 Dificilmente um jornalista entrou na profissão porque gosta de fazer contas. Na verdade, o que acontece com frequência é o contrário: muita gente escolhe virar repórter porque quer evitar os números, geralmente depois de passar anos sofrendo para superar provas de matemática.
 
@@ -142,7 +142,7 @@ Figuras2, 3 e 4 - Como calcular percentuais
 
 ![](RackMultipart20200807-4-10x14ou_html_d3b35e2e7e54ee2a.png)
 
-Agora que já entendemos o que é uma porcentagem, podemos dar um passo adiante e falar de variação percentual, outro tema que é comum em jornais. Veja este exemplo real de título: &quot;[Com Bolsonaro, liberação de agrotóxicos cresceu 42%, diz estudo](https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2019/05/17/com-bolsonaro-liberacao-de-agrotoxicos-cresceu-42-diz-estudo.htm)&quot;.
+Agora que já entendemos o que é uma porcentagem, podemos dar um passo adiante e falar de variação percentual, outro tema que é comum em jornais. Veja este exemplo real de título: &quot;[_Com Bolsonaro, liberação de agrotóxicos cresceu 42%, diz estudo_](https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2019/05/17/com-bolsonaro-liberacao-de-agrotoxicos-cresceu-42-diz-estudo.htm)&quot;.
 
 Vamos aos números: de acordo com a reportagem, até abril de 2019, o governo de Jair Bolsonaro havia aprovado o uso de 166 novos agrotóxicos. No mesmo período de 2018, sob outro presidente, haviam sido 117. Como fazemos para chegar nessa variação de 42%, então?
 
