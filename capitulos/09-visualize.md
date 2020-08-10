@@ -113,13 +113,13 @@ Ao analisar os resultados, os estudiosos propuseram um *ranking* de formatos, do
 
 A imagem abaixo, [preparada por Alberto Cairo para o blog Periodismo con futuro_](https://blogs.elpais.com/periodismo-con-futuro/2012/02/elegirgrafico.html), do El País, mostra de que tipo de gráfico falamos em cada item.
 
-![A hierarquia da percepção segundo experimento de Cleveland e McGill. Fonte: Alberto Cairo.](figura12.jpg)
+![A hierarquia da percepção segundo experimento de Cleveland e McGill. Fonte: Alberto Cairo.](images/visualize/figura12.jpg)
 
 Quanto mais alto na escala está a forma de representação, mais fácil é usá-la para fazer comparações precisas. Quanto mais para baixo, mas difícil.
 
 Esta outra imagem, também elaborado por Cairo para o mesmo blog, mostra como isso acontece na prática.
 
-![Qual destes gráficos permite uma leitura mais precisa? - Fonte: Alberto Cairo (2012)](images/visualise/figura13.jpg)
+![Qual destes gráficos permite uma leitura mais precisa? - Fonte: Alberto Cairo (2012)](images/visualize/figura13.jpg)
 
 Todos os gráficos representam os mesmos valores, mas de diferentes formas. Todavia, os gráficos de barras permitem uma leitura mais precisa e rápida.
 
@@ -133,7 +133,7 @@ Nesse casos, formas próximas da parte inferior da escala passam a ser mais úte
 
 Veja este gráfico sobre o resultado das eleições presidenciais no Brasil em 2020:
 
-![Mapa do resultado das eleições presidenciais de 2018 no Brasil, produzido pelo Estadão](figura14.png)
+![Mapa do resultado das eleições presidenciais de 2018 no Brasil, produzido pelo Estadão](images/visualize/figura14.png)
 
 O objetivo dessa visualização não é fazer com que o leitor descubra qual é a cidade onde Bolsonaro teve mais votos ou comparar precisamente a quantidade de votos recebidos por Haddad em dois municípios distantes. A ideia é mostrar a distribuição geográfica do voto, que tende a ser PT na região Nordeste e PSL no Sul. Um gráfico de barras não seria efetivo nesse caso.
 
@@ -153,7 +153,7 @@ Como consequência, surge o conceito de "chart junk", que pode ser traduzido com
 
 Veja o gráfico abaixo, gerado a partir de dados ficcionais, sem muito esforço nem ou atenção ao design no Google Sheets.
 
-![Exemplo de gráfico de barras com elementos visuais desnecessários.](images/visualise/d50b7ad0bd5f8c88.png)
+![Exemplo de gráfico de barras com elementos visuais desnecessários.](images/visualize/figura15.png)
 
 Vamos analisá-lo a partir dos princípios de Tufte que acabamos de conhecer.
 
@@ -165,13 +165,13 @@ Além disso, existem elementos que não agregam dado algum. Qual é a razão das
 
 Removendo todos estes elementos, ficamos com um gráfico mais próximo daquilo que Tufte considera o ideal. A visualização abaixo foi feita em ainda menos tempo no [Datawrapper](https://app.datawrapper.de/), uma ferramenta gratuita disponível online.
 
-![O mesmo gráfico, porém com uma apresentação mais minimalista](images/visualise/figura16.png)
+![O mesmo gráfico, porém com uma apresentação mais minimalista](images/visualize/figura16.png)
 
 Perceba como o gráfico fica mais fácil de ler. O motivo é que não há mais elementos redundantes ou pouco informativos disputando atenção. Assim, nossos olhos e cérebro conseguem se concentrar apenas naquilo que importa.
 
 Agora, faça o mesmo exercício com o gráfico abaixo. Segundo as regras dispostas por Tufte, o que pensar do seguinte trabalho?
 
-![Gráfico publicada na Glamour Magazine na década de 1980, feito por Nigel Holmes.](images/visualise/figura17.png)
+![Gráfico publicada na Glamour Magazine na década de 1980, feito por Nigel Holmes.](images/visualize/figura17.png)
 
 ### Conectando-se com o público
 
@@ -179,7 +179,7 @@ O gráfico anterior foi produzido por Nigel Holmes, um designer gráfico que fic
 
 O trabalho de Holmes foi alvo de críticas ferozes por parte de Tufte, que destacou um gráfico em especial, mostrado a seguir, para um achincalhamento público.
 
-![Gráfico publicado na revista Time em agosto de 1982, feito por Nigel Holmes.](images/visualise/figura18.jpg)
+![Gráfico publicado na revista Time em agosto de 1982, feito por Nigel Holmes.](images/visualize/figura18.jpg)
 
 Para Tufte, a peça anterior (Figura 18) - e, por extensão, a peça que mostramos logo antes, sobre virgindade nas universidades - é ultrajante.
 
@@ -207,7 +207,7 @@ Uma [pesquisa](http://hci.usask.ca/uploads/173-pap0297-bateman.pdf) feita por Sc
 
 Os estudiosos pediram para que voluntários avaliassem gráficos que representavam os mesmos dados, mas em duas versões diferentes: uma no estilo decorado de Holmes e outro em um formato minimalista que se aproximava mais das convicções de Tufte.
 
-![Exemplo de um gráfico com *chartjunk*; produzido por Tufte e um gráfico minimalista com o os mesmos dados, produzido pelos autores do estudo](images/visualise/figura19.png)
+![Exemplo de um gráfico com *chartjunk*; produzido por Tufte e um gráfico minimalista com o os mesmos dados, produzido pelos autores do estudo](images/visualize/figura19.png)
 
 Os leitores eram questionados, logo depois de ler o gráfico, sobre os números que viram e outras questões de ordem mais técnica, como a tendência demonstrada pelos dados.
 
@@ -243,7 +243,7 @@ Assim, faz sentido escolher formas visuais que tenham maior precisão na escala 
 
 Dessa forma, os formatos mais indicados para essa tarefa são **gráficos de barra** ou alguma de suas variantes. Veja abaixo uma visualização que compara a quantidade de imposto pago em relação a renda em alguns países.
 
-![Gráfico de barras publicado na The Economist. Note que aqui a barra é composta por dois valores, cada um representado por uma cor. Na prática, eles se somam para representar uma barra única.](images/figura20.png)
+![Gráfico de barras publicado na The Economist. Note que aqui a barra é composta por dois valores, cada um representado por uma cor. Na prática, eles se somam para representar uma barra única.](images/visualize/figura20.png)
 
 Para decodificá-la, o leitor precisa localizar o ponto final da barra e comparar a posição dela com a das demais, que estão na mesma escala. É fácil perceber, por exemplo, que Hong Kong tem uma carga tributária de perto de 12% e que a Suíça se aproxima dos 18%.
 
@@ -261,7 +261,7 @@ Por sorte, existem alternativas melhores. Vamos voltar para o gráfico de barras
 
 Recapitulando: estamos vendo qual é a composição da carga tributária de um país. A parte **azul clara** mostra o **percentual referente ao imposto de renda**. A parte **azul escura** , o **percentual referente à seguridade social**.
 
-![](images/visualise/figura21.png)
+![](images/visualize/figura21.png)
 
 Agora, para descobrir qual parte é maior, em vez de comparar ângulos, estamos comparando **comprimento**.
 
@@ -287,7 +287,7 @@ Assim, faz sentido usar um formato de visualização que realça a tendência e,
 
 Vamos analisar o gráfico abaixo, [publicado pelo The New York Times](https://archive.nytimes.com/www.nytimes.com/imagepages/2006/08/26/weekinreview/27leon_graph2.html?ref=patrick.net) em 2006.
 
-![](images/visualise/figura22.png)
+![](images/visualize/figura22.png)
 
 Na prática, poderíamos substituir essa linha por uma série de barras ou pontos: o valor de cada ano é representado, afinal, pela posição do ponto mais alta da linha.
 
@@ -309,7 +309,7 @@ De vez em quando, é melhor perder precisão e ganhar escopo, permitindo assim q
 
 Vamos olhar para um exemplos prático e marcante que mostra como uma abordagem menos precisa pode ser útil. A visualização de dados usa cores, tidas como a mais imprecisa das formas de representação, para oferecer um olhar original sobre um tema já muito explorado.
 
-![*Warming stripes*, listras do aquecimento, publicadas pelo climatologista Ed Hawkins em 2018.](images/visualise/figura23.png)
+![*Warming stripes*, listras do aquecimento, publicadas pelo climatologista Ed Hawkins em 2018.](images/visualize/figura23.png)
 
 O gráfico acima representa a evolução da temperatura média do planeta entre 1850 e 2018. Quando a temperatura de um ano está acima do valor médio registrado entre 1970 e 2000, ele é pintado em um tom de vermelho. Quando está abaixo, em um tom de azul. Quanto maior for a diferença, mais escura é a cor.
 
@@ -327,7 +327,7 @@ Por fim, vamos apresentar um formato muito parecido com o gráfico de barras, ma
 
 Trata-se de um tipo de visualização que mostra qual é a **distribuição** dos seus dados, o que é essencial para entender melhor as características do fenômeno que estamos analisando.
 
-![](images/figura26.png)
+![](images/visualize/figura26.png)
 
 _O gráfico acima mostra a distribuição das notas no Enem 2018: muitos alunos tiraram entre 400 e 600. Poucos tiraram um valor perto de 800. Fonte: elaboração própria_
 
@@ -345,7 +345,7 @@ De teor um pouco mais técnico, esse tipo de gráfico não costuma aparecer muit
 
 Entretanto, com cuidado e atenção especial para as explicações, ele pode ser uma ferramenta útil para explicar fenômenos complexos para o leitor, como no exemplo abaixo, retirado de [uma reportagem do Estadão](https://www.estadao.com.br/infograficos/educacao,no-enem-1-a-cada-4-alunos-de-classe-media-triunfa-pobres-sao-1-a-cada-600,953041) sobre o impacto da desigualdade socioeconômica nos resultados do Enem.
 
-![](images/visualise/figura27.png)
+![](images/visualize/figura27.png)
 
 A sobreposição de três histogramas, no caso, revela que a distribuição de notas dos alunos mais ricos tende muito mais para a direita -- e para as notas mais altas -- do que a dos alunos mais pobres.
 

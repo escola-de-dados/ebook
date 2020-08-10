@@ -125,7 +125,7 @@ Antes de aprender como mexer com essas ferramentas, porém, precisamos relembram
 
 Nesta seção, aprenderemos um pouco sobre como calcular porcentagem e taxas, além de ter algumas dicas relacionadas à correção de valores pela inflação e análise de séries temporais. Para uma descrição mais detalhada das operações matemáticas básicas importantes para o trabalho com dados vale conferir o livro de Sarah Cohen, _"Numbers In The Newsroom"_. Trata-se de um manual clássico escrito por uma ex-editora de jornalismo de dados do New York Times, que apresenta os conceitos da matemática que mais são usados nas redações de forma didática.
 
-**Porcentagem**
+### Porcentagem
 
 Calcular a porcentagem é, provavelmente, a tarefa mais comum de um jornalista em redação. Manchetes como "65% dos entrevistados se preocupam com o desemprego" são extremamente comuns e não costumamos pensar muito no que elas significam. É óbvio, certo?
 
@@ -165,7 +165,7 @@ Alguém desavisado poderia dizer que a variação foi de 5%, já que 43 menos 38
 
 Calcular a **variação percentual** , por outro lado, envolveria pegar essa diferença de 5 pontos percentuais e dividir pelos 38 originais. O resultado seria uma queda de aproximadamente 13%.
 
-**Taxas**
+### Taxas
 
 Ao entender como funciona o cálculo de uma porcentagem, você automaticamente aprende também a usar outra ferramenta importante no cinto de utilidades de um jornalista de dados: o cálculo de **taxas**.
 
@@ -185,7 +185,9 @@ A resposta simples é que mais gente é assassinada no Brasil do que no país ca
 
 Como podemos responder a essa pergunta de forma justa? **Usando uma taxa que coloque esses números na mesma base.** Assim, conseguimos saber oquão comum são as ocorrências de assassinato dentro de uma população. Veja abaixo o passo a passo e repare como o processo se assemelha ao da porcentagem:
 
-![](images/analise/9766d28aed587bd.png) ![](images/analise/7b72df773481bf49.png) ![](images/analise/126d65ed4fa67410.png)
+![](images/analise/figura9.png) 
+![](images/analise/figura10.png) 
+![](images/analise/figura11.png)
 
 Os assassinatos, ainda que por pouco, são **menos comuns** no Brasil que em Trinidad e Tobago, mesmo que a contagem de mortes seja maior.
 
@@ -201,13 +203,13 @@ As taxas de ambas as nações são puxadas para extremos opostos porque eles est
 
 Um único caso da doença teria grande impacto na taxa islandesa, enquanto mesmo uma quantidade de mortes capaz de colocar um sistema de saúde em colapso pouco alteraria a taxa chinesa.
 
-**Inflação**
+### Inflação
 
 A análise de dados que envolve valores monetários deve, necessariamente, considerar a inflação do período. Antes de utilizar números de uma série histórica, por exemplo, é preciso verificar se os valores foram corrigidos. Depois de verificar esse detalhe na documentação do banco de dados que pretende utilizar, é hora de fazer a conversão. Para tanto, existem ferramentas gratuitas que automatizam esse processo, como a calculadora do [Banco Central](https://www3.bcb.gov.br/CALCIDADAO/publico/exibirFormCorrecaoValores.do?method=exibirFormCorrecaoValores) e do [IBGE](https://www.ibge.gov.br/explica/inflacao.php).
 
 Tomemos como ponto de partida o poder de compra de um cidadão que, em janeiro de 2005, recebeu R$ 1 mil pelo seu trabalho. Em valores corrigidos pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA), esses R$ 1 mil tornaram-se R$ 2,13 mil em janeiro de 2019. Em outras palavras, este cidadão não teria o mesmo poder de compra caso continuasse recebendo R$ 1 mil em 2019. Por isso, a inflação do período precisa ser observada. Como observa a jornalista Mariana Segala [neste trecho do livro Siga os Números](https://sigaosnumeros.com/sumario/descomplicando-os-dados/como-encontrar-pautas-nos-dados/as-tres-operacoes-fundamentais-da-matematica-para-jornalistas/), atualizar valores de acordo com a inflação ou com os juros do período é uma das habilidades demandadas especialmente dos jornalistas que cobrem economia e finanças. A ausência de correção de valores provocaria uma análise equivocada.
 
-**Série históricas**
+### Série históricas
 
 A análise temporal de um fenômeno exige dados de série histórica, isto é, informações correspondentes a um grande período de tempo. Podemos pensar, por exemplo, sobre dados de emprego e desemprego, distribuição de renda entre a população, produção agrícola e números de importação e exportação em determinado país.
 
@@ -227,7 +229,7 @@ Estatística é, na verdade, uma ciência que se dedica a analisar e interpretar
 
 O conceito pode parecer estranho quando descrito dessa forma, mas é algo que está muito presente em nossa cotidiano. Os valores de média, moda, e mediana, por exemplo, fazem parte desse campo, assim como os conceitos de desvio padrão, outliers e padrões de distribuição. Vamos entender para o que serve cada um deles.
 
-**Moda, média e mediana**
+### Moda, média e mediana
 
 Você provavelmente já calculou a **média** de alguma coisa, nem que seja a média das notas do seu boletim escolar. O procedimento é simples: somar todos os números de uma série e dividir pela quantidade total de elementos. Você já parou para pensar qual é o objetivo desse cálculo?
 
@@ -271,13 +273,11 @@ A **moda** , outra métrica de centralidade, usa uma estratégia mais simples: s
 
 Para escolher qual é a melhor métrica para o banco de dados que você tem em mãos, é preciso entender um pouco mais sobre outro conceito de estatística: **a distribuição**.
 
-**Distribuição: dispersão, desvio padrão e outliers**
+### Distribuição: dispersão, desvio padrão e outliers
 
 Ainda seguindo com o exemplo dos salários, vamos prestar mais atenção na característica dos dados que tornou o cálculo da média pouco representativo: havia elementos extremos na série, ou seja, salários muito distantes dos demais e que distorciam o cálculo.
 
-Esse tipo de característica pode ser medida usando estatísticas descritivas de **dispersão**. Para entender melhor quais são as informações de um banco de dados - se ele tem muitos extremos ou é mais uniforme, por exemplo - é muito útil usar um tipo de gráfico chamado histograma. Em resumo, esse gráfico permite observar a distribuição dos dados e identificar pontos fora da curva.
-
-[histograma]
+Esse tipo de característica pode ser medida usando estatísticas descritivas de **dispersão**. Para entender melhor quais são as informações de um banco de dados - se ele tem muitos extremos ou é mais uniforme, por exemplo - é muito útil usar um tipo de gráfico chamado histograma. Em resumo, esse gráfico permite observar a distribuição dos dados e identificar pontos fora da curva. Falaremos mais sobre ele no capítulo seguinte.
 
 Agora, vamos falar de medidas que, assim como as estatísticas de centralidade que vimos anteriormente, tentam resumir as características de um banco de dados em um número único.
 
@@ -301,7 +301,7 @@ Usualmente, dados que estejam a três desvios padrão ou mais da média, em um b
 
 Ainda que um outlierpossa ser de interesse jornalístico, esse tipo de dado pode prejudicar a análise dos demais. Sempre verifique se esse não é o caso antes de interpretar estatísticas descritivas simples.
 
-**Correlação**
+### Correlação
 
 Outra técnica estatística útil para o jornalismo é o cálculo da taxa de correlação. Essa medida, que é bastante complexa e quase sempre é calculada com o uso de programas de planilha ou tecnologias equivalentes, estima como o comportamento de duas variáveis está interligado.
 
@@ -339,7 +339,7 @@ Para afirmar que um fenômeno casou outro, é preciso fazer testes estatísticos
 
 Na dúvida, é melhor não avançar o sinal: você não quer ser o cara que disse que viver perto de árvores faz alunos irem melhor na prova, não é mesmo?
 
-**Margem de erro**
+### Margem de erro
 
 Imagine que você queira compreender os hábitos de consumo dos brasileiros ou mesmo quais são suas preferências de voto em uma eleição iminente. É improvável que alguém tenha tempo ou recursos suficientes para ouvir cada um dos 210 milhões de brasileiros. Por isso, trabalha-se com a ideia de amostra, ou seja, um conjunto de pessoas cujas características sociais e demográficas sejam capazes de representar a população como um todo. Dessa forma, as respostas obtidas em uma amostra uma pesquisa podem ser atribuídos a um universo (neste caso, a população inteira).
 
@@ -369,13 +369,11 @@ Em geral, as linhas dessa nova tabela representam uma entidade, como um doador, 
 
 Assim, independente do software utilizado, o importante ao entrevistar dados com tabelas dinâmicas é saber identificar qual é a forma que essa nova tabela precisa assumir.
 
-Imagens 24 e 25
+![Exemplo de tabela com as informações originais.](images/analise/figura24.png)
 
-![](images/analise/6c770454c7bb490.png)
+![Tabela dinâmica gerada automaticamente com os valores da tabela anterior.](images/analise/figura25.png)
 
-![](images/analise/ee6b7cd6215d4ab7.png)
-
-_As duas imagens acima mostram como funciona uma tabela dinâmica: o valor pago por cado doador, em diferentes datas, foi agregado em uma única soma. Fonte: elaboração própria_
+As duas imagens acima mostram como funciona uma tabela dinâmica: o valor pago por cado doador, em diferentes datas, foi agregado em uma única soma. 
 
 Por fim, **cruzar** dados também pode ser interessante: o termo significa trazer uma segunda base de dados que possa enriquecer o trabalho de análise. Um exemplo clássico é reunir dados de resultados eleitorais por município com os indicadores de desenvolvimento de cada cidade, por exemplo.
 

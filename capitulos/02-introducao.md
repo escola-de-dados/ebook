@@ -1,5 +1,5 @@
 # Introdução
-Durante a pandemia da Covid-19, gráficos representando o aumento do número de casos ao longo do tempo, por meio de curvas de distribuição, ganharam as notícias e o debate público. A visualização de dados se tornou *mainstream*;, com o apelo de salvar vidas. Gráficos são debatidos por especialistas e leigos nas redes sociais, e a interpretação dos dados se revela uma habilidade crucial para os governos conseguirem controlar a pandemia, assim como a qualidade das estatísticas oficiais.
+Durante a pandemia da Covid-19, gráficos representando o aumento do número de casos ao longo do tempo, por meio de curvas de distribuição, ganharam as notícias e o debate público. A visualização de dados se tornou *mainstream*, com o apelo de salvar vidas. Gráficos são debatidos por especialistas e leigos nas redes sociais, e a interpretação dos dados se revela uma habilidade crucial para os governos conseguirem controlar a pandemia, assim como a qualidade das estatísticas oficiais.
 
 A escala do coronavírus e suas implicações não têm precedentes, mas a visualização de dados sobre mortalidade tem um histórico que se confunde com os próprios primórdios da prática de entender e comunicar dados por meio de gráficos. Dois dos trabalhos mais icônicos da história da comunicação baseada em dados estão intimamente ligados à área de saúde e também buscavam, em última instância, salvar vidas.
 
@@ -7,13 +7,15 @@ Um deles é o gráfico de Florence Nightingale sobre as mortes durante a Guerra 
 
 Esta forma de representar os dados é conhecida como diagrama de área polar (ou _coxcomb,_ em inglês) e é utilizada até os dias atuais. Na imagem, é possível ver como a proporção de mortes por causas evitáveis era constantemente maior ao longo dos meses.
 
-![Florence Nightingale]
+![No gráfico, cada fatia representa um mês e a área coberta pelas cores indica as causas de mortalidade: em laranja, mortes em batalha; em azul, por doenças; em verde, outras causas. Fonte: *University of Houston*](images/introducao/coxcombchart.jpg)
 
 Além de diversas guerras e batalhas, o século XIX teve também seis epidemias de cólera, que mataram milhões de pessoas em diversos continentes. E foi na mesma Inglaterra dos anos 1850 que o médico John Snow decidiu levantar dados "geolocalizados" sobre a doença, mapeando os casos e óbitos. Assim, ele elaborou o chamado "mapa da cólera", que representou os casos da doença como pontos no mapa. A partir da análise dos padrões espaciais e uma intensiva investigação por meio de entrevistas, descobriu uma bomba d'água como vetor de disseminação da cólera no bairro de Soho. À época, Londres experimentava uma expansão urbana somada ao crescimento populacional em condições precárias de moradia e saneamento.
 
 Com isso, John Snow reforçou sua teoria de que a água poderia ser um dos vetores de contaminação, na contramão da chamada teoria miasmática, que era predominante à época e supunha a transmissão por meio do ar. A história mostrou que ele estava certo. Hoje, Snow é considerado um dos nomes fundadores da epidemiologia.
 
-![IMG 2- mapa Snow / mapa coronavírus]
+![Mapa da cólera de John Snow na Inglaterra (1854)- Fonte: Wikimedia Commons](images/introducao/snow.jpg)
+
+![Mapa do novo coronavírus em São Paulo (2020) - Fonte: Wikimedia Commons](images/introducao/mapcovid.png)
 
 Retomamos os exemplos de Snow e Nightingale por uma dupla razão: primeiro, para desfazer um aura de novidade ("hype") em torno do tema. Lidar com dados não é exatamente algo recente na experiência humana, tampouco teve início com os computadores digitais. Na verdade, no fundo, a utilização de dados é praticamente indissociável da experiência humana tal como a conhecemos.
 
@@ -37,7 +39,7 @@ Embora o jornalismo não seja uma ciência propriamente dita, visto que trabalha
 
 Em tempos de debates acalorados na internet, é comum que as pessoas busquem os dados apenas quando querem legitimar seus argumentos. Há quem fale até em "torturar os dados" para que confessem o que o analista deseja. Aqui, porém, trabalharemos a perspectiva oposta.
 
-É importante que você seja cético em relação aos seus dados. A respeito deste tema, vale conferir o artigo _"_[_Sou uma cientista de dados cética quanto aos dados_](https://escoladedados.org/2019/08/sou-uma-cientista-de-dados-cetica-quanto-aos-dados/)_"_ de Andrea Jones-Rooy, professora de Ciência de Dados na New York University. Ao trabalhar com investigações baseadas em dados, seu objetivo não é encontrar números que confirmem sua hipótese ou aquilo que você (acha que) sabe. Ao contrário, você deve olhar os dados sob uma perspectiva crítica, ao invés de adotá-los como uma representação objetiva da realidade.
+É importante que você seja cético em relação aos seus dados. A respeito deste tema, vale conferir o artigo [*Sou uma cientista de dados cética quanto aos dados*](https://escoladedados.org/2019/08/sou-uma-cientista-de-dados-cetica-quanto-aos-dados/) de Andrea Jones-Rooy, professora de Ciência de Dados na New York University. Ao trabalhar com investigações baseadas em dados, seu objetivo não é encontrar números que confirmem sua hipótese ou aquilo que você (acha que) sabe. Ao contrário, você deve olhar os dados sob uma perspectiva crítica, ao invés de adotá-los como uma representação objetiva da realidade.
 
 Em especial se você não é um especialista no tema que está abordando, provavelmente, sua autocrítica talvez não seja capaz de avaliar todas as possíveis nuances dos dados ou erros de uma análise. Por isso, para fazer sentido de tabelas ou dados, é importante também conhecer como eles foram produzidos e, se possível, entrevistar ou conversar com diferentes pessoas que entendam mais que você sobre o tema em questão, seja o novo coronavírus, a performance de um clube em um campeonato esportivo ou mesmo dados sobre o mercado de trabalho.
 

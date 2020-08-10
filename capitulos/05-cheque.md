@@ -36,11 +36,11 @@ Pela lógica, cada sessão de votação precisava cumprir alguns requisitos para
 
 ## Biografando dados
 
-Uma parte fundamental após a obtenção das informações é realizar uma espécie de &quot;biografia dos dados&quot;. Basicamente, você precisa entender minimamente a origem, a captação, o recorte e as limitações dos dados nas suas mãos. Isso pode parecer fácil, mas é preciso atenção. Um deslize nesta etapa e toda seu trabalho futuro com os dados estará comprometido. Por isso, nesta seção, iremos explicar um pouco deste método de verificação e checagem de dados.
+Uma parte fundamental após a obtenção das informações é realizar uma espécie de "biografia dos dados". Basicamente, você precisa entender minimamente a origem, a captação, o recorte e as limitações dos dados nas suas mãos. Isso pode parecer fácil, mas é preciso atenção. Um deslize nesta etapa e toda seu trabalho futuro com os dados estará comprometido. Por isso, nesta seção, iremos explicar um pouco deste método de verificação e checagem de dados.
 
 Por que é importante biografar os dados antes de entrevistá-los?
 
-Para seguir com a metáfora, vamos pensar no processo de apuração de uma reportagem &quot;tradicional&quot;, que não usa muitos dados quantitativos: o repórter, quando se encontra com a fonte, faz uma série de perguntas e usa as respostas para produzir a matéria. Isso é uma entrevista, obviamente.
+Para seguir com a metáfora, vamos pensar no processo de apuração de uma reportagem "tradicional", que não usa muitos dados quantitativos: o repórter, quando se encontra com a fonte, faz uma série de perguntas e usa as respostas para produzir a matéria. Isso é uma entrevista, obviamente.
 
 No trabalho com dados, o equivalente acontece quando o jornalista começa a mexer em filtros e classificações para descobrir qual foi o maior gasto de um departamento do governo no ano, por exemplo.
 
@@ -68,19 +68,19 @@ Exemplo prático: no Malawi, um país do sudeste africano, foi registrada uma va
 
 O que aconteceu nesse intervalo? Será que houve um grande evento político, social e cultural que gerou esse pico? Parece uma boa história, não?
 
-A explicação, porém, era bem menos empolgante. No ano do crescimento desproporcional, quem fez a coleta de dados foi uma instituição privada, com uma metodologia descrita apenas como &quot;inovadora&quot;, sem mais detalhes.
+A explicação, porém, era bem menos empolgante. No ano do crescimento desproporcional, quem fez a coleta de dados foi uma instituição privada, com uma metodologia descrita apenas como "inovadora", sem mais detalhes.
 
 Nos outros anos, a coleta foi feita por agências financiadas com recursos governamentais, que usavam uma metodologia mais tradicional e transparente.
 
 A variação, portanto, é provavelmente efeito desse percalço na continuidade histórica dos dados e não consequência de uma mudança no mundo real. E os problemas não paravam por aí!
 
-Além do uso de fontes diferentes, a data de coleta dos dados variava radicalmente entre os diferentes países. O relatório inclui informações de 2003 e 2013 sob o rótulo de &quot;números mais recentes disponíveis&quot;, por exemplo.
+Além do uso de fontes diferentes, a data de coleta dos dados variava radicalmente entre os diferentes países. O relatório inclui informações de 2003 e 2013 sob o rótulo de "números mais recentes disponíveis", por exemplo.
 
 O jornalista desavisado poderia, então, ao tentar contrastar dois países, acabar comparando uma realidade atual com outra que, provavelmente, não é mais relevante.
 
 Essas limitações importantes estavam presentes em um relatório global da ONU, que é tida como uma fontes mais confiáveis para assuntos internacionais. Por sorte, os autores da pesquisa foram transparentes e incluíram essas possíveis falhas metodológicas no documento.
 
-Entretanto, nem todo banco de dados é tão &quot;honesto&quot;. Muitos dados públicos não vêm acompanhados de um detalhamento tão minucioso das próprias limitações. Muita vezes sequer vêm acompanhados de uma descrição decente do que significa cada um dos campos da planilha.
+Entretanto, nem todo banco de dados é tão "honesto". Muitos dados públicos não vêm acompanhados de um detalhamento tão minucioso das próprias limitações. Muita vezes sequer vêm acompanhados de uma descrição decente do que significa cada um dos campos da planilha.
 
 Diante de um cenário como esse, o trabalho do repórter inclui entrar em contato com os autores do levantamento para tirar todas as dúvidas possíveis. Como dissemos brevemente antes, a dica é nunca presumir o que um rótulo de coluna significa ou de que forma os dados foram reunidos. Sempre é preciso fazer esse trabalho prévio.
 
@@ -95,7 +95,7 @@ Krause resume o processo de biografia de dados com uma lista de perguntas que pr
 
 Para analisar os dados de uma planilha, é importante que você entenda o que significa cada linha e cada coluna da sua tabela. Imagine uma base de dados sobre Covid-19 no Brasil. O primeiro passo é entender o que ela registra: cada linha na tabela é um paciente atendido ou o total de casos de uma cidade, por exemplo? Depois de entender o que as linhas significam na sua tabela, é importante compreender cada coluna.
 
-Uma coluna ou variável chamada &quot;localidade&quot;, por exemplo, pode representar pelo menos duas coisas: o município de residência de um cidadão ou a localidade onde ele foi atendido. Não raro, pessoas recebem atendimento de saúde fora do município onde vivem. Por isso, é preciso ficar atento à documentação e à descrição do significado das variáveis de uma planilha.
+Uma coluna ou variável chamada "localidade", por exemplo, pode representar pelo menos duas coisas: o município de residência de um cidadão ou a localidade onde ele foi atendido. Não raro, pessoas recebem atendimento de saúde fora do município onde vivem. Por isso, é preciso ficar atento à documentação e à descrição do significado das variáveis de uma planilha.
 
 Se sua base for muito grande para você fazer checagens de todos os registros, uma dica é separar uma amostra aleatória dos seus dados e verificar se está tudo certo. É importante que a seleção seja aleatória. Por exemplo, se você checa apenas as primeiras linhas de uma tabela com registros em ordem cronológica, problemas que tenham ocorrido mais próximos ao fim do período podem passar despercebidos.
 
@@ -109,7 +109,7 @@ Para entender melhor a importância desse processo, aí vai uma história real. 
 
 Quando as perguntas foram respondidas e o texto e a visualização estavam prontos, foi notada a ausência de dois partidos da análise. Consequentemente, as duas siglas estavam ausentes na reportagem e na infografia. O fato provocou estranheza: será que nenhuma pessoa dessas duas legendas políticas nunca trocaram de partido? Onde estão seus filiados?
 
-Após uma conversa entre os profissionais, eles resolveram checar cada etapa do processo e concluíram que havia um erro no processo. Em função dos descuidos, a reportagem estava comprometida, uma vez que retratava as migrações de filiados de um partido ao outro utilizando tanto números absolutos quanto percentuais. Portanto, a ausência das duas legendas alterava, também, os cálculos realizados para os demais partido. Por sorte, porém, a matéria estava &quot;pronta&quot; com antecedência, o que permitiu refazê-la antes do envio do conteúdo para a gráfica responsável pela impressão do jornal.
+Após uma conversa entre os profissionais, eles resolveram checar cada etapa do processo e concluíram que havia um erro no processo. Em função dos descuidos, a reportagem estava comprometida, uma vez que retratava as migrações de filiados de um partido ao outro utilizando tanto números absolutos quanto percentuais. Portanto, a ausência das duas legendas alterava, também, os cálculos realizados para os demais partido. Por sorte, porém, a matéria estava "pronta" com antecedência, o que permitiu refazê-la antes do envio do conteúdo para a gráfica responsável pela impressão do jornal.
 
 Este caso permite refletir sobre o que poderia ser feito para evitar o erro e a consequente repetição de procedimentos. O desfecho seria diferente se houvesse uma verificação básica que mostrasse a presença de todos os 33 partidos na base de dados obtida via web scraping. O erro ocorreu duas vezes: na ausência de verificação da planilha recebida e, antes disso, na falta de detecção do problema na hora da captura dos dados, quando uma primeira verificação deveria ter sido feita.
 
@@ -137,6 +137,6 @@ Fique atento quanto às unidades de medida (milhas, quilômetros, pés) ou moeda
 
 Se estiver trabalhando com dados de diversas fontes, escolha a unidade de medida ou moeda com a qual pretende trabalhar e realize as conversões necessárias. Se possível, acrescente colunas e sinalize as alterações.
 
-Verifique, sobretudo, em que formato estão os números da base de dados com a qual pretende trabalhar. Em alguns casos, não haverá casas decimais. É o que ocorre com o número de nascimentos, mortes e outros: não é possível que haja 3,2 óbitos ou 10,8 nascimentos, por exemplo. Se uma coluna reúne informações sobre &quot;pageviews&quot; (número de acessos), da mesma forma, não pode conter números decimais.
+Verifique, sobretudo, em que formato estão os números da base de dados com a qual pretende trabalhar. Em alguns casos, não haverá casas decimais. É o que ocorre com o número de nascimentos, mortes e outros: não é possível que haja 3,2 óbitos ou 10,8 nascimentos, por exemplo. Se uma coluna reúne informações sobre "pageviews" (número de acessos), da mesma forma, não pode conter números decimais.
 
 ###

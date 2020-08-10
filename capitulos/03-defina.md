@@ -15,7 +15,7 @@ Mas nem sempre você terá os dados de antemão ou poderá criá-los. Especialme
 
 - Moda: neste excelente trabalho do [The Pudding](https://pudding.cool/2018/08/pockets/), eles investigaram como a indústria da moda lida com as questões de gênero ao desenhar o tamanho dos bolsos nas roupas, a partir de dados;
 
-![Para investigar o tema, os jornalistas pegaram o tamanho do bolso da frente de 80 calças de ambos os sexos para então calcular o tamanho médio. Fonte: The Pudding](images/definicao/pudding.png)
+![Para investigar o tema, os jornalistas pegaram o tamanho do bolso da frente de 80 calças de ambos os sexos para então calcular o tamanho médio. Fonte: The Pudding](images/defina/pudding.png)
 
 - Transporte por bicicletas: no projeto [Radmesser](https://interaktiv.tagesspiegel.de/radmesser/), o jornal alemão Der Tagesspiegel investigou a segurança no trânsito para os ciclistas em Berlim, criando um dispositivo que media a distância entre os carros e as bicicletas e distribuindo entre seus leitores, que coletaram dados e compartilharam com o jornal. O trabalho recebeu o prêmio de inovação do Data Journalism Awards em 2019.
 
