@@ -63,7 +63,7 @@ Agora, já sabemos que dados podem trazer erros e vieses e que esses problemas p
 
 Falta entender, entretanto, como esses dados ruins podem afetar a sociedade de forma negativa - e o que podemos fazer diante disso.
 
-Em 2016, o veículo americano [ProPublica](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) como um programa de inteligência artificial usado pelo sistema de justiça americano discriminava pessoas negras.
+Em 2016, o veículo americano [ProPublica](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) investigou como um programa de inteligência artificial usado pelo sistema de justiça americano discriminava pessoas negras.
 
 Essa inteligência artificial supostamente era capaz de dizer qual era a chance de um prisioneiro reincidir no crime caso fosse solto e, assim, ajudar juízes a tomarem decisões melhores. O programa avalia dados sobre o réu e emite uma nota, em uma escala de 1 a 10, para mensurar o risco. O juiz, depois de consultar o valor, decide o que fazer: concede liberdade condicional ou mantém o sujeito na prisão?
 
