@@ -111,7 +111,7 @@ Ao analisar os resultados, os estudiosos propuseram um *ranking* de formatos, do
 9. Tom de cor
 10. Saturação de cor
 
-A imagem abaixo, [preparada por Alberto Cairo para o blog](https://blogs.elpais.com/periodismo-con-futuro/2012/02/elegirgrafico.html)[_Periodismo con futuro_](https://blogs.elpais.com/periodismo-con-futuro/2012/02/elegirgrafico.html), do El País, mostra de que tipo de gráfico falamos em cada item.
+A imagem abaixo, [preparada por Alberto Cairo para o blog Periodismo con futuro_](https://blogs.elpais.com/periodismo-con-futuro/2012/02/elegirgrafico.html), do El País, mostra de que tipo de gráfico falamos em cada item.
 
 Figura 12
 
