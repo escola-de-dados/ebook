@@ -98,7 +98,7 @@ Os gráficos também foram mostrados com ou sem o auxílio de um **eixo** - ou s
 
 O objetivo do teste era descobrir quais formas gráficas permitiam uma estimativa mais adequada da diferença entre os valores exibidos. O resultado mostrou que alguns formatos de gráfico foram lidos consistentemente de forma mais precisa.
 
-Ao analisar os resultados, os estudiosos propuseram um _ranking_ de formatos, do mais preciso para o menos.
+Ao analisar os resultados, os estudiosos propuseram um *ranking* de formatos, do mais preciso para o menos.
 
 1. Posição sobre um eixo comum
 2. Posição sobre eixos não alinhados
@@ -115,15 +115,13 @@ A imagem abaixo, [preparada por Alberto Cairo para o blog](https://blogs.elpais.
 
 Figura 12
 
-![](RackMultipart20200807-4-10x14ou_html_2d4be10fdf3587.jpg)
-
-_Fonte: A hierarquia da percepção segundo experimento de Cleveland e McGill. Elaborado por Alberto Cairo, 2012._
+![A hierarquia da percepção segundo experimento de Cleveland e McGill. Fonte: Alberto Cairo.](figura12.jpg)
 
 Quanto mais alto na escala está a forma de representação, mais fácil é usá-la para fazer comparações precisas. Quanto mais para baixo, mas difícil.
 
 Esta outra imagem, também elaborado por Cairo para o mesmo blog, mostra como isso acontece na prática.
 
-![](RackMultipart20200807-4-10x14ou_html_c1420473260e88f4.jpg)
+![](images/visualise/c1420473260e88f4.jpg)
 
 _Qual destes gráficos permite uma leitura mais precisa? Elaborado por Alberto Cairo, 2012._
 
@@ -139,9 +137,7 @@ Nesse casos, formas próximas da parte inferior da escala passam a ser mais úte
 
 Veja este gráfico sobre o resultado das eleições presidenciais no Brasil em 2020:
 
-Figura 14 - xxx
-
-![](RackMultipart20200807-4-10x14ou_html_95de7685599175c9.png)
+![](figura14.png)
 
 _Fonte: Mapa do resultado das eleições presidenciais de 2018 no Brasil, produzido pelo Estadão_
 
@@ -165,7 +161,7 @@ Veja o gráfico abaixo, gerado a partir de dados ficcionais, sem muito esforço 
 
 Figura 15 - xxxx
 
-![](RackMultipart20200807-4-10x14ou_html_d50b7ad0bd5f8c88.png)
+![](images/visualise/d50b7ad0bd5f8c88.png)
 
 Fonte: elaboração própria
 
@@ -181,7 +177,7 @@ Removendo todos estes elementos, ficamos com um gráfico mais próximo daquilo q
 
 Figura XX - xxxx
 
-![](RackMultipart20200807-4-10x14ou_html_768e0c1e8f9fc19f.png)
+![](images/visualise/768e0c1e8f9fc19f.png)
 
 Fonte - elaboração própria
 
@@ -191,7 +187,7 @@ Agora, faça o mesmo exercício com o gráfico abaixo. Segundo as regras dispost
 
 Figura 17
 
-![](RackMultipart20200807-4-10x14ou_html_b008b62bb2b0e6ce.png)Fonte: _Gráfico publicada na Glamour Magazine na década de 1980, feito por Nigel Holmes_
+![](images/visualise/b008b62bb2b0e6ce.png)Fonte: _Gráfico publicada na Glamour Magazine na década de 1980, feito por Nigel Holmes_
 
 **Conectando-se com o público**
 
@@ -201,7 +197,7 @@ O trabalho de Holmes foi alvo de críticas ferozes por parte de Tufte, que desta
 
 Figura 18
 
-![](RackMultipart20200807-4-10x14ou_html_42080041057b00f9.jpg)
+![](images/visualise/42080041057b00f9.jpg)
 
 _Fonte: Gráfico publicado na revista Time em agosto de 1982, feito por Nigel Holmes_
 
@@ -233,7 +229,7 @@ Os estudiosos pediram para que voluntários avaliassem gráficos que representav
 
 Figura 19
 
-![](RackMultipart20200807-4-10x14ou_html_c6a8681a27afa825.png)
+![](images/visualise/c6a8681a27afa825.png)
 
 _Fonte: Exemplo de um gráfico com &#39;chartjunk&#39; produzido por Tufte e um gráfico minimalista com o os mesmos dados, produzido pelos autores do estudo_
 
@@ -273,7 +269,7 @@ Dessa forma, os formatos mais indicados para essa tarefa são **gráficos de bar
 
 Figura 20
 
-![](RackMultipart20200807-4-10x14ou_html_1ec29446a618164d.png)
+![](images/visualise/1ec29446a618164d.png)
 
 _Fonte: Gráfico de barras publicado na The Economist. Note que aqui a barra é composta por dois valores, cada um representado por uma cor. Na prática, eles se somam para representar uma barra única._
 
@@ -293,7 +289,7 @@ Por sorte, existem alternativas melhores. Vamos voltar para o gráfico de barras
 
 Recapitulando: estamos vendo qual é a composição da carga tributária de um país. A parte **azul clara** mostra o **percentual referente ao imposto de renda**. A parte **azul escura** , o **percentual referente à seguridade social**.
 
-![](RackMultipart20200807-4-10x14ou_html_5d42826b6ec3241e.png)
+![](images/visualise/5d42826b6ec3241e.png)
 
 Fonte: Recorte da figura anterior
 
@@ -321,7 +317,7 @@ Assim, faz sentido usar um formato de visualização que realça a tendência e,
 
 Vamos analisar o gráfico abaixo, [publicado pelo The New York Times](https://archive.nytimes.com/www.nytimes.com/imagepages/2006/08/26/weekinreview/27leon_graph2.html?ref=patrick.net) em 2006.
 
-![](RackMultipart20200807-4-10x14ou_html_83168efc20951aed.png)
+![](images/visualise/83168efc20951aed.png)
 
 Na prática, poderíamos substituir essa linha por uma série de barras ou pontos: o valor de cada ano é representado, afinal, pela posição do ponto mais alta da linha.
 
@@ -343,7 +339,7 @@ De vez em quando, é melhor perder precisão e ganhar escopo, permitindo assim q
 
 Vamos olhar para um exemplos prático e marcante que mostra como uma abordagem menos precisa pode ser útil. A visualização de dados usa cores, tidas como a mais imprecisa das formas de representação, para oferecer um olhar original sobre um tema já muito explorado.
 
-![](RackMultipart20200807-4-10x14ou_html_fb6e047c5b724cd7.png)
+![](images/visualise/fb6e047c5b724cd7.png)
 
 _Fonte: &quot;Warming stripes&quot;, listras do aquecimento, publicadas pelo climatologista Ed Hawkins em 2018_
 
@@ -365,7 +361,7 @@ Trata-se de um tipo de visualização que mostra qual é a **distribuição** do
 
 _Figura_ 26
 
-![](RackMultipart20200807-4-10x14ou_html_b654323e83cd7eff.png)
+![](images/visualise/b654323e83cd7eff.png)
 
 _O gráfico acima mostra a distribuição das notas no Enem 2018: muitos alunos tiraram entre 400 e 600. Poucos tiraram um valor perto de 800. Fonte: elaboração própria_
 
@@ -385,7 +381,7 @@ Entretanto, com cuidado e atenção especial para as explicações, ele pode ser
 
 Figura 27
 
-![](RackMultipart20200807-4-10x14ou_html_36295b52ee3e7ccf.png)
+![](images/visualise/36295b52ee3e7ccf.png)
 
 A sobreposição de três histogramas, no caso, revela que a distribuição de notas dos alunos mais ricos tende muito mais para a direita -- e para as notas mais altas -- do que a dos alunos mais pobres.
 

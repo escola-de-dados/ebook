@@ -1,14 +1,11 @@
-# Limpeza de dados
-
+# Analise
 Você já checou como os dados foram coletados e divulgados e não encontrou nenhum problema. Também já entrou em contato com os responsáveis pelo levantamento e os números parecem responder aos mais rigorosos critérios de qualidade. Além disso, você verificou se os arquivos tinham alguns erros comuns e tudo parece estar conforme o esperado. Agora é só sucesso, certo? Nem sempre.
 
 O maior risco de erro vem de onde menos prestamos atenção: nós mesmos. Nossos próprios vieses e eventuais falhas nas premissas que adotamos na hora de analisar um banco de dados são um estoque inesgotável de cascas de banana.
 
 Philip Meyer, criador do jornalismo de dados, propõe uma reflexão que ajuda a entender esse problema.
 
-Em seu livro de 1973, _Precision Journalism_, ele discute a maneira como repórteres encaram a missão de reportar fatos com objetividade. De acordo com Meyer, jornalistas gostam de se entender como pessoas de mente aberta, capazes de embarcar em investigações como &quot;tábulas rasas&quot;, sem qualquer prejulgamento.
-
-O autor aponta, porém, que isso é impossível. Na prática, não dá para começar a pensar sobre qualquer problema sem partir de um enquadramento teórico ou de uma hipótese. Nós começamos a investigar um assunto porque achamos que pode existir algo de interesse ali, afinal.
+Em seu livro de 1973, "*Precision Journalism*", ele discute a maneira como repórteres encaram a missão de reportar fatos com objetividade. De acordo com Meyer, jornalistas gostam de se entender como pessoas de mente aberta, capazes de embarcar em investigações como "tábulas rasas", sem qualquer prejulgamento. O autor aponta, porém, que isso é impossível. Na prática, não dá para começar a pensar sobre qualquer problema sem partir de um enquadramento teórico ou de uma hipótese. Nós começamos a investigar um assunto porque achamos que pode existir algo de interesse ali, afinal.
 
 Paul Bradshaw, professor da Birmingham City University, publicou recentemente [um artigo](https://onlinejournalismblog.com/2020/03/24/a-journalists-guide-to-cognitive-bias-and-how-to-avoid-it/) relacionado ao tema. O texto explora como diversos vieses cognitivos afetam o trabalho jornalístico. Sem jargão, isso significa o seguinte: existem vários mecanismos programados na mente humana que fazem com que nossa avaliação da realidade não seja tão isenta e objetiva como gostaríamos que fosse.
 
@@ -30,9 +27,9 @@ Por fim, Meyer também destaca a importância de assumir uma postura de **transp
 
 Explico melhor: cientistas estão acostumados a registrar todos os seus passos de forma detalhada. Junto com a conclusão de seus experimentos, publicam também uma descrição detalhada do método utilizado, os dados relacionados e um passo a passo de como os resultados foram obtidos.
 
-Assim, um trabalho científico é também uma espécie de &quot;mapa&quot; que serve para que colegas (na revisão entre pares, por exemplo) e o público em geral possam verificar se tudo está como deveria estar ou se há alguma falha no estudo.
+Assim, um trabalho científico é também uma espécie de "mapa" que serve para que colegas (na revisão entre pares, por exemplo) e o público em geral possam verificar se tudo está como deveria estar ou se há alguma falha no estudo.
 
-O jornalismo investigativo &quot;tradicional&quot; faz isso em certa medida, quando reúne documentos e registros concretos que podem ser verificados: atas de reunião, contratos, editais… Uma reportagem de impacto geralmente cita e mostra elementos como esses, o que ajuda a conferir credibilidade ao relato.
+O jornalismo investigativo "tradicional" faz isso em certa medida, quando reúne documentos e registros concretos que podem ser verificados: atas de reunião, contratos, editais… Uma reportagem de impacto geralmente cita e mostra elementos como esses, o que ajuda a conferir credibilidade ao relato.
 
 A coisa fica mais complicada, entretanto, quando o trabalho envolve informações confidenciais, fontes anônimas ou eventos que o repórter testemunhou em primeira pessoa. Algumas reportagens, pela própria natureza, não podem vir acompanhadas da demonstração de evidências.
 
@@ -58,7 +55,7 @@ Agora, já sabemos que dados podem trazer erros e vieses e que esses problemas p
 
 Falta entender, entretanto, como esses dados ruins podem afetar a sociedade de forma negativa - e o que podemos fazer diante disso.
 
-Em 2016, [o veículo americano](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)[_ProPublica_](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)[investigou](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) como um programa de inteligência artificial usado pelo sistema de justiça americano discriminava pessoas negras.
+Em 2016, [o veículo americano](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)_[ProPublica](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)_[investigou](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) como um programa de inteligência artificial usado pelo sistema de justiça americano discriminava pessoas negras.
 
 Essa inteligência artificial supostamente era capaz de dizer qual era a chance de um prisioneiro reincidir no crime caso fosse solto e, assim, ajudar juízes a tomarem decisões melhores. O programa avalia dados sobre o réu e emite uma nota, em uma escala de 1 a 10, para mensurar o risco. O juiz, depois de consultar o valor, decide o que fazer: concede liberdade condicional ou mantém o sujeito na prisão?
 
@@ -122,37 +119,36 @@ Antes de aprender como mexer com essas ferramentas, porém, precisamos relembram
 
 ## Operações matemáticas básicas
 
-Nesta seção, aprenderemos um pouco sobre como calcular porcentagem e taxas, além de ter algumas dicas relacionadas à correção de valores pela inflação e análise de séries temporais. Para uma descrição mais detalhada das operações matemáticas básicas importantes para o trabalho com dados vale conferir o livro de Sarah Cohen, Numbers In The Newsroom. Trata-se de um manual clássico escrito por uma ex-editora de jornalismo de dados do New York Times, que apresenta os conceitos da matemática que mais são usados nas redações de forma didática.
+Nesta seção, aprenderemos um pouco sobre como calcular porcentagem e taxas, além de ter algumas dicas relacionadas à correção de valores pela inflação e análise de séries temporais. Para uma descrição mais detalhada das operações matemáticas básicas importantes para o trabalho com dados vale conferir o livro de Sarah Cohen, _"Numbers In The Newsroom"_. Trata-se de um manual clássico escrito por uma ex-editora de jornalismo de dados do New York Times, que apresenta os conceitos da matemática que mais são usados nas redações de forma didática.
 
 **Porcentagem**
 
-Calcular a porcentagem é, provavelmente, a tarefa mais comum de um jornalista em redação. Manchetes como &quot;65% dos entrevistados se preocupam com o desemprego&quot; são extremamente comuns e não costumamos pensar muito no que elas significam. É óbvio, certo?
+Calcular a porcentagem é, provavelmente, a tarefa mais comum de um jornalista em redação. Manchetes como "65% dos entrevistados se preocupam com o desemprego" são extremamente comuns e não costumamos pensar muito no que elas significam. É óbvio, certo?
 
 Pode até ser, mas vale a pena esmiuçar o conceito. Quando alguém menciona 65% dos entrevistados, na prática está dizendo que 65 de cada 100 deles demonstrou preocupação com o desemprego.
 
-Entretanto, a descrição metodológica dessa pesquisa diz que foram entrevistados, na verdade, 6.734 brasileiros e não 100. Desses, 4.377 disseram que estavam preocupados, em vez de 65. Nesse contexto, por que estamos falando de &quot;65 de cada 100&quot; em vez de &quot;4.377 de cada 6.734&quot;?
+Entretanto, a descrição metodológica dessa pesquisa diz que foram entrevistados, na verdade, 6.734 brasileiros e não 100. Desses, 4.377 disseram que estavam preocupados, em vez de 65. Nesse contexto, por que estamos falando de "65 de cada 100" em vez de "4.377 de cada 6.734"?
 
-A explicação é simples: é mais fácil entender o que significa &quot;65 de 100&quot; do que &quot;4.377 de 6.734&quot;. No primeiro caso, fica bem mais fácil entender que estamos falando de mais da metade do total. Ao falar em &quot;65%&quot;, a proporção dos preocupados fica mais clara.
+A explicação é simples: é mais fácil entender o que significa "65 de 100" do que "4.377 de 6.734". No primeiro caso, fica bem mais fácil entender que estamos falando de mais da metade do total. Ao falar em "65%", a proporção dos preocupados fica mais clara.
 
-É para isso que serve a porcentagem: o cálculo parte de um valor arbitrário e difícil de compreender e o transforma em algo mais palatável. O passo a passo é:
+É para isso que serve a porcentagem: o cálculo parte de um valor arbitrário e difícil de compreender e o transforma em algo mais palatável. O passo a passo é o seguinte:
 
-Figuras2, 3 e 4 - Como calcular percentuais
+![Para calcular o percentual neste exemplo, primeiro, efetuamos esta divisão](images/analise/figura2.png) 
 
-![](RackMultipart20200807-4-10x14ou_html_f944026a85b552ee.png) ![](RackMultipart20200807-4-10x14ou_html_14d33b825617923.png)
+![Em seguida, multiplicamos a taxa obtida por cem, afinal, queremos o percentual](images/analise/figura3.png)
 
-![](RackMultipart20200807-4-10x14ou_html_d3b35e2e7e54ee2a.png)
+Então, chegamos ao resultado de 64,9%.
 
-Agora que já entendemos o que é uma porcentagem, podemos dar um passo adiante e falar de variação percentual, outro tema que é comum em jornais. Veja este exemplo real de título: &quot;[Com Bolsonaro, liberação de agrotóxicos cresceu 42%, diz estudo](https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2019/05/17/com-bolsonaro-liberacao-de-agrotoxicos-cresceu-42-diz-estudo.htm)&quot;.
+Agora que já entendemos o que é uma porcentagem, podemos dar um passo adiante e falar de variação percentual, outro tema que é comum em jornais. Veja este exemplo real de título: "[Com Bolsonaro, liberação de agrotóxicos cresceu 42%, diz estudo](https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2019/05/17/com-bolsonaro-liberacao-de-agrotoxicos-cresceu-42-diz-estudo.htm)".
 
 Vamos aos números: de acordo com a reportagem, até abril de 2019, o governo de Jair Bolsonaro havia aprovado o uso de 166 novos agrotóxicos. No mesmo período de 2018, sob outro presidente, haviam sido 117. Como fazemos para chegar nessa variação de 42%, então?
 
 Primeiro, precisamos calcular a **diferença** entre a aprovação de agrotóxicos em 2019 e 2018. Depois, queremos saber quanto essa diferença representa do **valor original**. Na prática, é muito parecido com o cálculo simples de porcentagem, mas com um passo a mais.
 
-Veja:
-
-Figuras 5, 6, 7, 8 - Cálculo de diferença percentual
-
-![](RackMultipart20200807-4-10x14ou_html_d388f07b626e2db3.png) ![](RackMultipart20200807-4-10x14ou_html_1e78d85f96c10d4.png) ![](RackMultipart20200807-4-10x14ou_html_ebd99b4ea5f8d5b4.png) ![](RackMultipart20200807-4-10x14ou_html_c6db6cc10b096922.png)
+![](images/analise/figura5.png) 
+![](images/analise/figura6.png) 
+![](images/analise/figura7.png) 
+![](images/analise/figura8.png)
 
 O que todas essas contas fazem, em sua essência, é descobrir **o quanto a mudança nos números brutos** representa do valor inicial. Discernir isso é importante para não cair em um erro comum: confundir variação percentual e diferença em pontos percentuais.
 
@@ -184,7 +180,7 @@ A resposta simples é que mais gente é assassinada no Brasil do que no país ca
 
 Como podemos responder a essa pergunta de forma justa? **Usando uma taxa que coloque esses números na mesma base.** Assim, conseguimos saber oquão comum são as ocorrências de assassinato dentro de uma população. Veja abaixo o passo a passo e repare como o processo se assemelha ao da porcentagem:
 
-![](RackMultipart20200807-4-10x14ou_html_9766d28aed587bd.png) ![](RackMultipart20200807-4-10x14ou_html_7b72df773481bf49.png) ![](RackMultipart20200807-4-10x14ou_html_126d65ed4fa67410.png)
+![](images/analise/9766d28aed587bd.png) ![](images/analise/7b72df773481bf49.png) ![](images/analise/126d65ed4fa67410.png)
 
 Os assassinatos, ainda que por pouco, são **menos comuns** no Brasil que em Trinidad e Tobago, mesmo que a contagem de mortes seja maior.
 
@@ -210,9 +206,9 @@ Tomemos como ponto de partida o poder de compra de um cidadão que, em janeiro d
 
 A análise temporal de um fenômeno exige dados de série histórica, isto é, informações correspondentes a um grande período de tempo. Podemos pensar, por exemplo, sobre dados de emprego e desemprego, distribuição de renda entre a população, produção agrícola e números de importação e exportação em determinado país.
 
-Se você obtiver acesso apenas às informações referentes a um curto espaço de tempo (poucos meses ou poucos anos), é preciso redobrar os cuidados quanto aos resultados e afirmações contundentes e que remetem ao &quot;melhor&quot; ou &quot;pior&quot; desempenho de um setor. Também é importante observar se a coleta de dados foi feita pela mesma instituição ao longo dos anos e/ou se a metodologia de coleta e apresentação de dados passou por mudanças.
+Se você obtiver acesso apenas às informações referentes a um curto espaço de tempo (poucos meses ou poucos anos), é preciso redobrar os cuidados quanto aos resultados e afirmações contundentes e que remetem ao "melhor" ou "pior" desempenho de um setor. Também é importante observar se a coleta de dados foi feita pela mesma instituição ao longo dos anos e/ou se a metodologia de coleta e apresentação de dados passou por mudanças.
 
-Outro ponto que exige atenção é a sazonalidade, muito importante na comparação entre períodos. Em períodos regulares do ano, por exemplo, o trânsito das cidades costuma ser bastante movimentado. Assim, não é possível comparar a circulação de veículos em períodos &quot;normais&quot; com os meses de janeiro e fevereiro. É natural que a circulação de veículos na cidade caia nos meses de férias escolares.
+Outro ponto que exige atenção é a sazonalidade, muito importante na comparação entre períodos. Em períodos regulares do ano, por exemplo, o trânsito das cidades costuma ser bastante movimentado. Assim, não é possível comparar a circulação de veículos em períodos "normais" com os meses de janeiro e fevereiro. É natural que a circulação de veículos na cidade caia nos meses de férias escolares.
 
 Produção agrícola e até mesmo criminalidade são outras áreas que bem exemplificam a necessidade de escolher períodos comparáveis entre eles, visto que há oscilação dos dados de acordo com os meses. Por isso, é fundamental que qualquer análise seja feita a partir do mesmo período correspondente no ano ou nos anos anteriores. Na dúvida, consulte um especialista.
 
@@ -220,7 +216,7 @@ Daqui a alguns anos, pense bem antes de comparar qualquer tempo com períodos de
 
 ## Estatística para leigos
 
-Depois de entrar em alguns conceitos de matemática básica, precisamos discutir asprincipais noções de estatística. Na linguagem do dia a dia, costumamos chamar de estatística tudo aquilo que é número. Quando um repórter fala de &quot;trazer estatísticas&quot; para uma matéria, geralmente está falando de rechear o texto com exemplos, contagens, porcentagens e afins.
+Depois de entrar em alguns conceitos de matemática básica, precisamos discutir asprincipais noções de estatística. Na linguagem do dia a dia, costumamos chamar de estatística tudo aquilo que é número. Quando um repórter fala de "trazer estatísticas" para uma matéria, geralmente está falando de rechear o texto com exemplos, contagens, porcentagens e afins.
 
 Estatística é, na verdade, uma ciência que se dedica a analisar e interpretar bancos de dados. Geralmente, o jornalista ou comunicador trabalha com um campo específico da área: **a estatística descritiva** , que se preocupa em resumir de forma significativa as características de um conjunto de informações.
 
@@ -235,8 +231,6 @@ Na prática, o cálculo da média tenta encontrar um número que seja capaz de r
 Não é algo tão simples e justo quanto parece, como qualquer estudante que tenha ficado insatisfeito com sua nota final já percebeu. No entanto, existem casos em que usar a média é ainda mais complicado.
 
 Veja, na tabela abaixo, a distribuição dos salários de uma empresa:
-
-Quadro X - Salários em uma empresa
 
 | **Empregado** | **Salários (em mil R$)** |
 | --- | --- |
@@ -256,7 +250,7 @@ Quadro X - Salários em uma empresa
 | Camila | 28.0 |
 | Amanda | 150.0 |
 
-Ao calcular a média salarial dos funcionários, chegamos a um número de 15 mil reais por mês. Entretanto, **não há uma única pessoa que receba esse valor**. Nesse caso, a média não oferece um bom resumo da realidade.
+Ao calcular a média salarial dos funcionários, chegamos a um número de R$ 15 milpor mês. Entretanto, **não há uma única pessoa que receba esse valor**. Nesse caso, a média não oferece um bom resumo da realidade.
 
 Isso acontece porque os salários de Camila e Amanda são muito maiores que os demais. Como o cálculo da média simples dá um mesmo peso para todos os elementos, o resultado acaba sendo muito sensível a extremos como esses.
 
@@ -288,7 +282,7 @@ O **desvio padrão** , por exemplo, é útil para saber se estamos diante de um 
 
 Confuso? Nem tanto. Vamos voltar aos dados de salários com que trabalhamos, cuja média é R$ 15 mil.
 
-Para calcular o desvio padrão, precisamos calcular a diferença do salário de cada funcionário da média salarial: Jéssica, por exemplo, ganha R$ 1,5 mil, ou seja, está R$ 14,5 mil reais distante da média. Amanda ganha R$ 150 mil, então está R$ 135 mil reais distante da média.
+Para calcular o desvio padrão, precisamos calcular a diferença do salário de cada funcionário da média salarial: Jéssica, por exemplo, ganha R$ 1,5 mil, ou seja, está R$ 14,5 mil distante da média. Amanda ganha R$ 150 mil, então está R$ 135 mildistante da média.
 
 Ao somar todas essas diferenças e dividir pelo total de funcionários, temos o desvio padrão, que tenta resumir o quão uniforme é um banco de dados. Um desvio padrão maior indica dados mais díspares, com a presença de um ou mais extremos.
 
@@ -362,9 +356,9 @@ Com as tabelas dinâmicas, você conseguirá de fato utilizar os editores de pla
 
 Existem várias operações de análise dos dados que são necessárias para respondê-la: primeiro, você precisa agrupar os doadores de acordo com uma coluna. Ao realizar agrupamentos, sempre dê preferência a usar campos identificadores como CPF ou CNPJ ao invés de campos de texto, como o nome, que são mais suscetíveis a erros de digitação.
 
-Ao agrupá-los, será necessário então fazer uma soma na coluna com os valores financiados para, então, ordenar os resultados de forma decrescente e, assim, descobrir os 10 principais financiadores.
+Ao agrupá-los, será necessário, então, fazer uma soma na coluna com os valores financiados para, em seguida, ordenar os resultados de forma decrescente e, assim, descobrir os 10 principais financiadores.
 
-Na tabela dinâmica, você conseguirá realizar todas estas operações. Basicamente, a ideia por trás deste recurso é que você deve criar uma nova tabela, que irá &quot;moldar&quot; os dados da planilha original para que eles assumam a forma que você deseja.
+Na tabela dinâmica, você conseguirá realizar todas estas operações. Basicamente, a ideia por trás deste recurso é que você deve criar uma nova tabela, que irá "moldar" os dados da planilha original para que eles assumam a forma que você deseja.
 
 Em geral, as linhas dessa nova tabela representam uma entidade, como um doador, nesse exemplo. Nas colunas, geralmente, aparecemos valores agregados por categoria. No exemplo, revelariam a soma total de doações feitas por cada pessoa **.**
 
@@ -372,9 +366,9 @@ Assim, independente do software utilizado, o importante ao entrevistar dados com
 
 Imagens 24 e 25
 
-![](RackMultipart20200807-4-10x14ou_html_6c770454c7bb490.png)
+![](images/analise/6c770454c7bb490.png)
 
-![](RackMultipart20200807-4-10x14ou_html_ee6b7cd6215d4ab7.png)
+![](images/analise/ee6b7cd6215d4ab7.png)
 
 _As duas imagens acima mostram como funciona uma tabela dinâmica: o valor pago por cado doador, em diferentes datas, foi agregado em uma única soma. Fonte: elaboração própria_
 
@@ -382,7 +376,7 @@ Por fim, **cruzar** dados também pode ser interessante: o termo significa traze
 
 Existem diferentes formas de cruzar tabelas diferentes. Nos editores de planilha, há funções como a procura vertical (PROCV ou, em inglês, VLOOKUP, vertical lookup), que podem resolver cruzamentos mais simples. Porém, à medida que você avançar no trabalho com dados, vai perceber que realizar cruzamentos com editores de planilha não é o ideal. Nestes casos, o recomendável é utilizar linguagens de programação ou SQL, que conta com a poderosa função JOIN, responsável por unir tabelas diferentes.
 
-Seja qual for a ferramenta que você adote, o princípio permanece: para fazer um cruzamento, você precisa de um campo que sirva como identificador, ou seja, uma coluna ou variável que esteja presente nas tabelas que serão cruzadas. A existência de campo identificador serve como uma &quot;ponte&quot; para conectar bases diferentes e é fundamental para realizar cruzamento.
+Seja qual for a ferramenta que você adote, o princípio permanece: para fazer um cruzamento, você precisa de um campo que sirva como identificador, ou seja, uma coluna ou variável que esteja presente nas tabelas que serão cruzadas. A existência de campo identificador serve como uma "ponte" para conectar bases diferentes e é fundamental para realizar cruzamento.
 
 Além disso, também vale atentar para padrões temporais (os gastos do governo crescem em algum momento do ano?), para outliers suspeitos (por que essa compra específica é muito mais cara que as demais?) e para tendências de crescimento (por que os gastos desse ministério subiram tanto a partir do ano passado?).
 

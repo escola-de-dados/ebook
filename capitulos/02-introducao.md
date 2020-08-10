@@ -65,7 +65,7 @@ Bradshaw defende que os jornalistas de dados abram seus códigos e submetam suas
 
 Como mencionamos, uma das características do jornalismo de dados desta "segunda onda" é o uso de algoritmos de inteligência artificial. Em um texto sobre o assunto, o artigo _"_[_How you&#39;re feeling when machine learning might help_](https://qz.ai/how-youre-feeling-when-machine-learning-might-help/)_"_, Jeremy B. Merril elenca algumas características úteis deste tipo de tecnologia para jornalistas. Ele desta a possibilidade dessas técnicas processarem um volume enorme de documentos, que seriam impossíveis de ser lido por humanos, em busca de padrões.
 
-Ele cita o exemplo do Atlanta Journal-Constitution, que usou o aprendizado de máquina para identificar relatórios de sanções contra médicos relacionados a abuso sexual. A equipe de dados do jornal desenvolveu cerca de 50 raspadores para diferentes sites, que permitiram a coleta de mais de [100 mil documentos de agências reguladoras](http://doctors.ajc.com/about_this_investigation/). Como era impossível ler e categorizar manualmente todos os relatórios, eles selecionaram uma amostra relevante e fizeram esta categorização manual, escolhendo palavras-chave que identificavam relatos de abuso sexual dos demais casos.
+Ele cita o exemplo do Atlanta Journal-Constitution, que usou o aprendizado de máquina para identificar relatórios de sanções contra médicos relacionados a abuso sexual. A equipe de dados do jornal desenvolveu cerca de 50 raspadores para diferentes sites, que permitiram a coleta de mais de [100 mil documentos de agênciaws reguladoras](http://doctors.ajc.com/about_this_investigation/). Como era impossível ler e categorizar manualmente todos os relatórios, eles selecionaram uma amostra relevante e fizeram esta categorização manual, escolhendo palavras-chave que identificavam relatos de abuso sexual dos demais casos.
 
 Então, treinaram uma solução de aprendizado de máquina que baseado nessas palavras assinalava quais relatórios eram provavelmente mais interessantes para a investigação. Claro que a solução não nasce pronta. Foi necessário encontrar as melhores palavras-chaves por meio de tentativa e erro, observando os resultados das escolhas utilizadas. Porém, é um exemplo interessante do potencial da inteligência artificial para lidar com uma documentação muito vasta.
 
@@ -131,6 +131,8 @@ Ainda que não seja mais um obstáculo para começar a trabalhar com dados, sabe
 
 De modo geral, existem vantagens tanto nas soluções via interface gráfica, quanto nas baseadas em linguagens de programação.
 
+---
+
 **Vantagens de usar interfaces gráficas**
 
 - Curva de aprendizado baixa: para leigos, é mais fácil aprender a usar programas com interfaces gráficas;
@@ -141,6 +143,8 @@ De modo geral, existem vantagens tanto nas soluções via interface gráfica, qu
 - Alta customização: o software será totalmente adaptável às suas necessidades;
 - Automação: é muito fácil automatizar tarefas com programação, mas nem todos programas gráficos suportam isso;
 - Escalabilidade: do mesmo modo, é fácil aumentar a escala de um software próprio para que ele lide com um volume maior de dados, por exemplo.
+
+---
 
 É comum, por exemplo, a criação de "notebooks" (blocos de notas), que trazem não só os dados, mas também os códigos que foram utilizados em determinado trabalho, além de comentários adicionais. Esta prática permite um excelente grau de transparência e detalhamento da conclusão e do método utilizado em trabalhos baseados em dados.
 
