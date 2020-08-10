@@ -22,7 +22,6 @@ Entretanto, o próprio Philip Meyer propõe uma saída para o problema que levan
 
 A seguir, um exemplo de uma tabela fora do formato tidy data.
 
-
 O que isso significa, porém?
 
 De saída, significa formalizar, enunciar e tomar consciência das hipóteses, teorias e premissas que assumimos na hora de apurar uma matéria - ou, no nosso caso, de fazer uma análise de dados. Só assim é possível fazer uma análise mais criteriosa dos pressupostos que envolvem nossa forma de pensar e as conclusões que derivam dela.
