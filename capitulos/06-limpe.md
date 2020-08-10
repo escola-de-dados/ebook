@@ -16,16 +16,12 @@ Ou seja, resumidamente, o modelo do &quot;tidy data&quot; significa que cada var
 
 ![](RackMultipart20200810-4-barqwh_html_ff01ea639a6b1792.png)
 
-Fonte: xxxx
-
 A seguir, um exemplo de uma tabela fora do formato tidy data.
 
 | **Nome/Registro** | **Turma** | **Biologia** | **Química** | **Física** |
 | --- | --- | --- | --- | --- |
 | Marcela Nunes - 20351 | A | 7 | 6 | 6 |
 | Ricardo Fernandes - 20589 | C | 5 | 4 | 7 |
-
-Fonte: XXX
 
 Na tabela acima, o fenômeno capturado são notas de alunos. Mas repare que a variável &quot;disciplina&quot; ocupa diferentes colunas. No formato tidy data, essa planilha deveria ter uma coluna chamada &quot;disciplina&quot;, onde as matérias estivessem declaradas nas células abaixo dessa coluna.
 
