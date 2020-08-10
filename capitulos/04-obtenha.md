@@ -1,5 +1,4 @@
 # Obtenha
-
 Agora que vimos alguns pontos importantes para definir o escopo de nossa pesquisa e a diversidade de formatos que os dados podem assumir, vamos voltar aos dados tabulares para entender como podemos obtê-los. Basicamente, existem três formas de se obter dados.
 
 A primeira é coletá-los você mesmo. Apesar de comum em setores como o poder público e algumas organizações da sociedade civil, no campo da comunicação, em geral, você irá lidar com dados já coletados por alguém. Por isto, como dito no capítulo anterior, não iremos abordar a coleta de dados primários neste guia.
@@ -22,7 +21,7 @@ Talvez você já conheça alguns operadores de busca mais básicos. Por exemplo,
 
 Este é apenas um entre vários operadores de busca disponíveis. Conhecer estas opções irá ampliar em muito a forma como você busca informações na internet. É possível fazer filtros por data, extensões de arquivo ou sites específicos da internet, entre várias outras opções. Além disso, você consegue combinar os operadores para fazer buscas realmente precisas. Vejamos o exemplo abaixo.
 
-_coronavirus filetype:xls site:gov.br_
+				coronavirus filetype:xls site:gov.br
 
 Se você digitar isso no Google, o buscador irá retornar todas as planilhas em Excel com extensão XLS que estão hospedados em endereços do governo brasileiro e possuem a palavra &#39;coronavírus&#39;.
 

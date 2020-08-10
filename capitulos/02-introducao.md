@@ -1,5 +1,4 @@
 # Introdução
-
 Durante a pandemia da Covid-19, gráficos representando o aumento do número de casos ao longo do tempo, por meio de curvas de distribuição, ganharam as notícias e o debate público. A visualização de dados se tornou &#39;mainstream&#39;, com o apelo de salvar vidas. Gráficos são debatidos por especialistas e leigos nas redes sociais, e a interpretação dos dados se revela uma habilidade crucial para os governos conseguirem controlar a pandemia, assim como a qualidade das estatísticas oficiais.
 
 A escala do coronavírus e suas implicações não têm precedentes, mas a visualização de dados sobre mortalidade tem um histórico que se confunde com os próprios primórdios da prática de entender e comunicar dados por meio de gráficos. Dois dos trabalhos mais icônicos da história da comunicação baseada em dados estão intimamente ligados à área de saúde e também buscavam, em última instância, salvar vidas.
