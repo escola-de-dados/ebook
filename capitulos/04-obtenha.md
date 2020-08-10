@@ -58,18 +58,25 @@ Ao solicitar dados, lembre-se ainda que a Lei de Acesso à Informação, especif
 
 Um exemplo de texto que você pode usar é a frase abaixo.
 
-&quot;Solicito que os dados sejam fornecidos preferencialmente em formato aberto (planilha em .csv,.ods, etc) de acordo com o determinado no art. 8º, §3º da Lei Federal 12.527/11, o item V do art. 24 da Lei Federal 12.695/14 e a normatiza expressa no item 6.2 da[Cartilha Técnica para Publicação de Dados Abertos no Brasil](http://dados.gov.br/pagina/cartilha-publicacao-dados-abertos), elaborada pelo Governo Federal. Solicito ainda que seja encaminhado também o dicionário de dados, documento ou explicação equivalente que descreva o significado de cada variável/coluna&quot;.
+&quot;Solicito que os dados sejam fornecidos preferencialmente em formato aberto (planilha em .csv,.ods, etc) de acordo com o determinado no art. 8º, §3º da Lei Federal 12.527/11, o item V do art. 24 da Lei Federal 12.695/14 e a normatiza expressa no item 6.2 da [Cartilha Técnica para Publicação de Dados Abertos no Brasil](http://dados.gov.br/pagina/cartilha-publicacao-dados-abertos), elaborada pelo Governo Federal. Solicito ainda que seja encaminhado também o dicionário de dados, documento ou explicação equivalente que descreva o significado de cada variável/coluna&quot;.
 
 Na sequência, entenderemos melhor o que significa na prática a noção de &#39;dados abertos&#39;. Mas antes vamos fazer uma revisão de um checklist para você conferir antes de fazer seus pedidos de LAI.
 
+---
+
 **Dicas para consultas via Lei de Acesso à Informação**
 
-| ✔️ **Faça o dever de casa** : é importante saber quem detém a informação solicitada para fazer o pedido ao órgão responsável;
+✔️ **Faça o dever de casa** : é importante saber quem detém a informação solicitada para fazer o pedido ao órgão responsável;
+
 ✔️ **Cada um no seu quadrado** : faça um pedido/protocolo para cada dado desejado, principalmente se forem informações diferentes entre si;
-✔️ **Tenha f**** oco**: pedidos muito genéricos costumam ser recusados, por isso é importante fazer recortes precisos de período, local e itens específicos. É importantes ser claro. Você pode fazer o pedido usando listas, explicar qual o recorte temporal que deseja ou mesmo quais os campos ou variáveis você gostaria de ter acesso, caso solicite dados;
+
+✔️ **Tenha foco**: pedidos muito genéricos costumam ser recusados, por isso é importante fazer recortes precisos de período, local e itens específicos. É importantes ser claro. Você pode fazer o pedido usando listas, explicar qual o recorte temporal que deseja ou mesmo quais os campos ou variáveis você gostaria de ter acesso, caso solicite dados;
+
 ✔️ **Use artigos/precedentes** : para embasar o pedido é possível recorrer a artigos da lei ou outros precedentes, como decisões em outros estados, por exemplo;
-✔️ **Antecipe sigilos** : se os dados podem ter informações sigilosas, você já pode se antecipar e solicitar que eles sejam tarjados ou removidos para evitar possíveis negativas com essa justificativa. |
-| --- |
+
+✔️ **Antecipe sigilos** : se os dados podem ter informações sigilosas, você já pode se antecipar e solicitar que eles sejam tarjados ou removidos para evitar possíveis negativas com essa justificativa;
+
+---
 
 **Dados abertos**
 

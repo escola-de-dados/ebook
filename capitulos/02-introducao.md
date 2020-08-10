@@ -14,7 +14,7 @@ Além de diversas guerras e batalhas, o século XIX teve também seis epidemias 
 
 Com isso, John Snow reforçou sua teoria de que a água poderia ser um dos vetores de contaminação, na contramão da chamada teoria miasmática, que era predominante à época e supunha a transmissão por meio do ar. A história mostrou que ele estava certo. Hoje, Snow é considerado um dos nomes fundadores da epidemiologia.
 
-! [IMG 2- mapa Snow / mapa coronavírus]
+![IMG 2- mapa Snow / mapa coronavírus]
 
 Retomamos os exemplos de Snow e Nightingale por uma dupla razão: primeiro, para desfazer um aura de novidade (&quot;hype&quot;) em torno do tema. Lidar com dados não é exatamente algo recente na experiência humana, tampouco teve início com os computadores digitais. Na verdade, no fundo, a utilização de dados é praticamente indissociável da experiência humana tal como a conhecemos.
 
