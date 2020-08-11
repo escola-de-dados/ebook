@@ -13,7 +13,7 @@ Neste capítulo, veremos quais técnicas são utilizadas para lidar com situaç�
 
 Primeiramente, vamos abordar as técnicas de busca avançada na web. Esta etapa é fundamental, pois antes de tudo você precisa definir quais termos ou palavras-chaves serão utilizadas na pesquisa. Por isso, veremos agora algumas técnicas importantes para fazer pesquisas precisas e obter os dados que você precisa.
 
-**Busca avançada na web**
+### Busca avançada na web
 
 Não raro, os dados encontram-se "escondidos" ou são de difícil acesso. Por isso, é importante conhecer alguns operadores de busca avançada na web. Basicamente, esses operadores funcionam como uma espécie de filtro, que te permite garimpar na vastidão da internet exatamente o que você precisa.
 
@@ -29,7 +29,7 @@ Para conhecer os operadores de busca disponíveis e aperfeiçoar suas habilidade
 
 Se você quiser ir fundo no tema, vale a pena pesquisar por técnicas de inteligência com fontes abertas (open source intelligence - OSINT). Os operadores de busca avançados são uma das técnicas utilizadas em OSINT. No entanto, o campo compreende várias outras abordagens, que inclusive vão além do trabalho com dados, como a geolocalização de imagens a partir de características visuais.
 
-De todo modo, as metodologias e as abordagens de OSINT são bastante interessantes para melhorar suas habilidades de investigação na internet e com dados. Um dos grupos de mais destaque nesta área é o [Bellingcat](https://www.bellingcat.com/). Vale a pena conferir suas investigações e os tutoriais que disponibilizam. Além disso, o grupo tem o guia "[_Bellingcat*s Online Investigation Toolkit_](https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/edit#)", uma compilação fantástica de fontes e recursos para obtenção de dados online.
+De todo modo, as metodologias e as abordagens de OSINT são bastante interessantes para melhorar suas habilidades de investigação na internet e com dados. Um dos grupos de mais destaque nesta área é o [Bellingcat](https://www.bellingcat.com/). Vale a pena conferir suas investigações e os tutoriais que disponibilizam. Além disso, o grupo tem o guia "[Bellingcat's Online Investigation Toolkit](https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/edit#)", uma compilação fantástica de fontes e recursos para obtenção de dados online.
 
 ## Lei de Acesso à Informação e dados abertos
 
@@ -73,7 +73,7 @@ Na sequência, entenderemos melhor o que significa na prática a noção de *dad
 
 ---
 
-**Dados abertos**
+### Dados abertos
 
 De acordo com a [Open Knowledge](http://opendatahandbook.org/guide/en/what-is-open-data/), *dados abertos* são aqueles que qualquer um pode livre e gratuitamente acessar, usar, modificar e compartilhar para qualquer propósito, inclusive para uso de comercial. Eles estão sujeitos, no máximo, à exigência de menção da autoria e abertura de trabalhos derivados.
 
@@ -97,7 +97,7 @@ Para quem está começando, apesar de serem de fácil resolução, estes problem
 
 Além disso, no fim desta seção, também veremos como lidar com dados que estão em formato PDF ou como imagens/fotos.
 
-### Separador de campos**
+### Separador de campos
 
 A sigla CSV significa _Comma Separated Values_ ou, em bom português, valores separados por vírgulas. Isto porque um arquivo CSV nada mais é que um arquivo de texto onde um certo caractere é utilizado como separador das colunas. Ou seja, se você abrir seu bloco de notas e salvar um arquivo com extensão CSV contendo o texto abaixo poderá abrí-lo depois no editor de planilhas e ele será visualizado como uma tabela.
 
@@ -131,7 +131,7 @@ Na prática, é possível utilizar qualquer caractere como separador em um CSV, 
 
 Outro problema bastante comum, não só com planilhas, mas com qualquer documento digital, são os erros de *encoding* ou codificação de caracteres. Você já tentou abrir algum arquivo e alguns caracteres especiais apareciam de forma estranha, mais ou menos como no exemplo abaixo?
 
-[Exemplo de tabela com problema de codificação de caracteres](images/obtenha/encoding.png)
+![Exemplo de tabela com problema de codificação de caracteres](images/obtenha/encoding.png)
 
 Repare como as letras com acentos na tabela acima não aparecem adequadamente. As codificações de caracteres que "traduzem" os caracteres que nos conhecemos em padrões que os computadores conseguem entender. Novamente, você não precisa se preocupar com os detalhes técnicos sobre isso para abrir suas tabelas. Basta saber que se alguns caracteres da sua tabela aparecem de forma estranha, tal como na imagem acima, então, provavelmente a codificação de caracteres selecionada não está correta.
 
@@ -163,7 +163,7 @@ Infelizmente, não existe uma solução única ou perfeita para libertar dados e
 
 Para facilitar, fizemos um resumo abaixo das principais soluções para extração de dados em PDF.
 
-**PDF como imagens(OCR)**
+### PDF como imagens(OCR)
 
 Caso você queira uma solução baseada em Python ou R, busque implementações do Tesseract:
 
@@ -179,8 +179,7 @@ Se preferir soluções que não requeiram conhecimento de programação, vale a 
 - [Yagf](https://sourceforge.net/projects/yagf-ocr/) (open source)
 - [OnlineOCR](https://www.onlineocr.net/) (gratuito) 
 
-
-**PDF como texto**
+### PDF como texto
 
 Se você tiver um documento com elementos de texto, existe uma gama maior de opções. Usando linguagens de programação, destacamos os seguintes softwares:
 
@@ -213,22 +212,24 @@ Todo processo de raspagem, _parsing_ ou limpeza de dados envolve basicamente uma
 Para melhorar seus conhecimentos em raspagem de dados, você precisa conhecer pelo menos o básico de HTML. Também são úteis conhecimentos em CSS ou XPath. Abaixo, você encontra um resumo (não-exaustivo) de algumas das principais soluções para raspagens de dados.
 
 
-**Via interface gráfica**
+### Via interface gráfica
+
 - [WebScraper](https://webscraper.io): é uma extensão do navegador Chrome, que ativa uma nova aba na seção do navegador voltada para desenvolvedores web. Com ela, você poderá descrever os caminhos de um site para  um raspador. Apesar da interface não ser tão intuitiva a princípio, é bastante poderoso e pode ser usado com sucesso em casos como o de raspagem em páginas numeradas ou quando é exigido algum tipo de navegação pelo site para obter os dados desejados.
 
 - [Portia](https://github.com/scrapinghub/portia): é uma interface gráfica para o pacote em Python chamado Scrapy
 
-**Com Python**
+### Com Python
 
 - [Scrapy](https://scrapy.org/)
-- [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)
+- [beautifulsoup4up4](https://pypi.org/project/beautifulsoup4/)
 - [Selenium](https://selenium-python.readthedocs.io/)
 
-**Com R**
+### Com R
+
 - [rvest](https://github.com/tidyverse/rvest): é parte do conjunto de bibliotecas conhecido como Tidyverse, bastante recomendado para quem deseja trabalhar com dados.
 
 
-**Comunicação com APIs**
+### Comunicação com APIs
 
 APIs são interfaces que facilitam a comunicação de dados entre computadores. A sigla significa *interface de programação de aplicações* e esta forma de acessar dados está presente nas principais plataformas e redes sociais, mas também em portais de dados governamentais.
 

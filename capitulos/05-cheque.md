@@ -1,5 +1,4 @@
 # Cheque
-
 Até agora, você aprendeu, em linhas gerais, o que são dados e como encontrá-los ou obtê-los. Para começar a fazer análises, é preciso mergulhar na etapa de verificação e limpeza dos dados.
 
 Você pode estar com uma planilha (aparentemente) bem estruturada na sua frente e ansioso para analisá-la, mas se você seguir direto para essa etapa e pular este capítulo poderá se frustrar, ter que refazer a análise ou, pior, publicar informações erradas.
@@ -13,8 +12,6 @@ A checagem é uma etapa fundamental do trabalho que dados. Na prática, ela deve
 Já falamos sobre a importância de observar a documentação que acompanha as bases de dados. Este é o primeiro passo para começar a verificação: procure pelo dicionário de dados. Em alguns casos, esse documento pode vir com diferentes nomes: leia-me, nota técnica, nota informativa, anexo etc. Esse arquivo, que funciona como uma espécie de bula, incluirá explicações sobre as variáveis adotadas na estruturação das informações.
 
 Nesse documento, idealmente, haverá também informações detalhadas sobre as unidades de medidas utilizadas (gramas, quilos ou toneladas, por exemplo) e os formatos adotados (número absoluto, índice, taxa, percentual etc.).
-
-Separador
 
 **Dados, assim como humanos, são imperfeitos**
 

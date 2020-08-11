@@ -265,9 +265,17 @@ Por sorte, existem outras medidas que podemos usar em situações com essa.
 
 A **mediana** , por exemplo, usa uma tática diferente para encontrar um número representativo do banco de dados: ela divide a série em duas metades e pega o valor que está **exatamente no meio**.
 
-No caso de uma série hipotética [1, 2, **3** , 4, 8], o valor seria o 3, já que há uma mesma quantidade de valores maiores e menores do que ele.
+Consideremos esta série hipotética: 
 
-No caso dos salários que mostramos acima, a mediana é um dos salários de R$ 3,5 mil:[1.5, 2.5, 2.5, 2.5, 2.5, 3.5, 3.5, **3.5** , 4.0, 4.5, 5.0, 5.5, 6.5, 28.0, 150.0]. Note como há exatamente sete itens acima e sete itens abaixo do valor selecionado. O valor não é sensível a valores exagerados e oferece um dado mais real.
+> [1, 2, **3** , 4, 8]
+
+Neste caso, o valor seria o 3, já que há uma mesma quantidade de valores maiores e menores do que ele.
+
+No caso dos salários que mostramos acima, a mediana é um dos salários de R$ 3,5 mil.
+
+> [1.5, 2.5, 2.5, 2.5, 2.5, 3.5, 3.5, **3.5** , 4.0, 4.5, 5.0, 5.5, 6.5, 28.0, 150.0] 
+
+Note como há exatamente sete itens acima e sete itens abaixo do valor selecionado. O valor não é sensível a valores exagerados e oferece um dado mais real.
 
 A **moda** , outra métrica de centralidade, usa uma estratégia mais simples: selecionar, simplesmente, o número que mais se repete. No exemplo acima, é o salário de R$ 2,5 mil, que ocorre com quatro dos 15 funcionários.
 

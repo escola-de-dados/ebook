@@ -1,5 +1,4 @@
 # Defina
-
 Na prática, tudo começa com os dados ou um tema. Ou seja, em geral, no início de um projeto ou investigação baseada em dados, você irá se encontrar em uma destas duas situações: 1) você tem diante de si dados dos quais precisa extrair respostas ou 2) possui um tema, questão ou hipótese a ser estudada.
 
 Na primeira situação, você já obteve os dados, mas precisa explorá-los para gerar novos conhecimentos ou responder a uma questão já definida a priori. Ou seja, seu escopo inicial de certa forma já está definido. O recomendável aqui é compreender pelo menos o básico sobre análise de dados e análise exploratória para conseguir interpretar melhor os dados - iremos falar sobre isso nos capítulos seguintes.

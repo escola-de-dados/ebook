@@ -12,7 +12,6 @@ header-includes:
 ...
 
 # Apoiadores
-
 Esta publicação foi realizada graças ao apoio de 282 pessoas, que colaboraram com a primeira campanha de financiamento colaborativo da Escola de Dados em 2019.
 
 \Begin{multicols}{2}

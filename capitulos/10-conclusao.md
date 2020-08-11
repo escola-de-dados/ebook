@@ -1,6 +1,4 @@
 # Conclusão
-
-
 Ainda que este livro possa te dar um pontapé para começar a trabalhar com dados, nem de longe iremos esgotar todo o universo sobre o tema. Tanto por conta de sua complexidade própria quanto pelo ritmo incessante de novidades na área, a utilização de de dados na comunicação hoje é um campo em constante crescimento. E, como em muitas outras áreas, o melhor aprendizado se dá na prática.
 
 Por isso, para terminar este guia, iremos compartilhar algumas dicas de como você pode continuar aprendendo. Na Escola de Dados, acreditamos que este processo de aprendizagem é impulsionado por experiências coletivas e comunitárias. Por isso, estimulamos encontros (como o [Cerveja com Dados](https://escoladedados.org/2018/02/que-tal-organizar-um-cerveja-com-dados-em-sua-cidade/) e a Conferência de Jornalismo de Dados e Métodos Digitais, o [Coda.Br](http://coda.escoladedados.org/)) e, em parceria com a Associação Brasileira de Jornalismo Investigativo (ABRAJI), mantemos o [jornalismodedados.org](http://jornalismodedados.org/).

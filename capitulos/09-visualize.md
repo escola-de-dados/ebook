@@ -1,5 +1,4 @@
 # Visualize
-
 Ainda que a visualização de dados se insira no fluxo de trabalho com dados, esta área se trata de um campo do conhecimento que merece enorme atenção por si só. É impossível falar de forma exaustiva sobre o tema em um capítulo de livro, já que o campo merece obras e mais obras que se debruçam especificamente sobre ele - obras estas que, aliás, existem em profusão. Assim, nas próximas páginas, a abordagem será pragmática e bastante resumida.
 
 Antes de mais nada, vamos definir o que é visualização de dados: como reconhecer uma visualização de dados na página de uma publicação? Como não confundir com outras formas de representação visual comuns na imprensa?
@@ -297,7 +296,7 @@ Perceba que aqui começamos a passar para a outra ponta da hierarquia da percep�
 
 No próximo item, vamos falar de forma mais genérica sobre a utilidade de representações desse tipo.
 
-**Enxergar tendências gerais**
+### Enxergar tendências gerais
 
 Parece um contrassenso escolher formas menos precisas quando temos à disposição gráficos que permitem fazer comparações precisas.
 
@@ -327,7 +326,7 @@ Por fim, vamos apresentar um formato muito parecido com o gráfico de barras, ma
 
 Trata-se de um tipo de visualização que mostra qual é a **distribuição** dos seus dados, o que é essencial para entender melhor as características do fenômeno que estamos analisando.
 
-![](images/visualize/figura26.png)
+![Histograma com distribuição das notas no ENEM](images/visualize/figura26.png)
 
 _O gráfico acima mostra a distribuição das notas no Enem 2018: muitos alunos tiraram entre 400 e 600. Poucos tiraram um valor perto de 800. Fonte: elaboração própria_
 
@@ -345,7 +344,7 @@ De teor um pouco mais técnico, esse tipo de gráfico não costuma aparecer muit
 
 Entretanto, com cuidado e atenção especial para as explicações, ele pode ser uma ferramenta útil para explicar fenômenos complexos para o leitor, como no exemplo abaixo, retirado de [uma reportagem do Estadão](https://www.estadao.com.br/infograficos/educacao,no-enem-1-a-cada-4-alunos-de-classe-media-triunfa-pobres-sao-1-a-cada-600,953041) sobre o impacto da desigualdade socioeconômica nos resultados do Enem.
 
-![](images/visualize/figura27.png)
+![Histogramas sobrepostos para a comparação de distribuições](images/visualize/figura27.png)
 
 A sobreposição de três histogramas, no caso, revela que a distribuição de notas dos alunos mais ricos tende muito mais para a direita -- e para as notas mais altas -- do que a dos alunos mais pobres.
 
@@ -367,34 +366,24 @@ Entretanto, no jornalismo, é comum tratar um gráfico como ponto final do proce
 Pensar dessa maneira, porém, é ignorar um dos maiores potenciais da visualização de dados no jornalismo. Ainda durante a fase da análise de dados, vale a pena elaborar gráficos para entender melhor os números com os quais você está trabalhando.Com paciência, tentativa e erro, é bem possível que tendências até então ignoradas aparecem, revelando novos ângulos para uma reportagem.
 
 
-
-: Ferramentas para visualização de dados.
-+----------------+------------+-----------------------------------+
-|Ferramenta      | Plataforma | Vantagens                         |
-+================+============+===================================+
-| Flourish	     | Web        | - Interface amigável			  |
-|          		 |            | - Gráficos interativos    		  |
-|				 | 			  | - Junta visualizações em histórias|
-+----------------+------------+-----------------------------------+
-| Datawrapper    | Web        | - Gráficos elegantes     		  |
-|                |            | - Atualização em tempo real       |
-|                |            | - Edição colaborativa             |
-+----------------+------------+-----------------------------------+
-| Raw Graphs     | Web        | - Bom para gráficos pouco usuais  |
-|                |            | - Baseado em D3 				  |
-|                |            | - Código aberto                   |
-+----------------+------------+-----------------------------------+
-| Ggplot2	     | R          | - Sua "gramática" para  construir visualizações  |
-|                |            | - Gráficos elegantes com poucas linhas 				  |
-+----------------+------------+-----------------------------------+
-| Raw Graphs     | Web        | - Bom para gráficos pouco usuais  |
-|                |            | - Baseado em D3 				  |
-|                |            | - Código aberto                   |
-+----------------+------------+-----------------------------------+
-| Tableau        | Windows    | - Fácil de usar  				  |
-|                | MacO       | - Bom para análises exploratórias |				  
-+----------------+------------+-----------------------------------+
-
-
-
 Dito isso, separamos uma seleção de 10 ferramentas para visualização de dados, que são úteis tanto para quem está começando quanto para pessoas com mais conhecimento. Todas são gratuitas e aquelas baseadas na web são altamente indicadas para iniciantes, que podem gerar visualizações de alto nível, sem precisar recorrer à programação.
+
+
+- Flourish (web): tem uma interface amigável e permite a criação de gráficos interativos, que podem ser unidos em histórias;
+- Datawrapper (web): produz gráficos elegantes facilmente, com atualização em tempo real e edição colaborativa;
+
+- Raw Graphs (web): bom para gráficos pouco usuais, é baseado em D3 (JavaScript) e tem código aberto;
+
+- GGplot2 (R): tem uma "gramática" para visualização de dados que é considerada referência, permitindo produzir gráficos muito elegantes em poucas linhas;
+
+- Tableau (Windows/MacOS): fácil de usar, bom para análises exploratórias;
+
+- Matplotlib (Python): bom para gráficos simples e análises exploratórias;
+
+- Seaborn (Python): permite a criação de gráficos mais complexos;
+
+- Google Charts (JavaScript): conta com diversos modelos/templates, além de gráficos responsivos;
+
+- D3 (JavaScript): permite a criação de isualizações complexas na web, conta com ampla documentação e exemplos;
+
+- C3 (JavaScript): baseado em D3, porém, mais simples, permite gerar visualizações interativas e responsivas;

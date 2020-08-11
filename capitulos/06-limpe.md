@@ -1,5 +1,4 @@
 # Limpe
-
 A limpeza de dados é uma etapa fundamental de qualquer trabalho com dados. Em geral, ela não é muito empolgante, mas pode tomar um tempo considerável do seu trabalho. Aqui, você irá organizar os dados para que seja possível posteriormente realizar análises, operações matemáticas, filtros, ordenações, enfim, tudo que você precisa para responder às perguntas desejadas.
 
 Ao limpar seus dados, você irá alterar as informações originais da planilha. Por isso, é importante tomar nota das alterações, bem com manter uma cópia da versão original. Em caso de problemas com seu trabalho de verificação e limpeza, você sempre poderá recomeçar do zero.
@@ -76,7 +75,7 @@ Nela, você pode carregar dados em tabelas, realizar raspagens de dados ou carre
 
 ## Tópicos de atenção
 
-Nesta seção, veremos alguns tópicos que merecem atenção especial na hora de limpar dados, independente da ferramenta ou software que você irá utilizar.
+Nesta seção, veremos alguns tópicos que merecem atenção especial na hora de limpar dados, independente da ferramenta ou software que você irá utilizar. Para uma listagem mais completa sobre o tema, vale consultar o [Guia Quartz para Limpeza de Dados](https://escoladedados.org/tutoriais/guia-quartz-para-limpeza-de-dados/), que traduzimos para o português na Escola de Dados.
 
 ### Ausência de valor
 
