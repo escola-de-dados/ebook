@@ -321,7 +321,7 @@ Pouco importa quantos graus a mais o ano de 2008 teve em comparação ao ano de 
 
 Logicamente, seria possível produzir vários outros gráfico que passe a mesma mensagem de forma mais precisa, mas é difícil imaginar um formato que tenha o mesmo efeito intuitivo. Ao ver essa imagem, o leitor de imediato entende o que está representado.
 
-## Enxergar a distribuição
+### Enxergar a distribuição
 
 Por fim, vamos apresentar um formato muito parecido com o gráfico de barras, mas que não é exatamente a mesma coisa: o **histograma.**
 
@@ -366,7 +366,7 @@ Entretanto, no jornalismo, é comum tratar um gráfico como ponto final do proce
 
 Pensar dessa maneira, porém, é ignorar um dos maiores potenciais da visualização de dados no jornalismo. Ainda durante a fase da análise de dados, vale a pena elaborar gráficos para entender melhor os números com os quais você está trabalhando.Com paciência, tentativa e erro, é bem possível que tendências até então ignoradas aparecem, revelando novos ângulos para uma reportagem.
 
-Dito isso, separamos uma seleção de 10 ferramentas para visualização de dados, que são úteis tanto para quem está começando quanto para pessoas com mais conhecimento. Todas são gratuitas e aquelas baseadas na web são altamente indicadas para iniciantes, que podem gerar visualizações de alto nível, sem precisar recorrer à programação.
+
 
 : Ferramentas para visualização de dados.
 +----------------+------------+-----------------------------------+
@@ -394,3 +394,7 @@ Dito isso, separamos uma seleção de 10 ferramentas para visualização de dado
 | Tableau        | Windows    | - Fácil de usar  				  |
 |                | MacO       | - Bom para análises exploratórias |				  
 +----------------+------------+-----------------------------------+
+
+
+
+Dito isso, separamos uma seleção de 10 ferramentas para visualização de dados, que são úteis tanto para quem está começando quanto para pessoas com mais conhecimento. Todas são gratuitas e aquelas baseadas na web são altamente indicadas para iniciantes, que podem gerar visualizações de alto nível, sem precisar recorrer à programação.

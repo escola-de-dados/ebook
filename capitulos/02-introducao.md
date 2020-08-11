@@ -7,15 +7,15 @@ Um deles é o gráfico de Florence Nightingale sobre as mortes durante a Guerra 
 
 Esta forma de representar os dados é conhecida como diagrama de área polar (ou _coxcomb,_ em inglês) e é utilizada até os dias atuais. Na imagem, é possível ver como a proporção de mortes por causas evitáveis era constantemente maior ao longo dos meses.
 
-![No gráfico, cada fatia representa um mês e a área coberta pelas cores indica as causas de mortalidade: em laranja, mortes em batalha; em azul, por doenças; em verde, outras causas. Fonte: *University of Houston*](images/introducao/coxcombchart.jpg)
+![No gráfico, cada fatia representa um mês e a área coberta pelas cores indica as causas de mortalidade: em laranja, mortes em batalha; em azul, por doenças; em verde, outras causas. Fonte: *University of Houston.*](images/introducao/coxcombchart.jpg)
 
 Além de diversas guerras e batalhas, o século XIX teve também seis epidemias de cólera, que mataram milhões de pessoas em diversos continentes. E foi na mesma Inglaterra dos anos 1850 que o médico John Snow decidiu levantar dados "geolocalizados" sobre a doença, mapeando os casos e óbitos. Assim, ele elaborou o chamado "mapa da cólera", que representou os casos da doença como pontos no mapa. A partir da análise dos padrões espaciais e uma intensiva investigação por meio de entrevistas, descobriu uma bomba d'água como vetor de disseminação da cólera no bairro de Soho. À época, Londres experimentava uma expansão urbana somada ao crescimento populacional em condições precárias de moradia e saneamento.
 
 Com isso, John Snow reforçou sua teoria de que a água poderia ser um dos vetores de contaminação, na contramão da chamada teoria miasmática, que era predominante à época e supunha a transmissão por meio do ar. A história mostrou que ele estava certo. Hoje, Snow é considerado um dos nomes fundadores da epidemiologia.
 
-![Mapa da cólera de John Snow na Inglaterra (1854)- Fonte: Wikimedia Commons](images/introducao/snow.jpg)
+![Mapa da cólera de John Snow na Inglaterra (1854) - Fonte: Wikimedia Commons](images/introducao/snow.jpg)
 
-![Mapa do novo coronavírus em São Paulo (2020) - Fonte: Wikimedia Commons](images/introducao/mapcovid.png)
+![Mapa do novo coronavírus em São Paulo (2020) - Fonte: Labcidade](images/introducao/mapcovid.png)
 
 Retomamos os exemplos de Snow e Nightingale por uma dupla razão: primeiro, para desfazer um aura de novidade ("hype") em torno do tema. Lidar com dados não é exatamente algo recente na experiência humana, tampouco teve início com os computadores digitais. Na verdade, no fundo, a utilização de dados é praticamente indissociável da experiência humana tal como a conhecemos.
 

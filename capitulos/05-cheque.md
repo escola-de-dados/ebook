@@ -139,4 +139,3 @@ Se estiver trabalhando com dados de diversas fontes, escolha a unidade de medida
 
 Verifique, sobretudo, em que formato estão os números da base de dados com a qual pretende trabalhar. Em alguns casos, não haverá casas decimais. É o que ocorre com o número de nascimentos, mortes e outros: não é possível que haja 3,2 óbitos ou 10,8 nascimentos, por exemplo. Se uma coluna reúne informações sobre "pageviews" (número de acessos), da mesma forma, não pode conter números decimais.
 
-###
