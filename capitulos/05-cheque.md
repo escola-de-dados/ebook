@@ -1,11 +1,11 @@
 # Cheque
-Até agora, você aprendeu, em linhas gerais, o que são dados e como encontrá-los ou obtê-los. Para começar a fazer análises, é preciso mergulhar na etapa de verificação e limpeza dos dados.
+Até agora, você aprendeu, em linhas gerais, o que são dados e como encontrá-los ou obtê-los. Para começar a fazer análises, é preciso mergulhar na etapa de **verificação e limpeza** dos dados.
 
 Você pode estar com uma planilha (aparentemente) bem estruturada na sua frente e ansioso para analisá-la, mas se você seguir direto para essa etapa e pular este capítulo poderá se frustrar, ter que refazer a análise ou, pior, publicar informações erradas.
 
 É comum que as bases de dados não cheguem prontas para análise e precisem passar por uma série de verificações e limpezas. É bastante frequente detectar inconsistências ou retirar colunas para reduzir o tamanho de uma base de dados e lidar com elas mais facilmente.
 
-A verificação consiste na busca de elementos que comprovem que os dados coletados estão corretos, são consistentes e que não há falta de informação que comprometa o seu trabalho posterior. Esse processo envolve desde as checagens mais básicas e aparentemente banais, como verificações de formato (texto ou numérico, por exemplo) a outros pontos mais complexos, que envolvam comparar os dados com outras fontes.
+A **verificação** consiste na busca de elementos que comprovem que os dados coletados estão corretos, são consistentes e que não há falta de informação que comprometa o seu trabalho posterior. Esse processo envolve desde as checagens mais básicas e aparentemente banais, como verificações de formato (texto ou numérico, por exemplo) a outros pontos mais complexos, que envolvam comparar os dados com outras fontes.
 
 A checagem é uma etapa fundamental do trabalho que dados. Na prática, ela deve ocorrer de forma transversal, desde a obtenção até a visualização. Ou seja, ao realizar uma raspagem de dados, é importante que durante esta coleta você já verifique se as informações estão sendo capturadas corretamente. Na análise e visualização, o mesmo acontece. Faça a checagem dos dados e, se possível, compare-os com os resultados obtidos por outras fontes.
 
@@ -33,19 +33,17 @@ Pela lógica, cada sessão de votação precisava cumprir alguns requisitos para
 
 ## Biografando dados
 
-Uma parte fundamental após a obtenção das informações é realizar uma espécie de "biografia dos dados". Basicamente, você precisa entender minimamente a origem, a captação, o recorte e as limitações dos dados nas suas mãos. Isso pode parecer fácil, mas é preciso atenção. Um deslize nesta etapa e toda seu trabalho futuro com os dados estará comprometido. Por isso, nesta seção, iremos explicar um pouco deste método de verificação e checagem de dados.
+Uma parte fundamental após a obtenção das informações é realizar uma espécie de **biografia dos dados**. Basicamente, você precisa entender minimamente a origem, a captação, o recorte e as limitações dos dados nas suas mãos. Isso pode parecer fácil, mas é preciso atenção. Um deslize nesta etapa e toda seu trabalho futuro com os dados estará comprometido. Por isso, nesta seção, iremos explicar um pouco deste método de verificação e checagem de dados.
 
 Por que é importante biografar os dados antes de entrevistá-los?
 
-Para seguir com a metáfora, vamos pensar no processo de apuração de uma reportagem "tradicional", que não usa muitos dados quantitativos: o repórter, quando se encontra com a fonte, faz uma série de perguntas e usa as respostas para produzir a matéria. Isso é uma entrevista, obviamente.
+Para seguir com a metáfora, vamos pensar no processo de apuração de uma reportagem tradicional, que não usa muitos dados quantitativos: o repórter, quando se encontra com a fonte, faz uma série de perguntas e usa as respostas para produzir a matéria. Isso é uma entrevista, obviamente.
 
 No trabalho com dados, o equivalente acontece quando o jornalista começa a mexer em filtros e classificações para descobrir qual foi o maior gasto de um departamento do governo no ano, por exemplo.
 
 Entretanto, a entrevista não é o começo de uma apuração jornalística. Antes de falar com qualquer pessoa, o bom repórter precisa fazer a lição de casa. Além de estudar o tema da conversa e preparar perguntas, ele precisa também descobrir o máximo sobre as características da pessoa com quem vai falar.
 
-Quem é o entrevistado? Quais são seus interesses? Quais são suas áreas de especialidade e atuação? Ele tem alguma conexão com pessoas ou grupos que podem gerar conflitos de interesse? Existe alguma controvérsia relevante a seu respeito? Ele costuma ser ouvido por outros jornalistas? Ele tem um histórico confiável como informante? Ele é respeitado pelos seus pares?
-
-Qualquer repórter que se preze precisa saber a resposta para essas perguntas antes de buscar informações com uma fonte. Caso contrário, estará correndo sérios riscos de publicar bobagem.
+Quem é o entrevistado? Quais são seus interesses? Quais são suas áreas de especialidade e atuação? Ele tem alguma conexão com pessoas ou grupos que podem gerar conflitos de interesse? Existe alguma controvérsia relevante a seu respeito? Ele costuma ser ouvido por outros jornalistas? Ele tem um histórico confiável como informante? Ele é respeitado pelos seus pares? É preciso saber a resposta para essas perguntas antes de buscar informações com uma fonte. 
 
 O mesmo vale para um banco de dados. Tentar entrevistar uma planilha sem saber detalhes sobre ela é uma receita infalível para erros. Biografar dados é fazer essa pesquisa prévia, etapa necessária antes de qualquer tentativa de análise quantitativa.
 
@@ -53,7 +51,7 @@ E o que devemos procurar saber sobre uma planilha antes de partir para a entrevi
 
 O entrevistado da vez era um relatório público pela ONU em 2015. Uma fonte de confiança, certo?
 
-Bem, vamos ver o que ela descobriu sobre a coleta de dados durante o trabalho de biografia e pensar um pouco sobre como esses detalhes podem impactar os números e, por consequência, uma reportagem baseada neles.
+Bem, vamos ver o que ela descobriu sobre a coleta de dados durante o trabalho de biografia e pensar um pouco sobre como esses detalhes podem impactar os números.
 
 O primeiro passo foi analisar com atenção o **apêndice estatístico** do relatório. Esses documentos complementares são, geralmente, bem chatos de ler, mas reúnem informações metodológicas importantes sobre a coleta de dados de qualquer fonte.
 
@@ -61,7 +59,7 @@ Como dissemos anteriormente, você pode acabar esbarrando nele com outro nome: d
 
 O que Krause descobriu nesse exercício de atenção e paciência? Que os métodos de coleta de informação variam de país para país e de ano para ano, o que dificulta comparações.
 
-Exemplo prático: no Malawi, um país do sudeste africano, foi registrada uma variação inesperada nas taxas de violência de uma pesquisa para a outra, entre 2004 e 2005. O número subiu desproporcionalmente e, logo em seguida, voltou o cair.
+Exemplo: no Malawi, um país do sudeste africano, foi registrada uma variação inesperada nas taxas de violência de uma pesquisa para a outra, entre 2004 e 2005. O número subiu desproporcionalmente e, logo em seguida, voltou o cair.
 
 O que aconteceu nesse intervalo? Será que houve um grande evento político, social e cultural que gerou esse pico? Parece uma boa história, não?
 
@@ -81,12 +79,17 @@ Entretanto, nem todo banco de dados é tão "honesto". Muitos dados públicos n�
 
 Diante de um cenário como esse, o trabalho do repórter inclui entrar em contato com os autores do levantamento para tirar todas as dúvidas possíveis. Como dissemos brevemente antes, a dica é nunca presumir o que um rótulo de coluna significa ou de que forma os dados foram reunidos. Sempre é preciso fazer esse trabalho prévio.
 
-Krause resume o processo de biografia de dados com uma lista de perguntas que precisam de resposta antes da apuração seguir em frente.
+Krause resume o processo de biografia de dados com uma lista de perguntas que precisam de resposta antes da apuração seguir em frente:
 
-| **[BOX RESUMO]****Quem coletou os dados e por que os coletou?**Fique de olho em possíveis conflitos de interesse e em outras formas que a autoria da pesquisa podem afetar os dados. Algumas são menos óbvias. Por exemplo, pesquisas sobre renda costumam ter resultados diferentes quando são feitas por instituições governamentais. Não é conspiração, mas sim desconfiança: as pessoas tendem a subestimar o quanto ganham, com medo de possíveis cobranças ou impostos.
-**Como os dados foram coletados?** Os dados vêm de um censo que fala com todas as pessoas do país, batendo de porta em porta? São feitos com base em um recorte amostral da população? São coletados por telefone? São inseridos em um programa de banco de dados por policiais ou médicos? São consolidados automaticamente por um sistema automático? Tudo isso afeta a representatividade, a qualidade e as conclusões que podemos tirar dos números.
-**Quando os dados foram coletados ou atualizados?** Uma pegadinha comum é que os dados divulgados em um ano mostram, na realidade, o cenário de outro momento. Um exemplo comum são os resultados de pesquisas eleitorais. Como, em época de eleição, a opinião pública costuma mudar rápido, a pesquisa representa o estado das coisas no dia de campo (ou seja, no dia em que os pesquisadores fizeram as entrevistas) e não na data de divulgação, que costuma ser até dois dias depois. |
-| --- |
+**Quem coletou os dados e por que os coletou?**
+Fique de olho em possíveis conflitos de interesse e em outras formas que a autoria da pesquisa podem afetar os dados. Algumas são menos óbvias. Por exemplo, pesquisas sobre renda costumam ter resultados diferentes quando são feitas por instituições governamentais. Não é conspiração, mas sim desconfiança: as pessoas tendem a subestimar o quanto ganham, com medo de possíveis cobranças ou impostos.
+
+**Como os dados foram coletados?** 
+Os dados vêm de um censo que fala com todas as pessoas do país, batendo de porta em porta? São feitos com base em um recorte amostral da população? São coletados por telefone? São inseridos em um programa de banco de dados por policiais ou médicos? São consolidados automaticamente por um sistema automático? Tudo isso afeta a representatividade, a qualidade e as conclusões que podemos tirar dos números.
+
+**Quando os dados foram coletados ou atualizados?** 
+Uma pegadinha comum é que os dados divulgados em um ano mostram, na realidade, o cenário de outro momento. Um exemplo comum são os resultados de pesquisas eleitorais. Como, em época de eleição, a opinião pública costuma mudar rápido, a pesquisa representa o estado das coisas no dia de campo (ou seja, no dia em que os pesquisadores fizeram as entrevistas) e não na data de divulgação, que costuma ser até dois dias depois. |
+
 
 ## Tópicos de atenção
 
@@ -122,7 +125,7 @@ E mesmo dados estruturados em planilhas podem vir acompanhados de muitos problem
 
 **Valores anormais**
 
-Uma das primeiras etapas na checagem de dados com números ou valores é a identificação dos chamados valores extremos ou outliers. Números que destoam muito dos demais podem ter dois significados: serem de fato casos especiais que merecem investigação ou serem frutos de erros.
+Uma das primeiras etapas na checagem de dados com números ou valores é a identificação dos chamados **valores extremos ou outliers**. Números que destoam muito dos demais podem ter dois significados: serem de fato casos especiais que merecem investigação ou serem frutos de erros.
 
 Em uma análise sobre a despesa de parlamentares com diárias, por exemplo, é interessante observar se um deles se sobressai em termos de gastos públicos em relação aos seus colegas. Em uma prestação de contas de campanha ou declarações de bens de políticos, o mesmo pode acontecer.
 
@@ -134,5 +137,5 @@ Fique atento quanto às unidades de medida (milhas, quilômetros, pés) ou moeda
 
 Se estiver trabalhando com dados de diversas fontes, escolha a unidade de medida ou moeda com a qual pretende trabalhar e realize as conversões necessárias. Se possível, acrescente colunas e sinalize as alterações.
 
-Verifique, sobretudo, em que formato estão os números da base de dados com a qual pretende trabalhar. Em alguns casos, não haverá casas decimais. É o que ocorre com o número de nascimentos, mortes e outros: não é possível que haja 3,2 óbitos ou 10,8 nascimentos, por exemplo. Se uma coluna reúne informações sobre "pageviews" (número de acessos), da mesma forma, não pode conter números decimais.
+Verifique, sobretudo, em que formato estão os números da base de dados com a qual pretende trabalhar. Em alguns casos, não haverá casas decimais. É o que ocorre com o número de nascimentos, mortes e outros: não é possível que haja 3,2 óbitos ou 10,8 nascimentos, por exemplo. Se uma coluna reúne informações sobre *pageviews* (número de acessos), da mesma forma, não pode conter números decimais.
 
