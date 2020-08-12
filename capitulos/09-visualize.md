@@ -1,35 +1,35 @@
 # Visualize
-Ainda que a visualização de dados se insira no fluxo de trabalho com dados, esta área se trata de um campo do conhecimento que merece enorme atenção por si só. É impossível falar de forma exaustiva sobre o tema em um capítulo de livro, já que o campo merece obras e mais obras que se debruçam especificamente sobre ele - obras estas que, aliás, existem em profusão. Assim, nas próximas páginas, a abordagem será pragmática e bastante resumida.
+Ainda que a visualização de dados se insira no fluxo de trabalho com dados, esta área se trata de um campo do conhecimento que merece atenção por si só. É impossível falar de forma exaustiva sobre o tema em um capítulo de livro. Assim, nas próximas páginas, a abordagem será pragmática e bastante resumida.
 
 Antes de mais nada, vamos definir o que é visualização de dados: como reconhecer uma visualização de dados na página de uma publicação? Como não confundir com outras formas de representação visual comuns na imprensa?
 
-Na introdução de "*The Functional Art*", livro publicado em 2013, o pesquisador Alberto Cairo descreve uma cena que testemunhou várias vezes quando trabalhava em redações: quando editores precisavam de um gráfico para acompanhar uma reportagem, dirigiam-se para a equipe de infografia do veículo para encomendar "uma arte".
+Na introdução de "*The Functional Art*", livro publicado em 2013, o pesquisador **Alberto Cairo** descreve uma cena que testemunhou várias vezes quando trabalhava em redações: quando editores precisavam de um gráfico para acompanhar uma reportagem, dirigiam-se para a equipe de infografia do veículo para encomendar "uma arte".
 
 O termo, na rotina de trabalho, faz algum sentido. Na hierarquia da maioria dos jornais, a equipe responsável por produzir gráficos está, de algum modo, subordinado à **editoria de Arte**. Nessas editorias, muitas vezes, a maior parte da força de trabalho não tem formação em jornalismo: são designers e artistas visuais, não repórteres e redatores.
 
 Segundo Cairo, porém, o uso desse termo gera um problema. É frequente que, na hora de produzir um jornal, as peças visuais que acompanham o conteúdo da reportagem sejam vistas como mero complemento ou ilustração. Sob essa perspectiva, o conteúdo realmente importante de uma matéria ficaria no texto, enquanto o gráfico serve para resumir o assunto para um leitor pouco interessado ou, simplesmente, para preencher o espaço em branco ou tornar uma página mais agradável esteticamente.
 
-Entretanto, a função de um gráfico não é decorativa. A função primordial de um gráfico é informar - tanto quanto um bloco de texto. Uma visualização de dados impactante concentra tanta informação quanto o _lead_ de uma reportagem.
+Entretanto, a função de um gráfico não é decorativa. A função primordial de um gráfico é informar - tanto quanto um bloco de texto. Uma visualização de dados impactante concentra tanta informação quanto o _lead_ (o que, quem, quando, onde, como e por que) de uma reportagem.
 
 Para Cairo, a relação entre visualizações e arte é como a relação entre jornalismo e literatura. Segundo ele, um jornalista pode se inspirar nas técnicas e no estilo de um grande ficcionista. Entretanto, seu trabalho nunca deve virar literatura, porque é de outra natureza.
 
 O mesmo vale para a produção de gráficos. Ainda que um bom profissional de visualização tenha apreço pela beleza e elegância de uma peça artística, essa é uma aspiração secundária. O foco é transmitir informação da forma mais precisa possível.
 
-Há uma confusão comum entre visualização de dados e infografia. Existe todo um debate a respeito das definições exatas de cada termo e às vezes os termos são usados de forma intercambiável, porém, de modo geral, podemos destacar algumas características que distinguem um conceito do outro.
+Há uma confusão comum entre visualização de dados e infografia. Existe todo um debate a respeito das definições exatas de cada termo e às vezes os termos são usados de forma intercambiável. Porém, de modo geral, podemos destacar algumas características que distinguem um conceito do outro.
 
 De acordo com a definição proposta por Tatiana Teixeira, pesquisadora da UFSC (Universidade Federal de Santa Catarina), por infográfico, compreendemos uma peça visual com um objetivo narrativo, que explica algo a quem está lendo. São trabalhos que mostram como ocorreu um acidente de avião ou uma operação da polícia, por exemplo. O importante aqui é que os fatos se sucedem de forma mais ou menos contínua no tempo.
 
-Por outro lado, uma visualização de dados estrutura ou tenta traduzir dados quantitativos, codificando visualmente algumas de suas características em dimensões, como cor, forma, tamanho, posição e etc. Como nós humanos somos melhores observando padrões visuais do que numéricos, a visualização de dados nos ajuda a reconhecer padrões e identificar características importantes das bases, que seriam impossíveis de serem enxergadas em tabelas. É o caso dos gráficos de barra, pizza, dispersão e etc.
+Por outro lado, uma visualização de dados estrutura ou tenta traduzir dados quantitativos, codificando visualmente algumas de suas características em dimensões, como cor, forma, tamanho, posição e etc. Como nós humanos somos melhores observando padrões visuais do que numéricos, a visualização de dados nos ajuda a reconhecer padrões e identificar características importantes das bases, que seriam impossíveis de serem enxergadas em tabelas. É o caso dos gráficos de barra, pizza, dispersão entre outros. 
 
 Assim, de acordo com esta divisão, um infográfico poderia compreender uma visualização de dados, mas não o inverso. Como dito, a definição explorada neste tópico não é consensual, mas serve para delimitar o escopo desta seção. Neste guia, não iremos abordar as práticas de infografia, mas sim de visualização de dados.
 
 ### Visualização como expansão cognitiva
 
-Alberto Cairo oferece uma definição bastante útil de visualização de dados em "The Truthful Art", seu livro de 2016. Ele afirma que uma visualização de dados é uma forma de exibir informação quantitativa que é **"desenhada para permitir análises, explorações e descobertas".**
+Alberto Cairo oferece uma definição bastante útil de visualização de dados em "*The Truthful Art*", seu livro de 2016. Ele afirma que uma visualização de dados é uma forma de exibir informação quantitativa que é **"desenhada para permitir análises, explorações e descobertas".**
 
 Cairo destaca também que uma visualização de dados não tem como objetivo principal enviar uma mensagem pronta e hermética para o leitor. A ideia desse tipo de gráfico, na verdade, é servir para que as pessoas tirem suas próprias conclusões a partir dos números exibidos.
 
-Assim, vemos que visualizações de dados são formas de **aumentar a capacidade de compreensão** humana. A prática funciona porque valores quantitativos, com sua natureza abstrata, são difíceis de analisar e interpretar.
+Assim, visualizações de dados são formas de **aumentar a capacidade de compreensão** humana. A prática funciona porque valores quantitativos, com sua natureza abstrata, são difíceis de analisar e interpretar.
 
 Quando a informação é representada de forma visual, nossa mente é capaz de realizar tarefas como comparação e ordenação de forma mais eficiente.
 
@@ -47,7 +47,7 @@ Conforme as formas de mensurar a realidade se tornam mais sofisticadas, as repre
 
 ## Breve histórico da visualização de dados
 
-Uma retrospectiva histórica ajuda a demonstrar como o desenvolvimento de formas de representação visual está intimamente ligada à necessidade de realizar tarefas intelectuais e analisar valores quantitativos de forma sistemática.Um dos [trabalhos mais detalhados sobre o passado do campo](http://datavis.ca/) foi feito por Michael Friendly, professor de psicologia da Universidade de York, em Toronto, no Canadá.
+Uma retrospectiva histórica ajuda a demonstrar como o desenvolvimento de formas de representação visual está intimamente ligada à necessidade de realizar tarefas intelectuais e analisar valores quantitativos de forma sistemática. Um dos [trabalhos mais detalhados sobre o passado do campo](http://datavis.ca/) foi feito por **Michael Friendly**, professor de psicologia da Universidade de York, em Toronto, no Canadá.
 
 Ele elaborou uma lista de marcos na história da visualização de dados que começa mais de 6 mil anos antes de Cristo, com mapas primitivos. A compilação passa pelo surgimento de tabelas que tentavam representar a posição dos planetas, diagramas trigonométricos e afins, mas vê um ponto de inflexão a partir do século XVII.
 
@@ -55,9 +55,9 @@ Ele elaborou uma lista de marcos na história da visualização de dados que com
 
 Existia, assim, um conjunto de dados relevante e o interesse coletivo por novos métodos de análise. Entretanto, uma quantidade maior de números exigia novas ferramentas para compreendê-los.
 
-É nesse momento histórico que surgem os primeiros gráficos estatísticos modernos, como o gráfico de pizza, de barras e de linha. Boa parte deles foi inventada ou popularizada por William Playfair, um engenheiro escocês.
+É nesse momento histórico que surgem os primeiros gráficos estatísticos modernos, como o gráfico de pizza, de barras e de linha. Boa parte deles foi inventada ou popularizada por **William Playfair**, um engenheiro escocês.
 
-Em 1786, ele publicou uma obra chamada "The Commercial and Political Atlas", que foi pioneira em usar elementos visuais para representar tendências políticas e econômicas de forma sistemática.
+Em 1786, ele publicou uma obra chamada "*The Commercial and Political Atlas*", que foi pioneira em usar elementos visuais para representar tendências políticas e econômicas de forma sistemática.
 
 Nos séculos seguintes, o campo da visualização de dados viu desenvolvimentos significativos, com impactos efetivos no discurso público.
 
@@ -71,9 +71,9 @@ Na prática, os dois se esforçaram para mostrar de forma mais palpável fenôme
 
 ## Princípios práticos
 
-Agora, já temos uma definição mais precisa do que significa o termo "visualização de dados". Já vimos também que um gráfico serve como ferramenta que ajuda a mente humana a interpretar valores quantitativos abstratos. Além disso, vimos com exemplos históricos como essa prática é antiga e pode ter impactos significativos na sociedade. Resta, agora, aprender conceitos práticos. Nas próximas páginas, vamos ver algumas das ideias básicas que estão por trás de visualizações de dados efetivas.
+Agora, já temos uma definição mais precisa do que significa o termo **visualização de dados**. Já vimos também que um gráfico serve como ferramenta que ajuda a mente humana a interpretar valores quantitativos abstratos. Além disso, vimos com exemplos históricos como essa prática é antiga e pode ter impactos significativos na sociedade. Resta, agora, aprender conceitos práticos. Nas próximas páginas, vamos ver algumas das ideias básicas que estão por trás de visualizações de dados efetivas.
 
-Um bom gráfico tem uma missão principal: possibilitar uma comunicação efetiva. De pouco vale uma ideia criativa, uma apresentação bonita e uma boa pauta se a visualização de dados é confusa ou poluída, falhando nessa tarefa básica.
+**Um bom gráfico tem uma missão principal: possibilitar uma comunicação efetiva**. De pouco vale uma ideia criativa, uma apresentação bonita e uma boa pauta se a visualização de dados é confusa ou poluída, falhando nessa tarefa básica.
 
 Para garantir que um gráfico seja compreensível, é preciso pensar mais a fundo na **tarefa perceptiva** que ele ajuda a fazer - ou seja, no tipo de análise que o leitor vai tentar realizar.
 
@@ -89,7 +89,7 @@ Antes disso, porém, precisamos entender **por que** há gráficos que são melh
 
 Em 1984, dois pesquisadores decidiram testar quais tipos de gráficos são mais **precisos** para transmitir informações quantitativas.
 
-William S. Cleveland e Robert McGill organizaram um experimento em que mostraram para dezenas de colaboradores uma série de visualizações de dados em diferentes formatos: gráficos de barras, de dispersão, de pizza, de bolhas e mapas de cor.
+**William S. Cleveland e Robert McGill** organizaram um experimento em que mostraram para dezenas de colaboradores uma série de visualizações de dados em diferentes formatos: gráficos de barras, de dispersão, de pizza, de bolhas e mapas de cor.
 
 Além disso, eles definiram que tipo de elemento visual era usado em cada um dos gráficos. Em um gráfico de barras, por exemplo, o **comprimento** de cada item é usado para representar um número. Em um gráfico de pizza, os valores são representados pelo **ângulo** de cada fatia.
 
@@ -97,7 +97,7 @@ Os gráficos também foram mostrados com ou sem o auxílio de um **eixo** - ou s
 
 O objetivo do teste era descobrir quais formas gráficas permitiam uma estimativa mais adequada da diferença entre os valores exibidos. O resultado mostrou que alguns formatos de gráfico foram lidos consistentemente de forma mais precisa.
 
-Ao analisar os resultados, os estudiosos propuseram um *ranking* de formatos, do mais preciso para o menos.
+Ao analisar os resultados, os estudiosos propuseram um ranking de formatos, do mais preciso para o menos.
 
 1. Posição sobre um eixo comum
 2. Posição sobre eixos não alinhados
@@ -110,13 +110,13 @@ Ao analisar os resultados, os estudiosos propuseram um *ranking* de formatos, do
 9. Tom de cor
 10. Saturação de cor
 
-A imagem abaixo, [preparada por Alberto Cairo para o blog Periodismo con futuro_](https://blogs.elpais.com/periodismo-con-futuro/2012/02/elegirgrafico.html), do El País, mostra de que tipo de gráfico falamos em cada item.
+A imagem a seguir, [preparada por Alberto Cairo para o blog Periodismo con futuro](https://blogs.elpais.com/periodismo-con-futuro/2012/02/elegirgrafico.html), do El País, mostra de que tipo de gráfico falamos em cada item.
 
 ![A hierarquia da percepção segundo experimento de Cleveland e McGill. Fonte: Alberto Cairo.](images/visualize/figura12.jpg)
 
 Quanto mais alto na escala está a forma de representação, mais fácil é usá-la para fazer comparações precisas. Quanto mais para baixo, mas difícil.
 
-Esta outra imagem, também elaborado por Cairo para o mesmo blog, mostra como isso acontece na prática.
+Esta outra imagem, também elaborada por Cairo para o mesmo blog, mostra como isso acontece na prática.
 
 ![Qual destes gráficos permite uma leitura mais precisa? - Fonte: Alberto Cairo (2012)](images/visualize/figura13.jpg)
 
@@ -126,31 +126,31 @@ Todos os gráficos representam os mesmos valores, mas de diferentes formas. Toda
 
 Assim, é possível afirmar, objetivamente, que os gráficos na parte de cima do espectro permitem comparações mais **precisas**.
 
-Nem sempre a forma gráfica mais precisa é a mais adequada. De vez em quando, não queremos que os leitores façam comparações muito específicas, mas sim que sejam capazes de ver tendências gerais e padrões.
+Nem sempre a forma gráfica mais precisa é a mais adequada. De vez em quando, não queremos que os leitores façam comparações muito específicas, mas sim que sejam capazes de ver **tendências gerais e padrões**.
 
-Nesse casos, formas próximas da parte inferior da escala passam a ser mais úteis, especialmente quando são usados em conjunto com outras dimensões, como, por exemplo, em um mapa.
+Nesses casos, formas próximas da parte inferior da escala passam a ser mais úteis, especialmente quando são usadas em conjunto com outras dimensões, como, por exemplo, em um mapa.
 
-Veja este gráfico sobre o resultado das eleições presidenciais no Brasil em 2020:
+Veja este gráfico sobre o resultado das eleições presidenciais no Brasil em 2018:
 
 ![Mapa do resultado das eleições presidenciais de 2018 no Brasil, produzido pelo Estadão](images/visualize/figura14.png)
 
-O objetivo dessa visualização não é fazer com que o leitor descubra qual é a cidade onde Bolsonaro teve mais votos ou comparar precisamente a quantidade de votos recebidos por Haddad em dois municípios distantes. A ideia é mostrar a distribuição geográfica do voto, que tende a ser PT na região Nordeste e PSL no Sul. Um gráfico de barras não seria efetivo nesse caso.
+O objetivo dessa visualização não é fazer com que o leitor descubra qual é a cidade onde Bolsonaro teve mais votos ou comparar precisamente a quantidade de votos recebidos por Haddad em dois municípios distantes. **A ideia é mostrar a distribuição geográfica do voto**, que tende a ser PT na região Nordeste e PSL no Sul. Um gráfico de barras não seria efetivo nesse caso.
 
-De novo, cabe ao autor da visualização determinar qual é a tarefa que seu gráfico vai ajudar a cumprir e transformá-lo na ferramenta mais adequada possível para tal. Vamos ver, agora, um princípio básico das boas visualizações de dados: ater-se ao que é essencial.
+De novo, cabe ao autor da visualização determinar qual é a tarefa que seu gráfico vai ajudar a cumprir e transformá-lo na ferramenta mais adequada possível para tal. Vamos ver, agora, um princípio básico das boas visualizações de dados: **ater-se ao que é essencial**.
 
-## Objetividade vs emoção
+## Clareza vs emoção
 
-Outro pesquisador fundamental do campo da visualização de dados é Edward Tufte. Seu livro _"The Visual Display of Quantitative Information"_, publicado em 1983, é uma das obras mais influentes da área.
+Outro pesquisador fundamental do campo da visualização de dados é **Edward Tufte**. Seu livro _"The Visual Display of Quantitative Information"_, publicado em 1983, é uma das obras mais influentes da área.
 
-Talvez o conceito mais marcante do trabalho de Tufte seja a ideia de "data-ink ratio", ou a "razão dados-tinta".
+Talvez o conceito mais marcante do trabalho de Tufte seja a ideia de **data-ink ratio**, ou a **razão dados-tinta**.
 
-Em resumo, a ideia é que um gráfico é mais efetivo quando usa a menor quantidade de elementos visuais para comunicar um valor - ou seja, quando a razão entre os dados comunicados e a quantidade de "tinta" usada para tal for a menor possível.
+Em resumo, a ideia é que um **gráfico é mais efetivo quando usa a menor quantidade de elementos visuais para comunicar um valor** - ou seja, quando a razão entre os dados comunicados e a quantidade de "tinta" usada para tal for a menor possível.
 
 Na prática, isso significa que Tufte defende a produção de gráficos minimalistas, em que a presença de cada elemento no papel tem uma clara função informativa. Assim, a "densidade de dados" do gráfico aumenta.
 
-Como consequência, surge o conceito de "chart junk", que pode ser traduzido como "lixo de visualização" ou "lixo de gráfico". Lixo de gráfico são justamente os elementos desnecessários, que são redundantes, não agregam densidade informativa ou que não representam dado algum. Servem apenas como decoração, para efeitos estéticos - e mesmo assim, na maioria das vezes, deixam a apresentação do conteúdo mais feia em vez de interessante.
+Como consequência, surge o conceito de "*chart junk*", que pode ser compreendido como a poluição de elementos em um gráfico. São justamente os elementos desnecessários, redundantes, e que não agregam densidade informativa ou que não representam dado algum. Servem apenas como decoração, para efeitos estéticos - e mesmo assim, na maioria das vezes, deixam a apresentação do conteúdo mais feia em vez de interessante.
 
-Veja o gráfico abaixo, gerado a partir de dados ficcionais, sem muito esforço nem ou atenção ao design no Google Sheets.
+Veja o gráfico a seguir, gerado a partir de dados ficcionais, sem muito esforço nem ou atenção ao design no Google Sheets.
 
 ![Exemplo de gráfico de barras com elementos visuais desnecessários.](images/visualize/figura15.png)
 
@@ -158,29 +158,31 @@ Vamos analisá-lo a partir dos princípios de Tufte que acabamos de conhecer.
 
 Primeiro, percebemos que há uma série de elementos redundantes nessa visualização: o eixo, na esquerda, exibe os mesmos valores que os rótulos em cima de cada uma das barras.
 
-O título do gráfico, "gastos mensais", aparece também no eixo esquerdo. Além disso, uma legenda completamente descartável revela que as barras de cor vermelha representam "gastos".
+O título do gráfico, "gastos mensais", aparece também no eixo esquerdo. E uma legenda completamente descartável revela que as barras de cor vermelha representam "gastos".
 
 Além disso, existem elementos que não agregam dado algum. Qual é a razão das barras estarem em 3D, quando a única dimensão que importa é a altura, e não a profundidade ou a largura? Por que tantas linhas no fundo, por que tantos marcadores no eixo vertical, por que aplicar uma sombra cinza na base das barras?
 
-Removendo todos estes elementos, ficamos com um gráfico mais próximo daquilo que Tufte considera o ideal. A visualização abaixo foi feita em ainda menos tempo no [Datawrapper](https://app.datawrapper.de/), uma ferramenta gratuita disponível online.
+Removendo todos estes elementos, ficamos com um gráfico mais próximo daquilo que Tufte considera o ideal. A visualização a seguir foi feita em ainda menos tempo no [Datawrapper](https://app.datawrapper.de/), uma ferramenta gratuita disponível online.
 
 ![O mesmo gráfico, porém com uma apresentação mais minimalista](images/visualize/figura16.png)
 
 Perceba como o gráfico fica mais fácil de ler. O motivo é que não há mais elementos redundantes ou pouco informativos disputando atenção. Assim, nossos olhos e cérebro conseguem se concentrar apenas naquilo que importa.
 
-Agora, faça o mesmo exercício com o gráfico abaixo. Segundo as regras dispostas por Tufte, o que pensar do seguinte trabalho?
+Agora, faça o mesmo exercício com o próximo gráfico. 
 
 ![Gráfico publicada na Glamour Magazine na década de 1980, feito por Nigel Holmes.](images/visualize/figura17.png)
 
+Segundo as regras dispostas por Tufte, o que pensar deste trabalho pouco convencional?
+
 ### Conectando-se com o público
 
-O gráfico anterior foi produzido por Nigel Holmes, um designer gráfico que ficou conhecido por ter feito carreira na revista Time. Praticamente toda a sua produção é marcada por uma mistura entre ilustração e visualização de dados, praticamente a antítese de todos os conceitos que expusemos até aqui.
+O gráfico anterior foi produzido por **Nigel Holmes**, um designer gráfico que ficou conhecido por ter feito carreira na revista Time. Praticamente toda a sua produção é marcada por uma mistura entre ilustração e visualização de dados, praticamente a antítese de todos os conceitos que expusemos até aqui.
 
 O trabalho de Holmes foi alvo de críticas ferozes por parte de Tufte, que destacou um gráfico em especial, mostrado a seguir, para um achincalhamento público.
 
 ![Gráfico publicado na revista Time em agosto de 1982, feito por Nigel Holmes.](images/visualize/figura18.jpg)
 
-Para Tufte, a peça anterior (Figura 18) - e, por extensão, a peça que mostramos logo antes, sobre virgindade nas universidades - é ultrajante.
+Para Tufte, as peças apresentadas anteriormente são ultrajantes.
 
 Em *Envisioning Information (1990)*, outro de seus livros, o pesquisador usa esse gráfico como exemplo de "chartjunk" que menospreza a audiência, que é tratada com obtusa e desinteressada.
 
@@ -196,7 +198,7 @@ O que Holmes tem a dizer sobre as críticas que recebeu? Como justifica suas dec
 
 O pesquisador Ricardo Cunha Lima, professor da Universidade Federal de Pernambuco (UFPE), analisou em [um artigo](http://pdf.blucher.com.br.s3-sa-east-1.amazonaws.com/designproceedings/9cidi/1.0222.pdf) de 2019 quais era os elementos típicos da linguagem de Holmes. Segundo ele, Holmes adotou o uso de metáforas visuais marcantes porque acreditava que esse tipo de conteúdo tornaria mais palatáveis temas complexos, com os quais os leitores provavelmente nunca tiveram contato algum antes.
 
-Em uma [palestra de 2015](https://www.youtube.com/watch?time_continue=931&amp;v=WB7DCEayj3w&amp;feature=emb_logo) na conferência OpenVis, em Boston, o próprio Holmes defende o uso de humor como forma de conectar-se com a audiência e explicar assuntos complexos de forma quase conversacional.
+Em uma [palestra de 2015](https://www.youtube.com/watch?time_continue=931&amp;v=WB7DCEayj3w&amp;feature=emb_logo) na conferência OpenVis, em Boston, o próprio Holmes defende o uso de humor como forma de **conectar-se com a audiência** e explicar assuntos complexos de forma quase conversacional.
 
 Desta forma, percebe-se que o objetivo do designer era comunicar informação relativamente complexa de forma mais aprazível para um público leigo.
 
@@ -206,7 +208,7 @@ Uma [pesquisa](http://hci.usask.ca/uploads/173-pap0297-bateman.pdf) feita por Sc
 
 Os estudiosos pediram para que voluntários avaliassem gráficos que representavam os mesmos dados, mas em duas versões diferentes: uma no estilo decorado de Holmes e outro em um formato minimalista que se aproximava mais das convicções de Tufte.
 
-![Exemplo de um gráfico com *chartjunk*; produzido por Tufte e um gráfico minimalista com o os mesmos dados, produzido pelos autores do estudo](images/visualize/figura19.png)
+![Exemplo de um gráfico com *chartjunk* e um gráfico minimalista com os mesmos dados](images/visualize/figura19.png)
 
 Os leitores eram questionados, logo depois de ler o gráfico, sobre os números que viram e outras questões de ordem mais técnica, como a tendência demonstrada pelos dados.
 
@@ -216,7 +218,7 @@ Por fim, depois de um intervalo de cerca de duas semanas, os voluntários foram 
 
 O estudo descobriu que não havia diferenças significativas na precisão da leitura dos gráficos no estilo de Holmes e no estilo minimalista - ou seja, os voluntários conseguiram ler os gráficos da mesma maneira, interpretando tanto gráficos decorados quanto gráfico sem "chartjunk" de forma correta na mesma proporção.
 
-Entretanto, os gráficos no estilo cartum foram mais **lembrados** depois do intervalo longa, o que sugere que eles são mais **memoráveis** - ou seja, que a informação comunicada por visualizações nesse formato são mais marcantes para o público.
+Entretanto, os gráficos no estilo cartum foram mais **lembrados** depois do intervalo longo, o que sugere que eles são mais **memoráveis** - ou seja, que a informação comunicada por visualizações nesse formato são mais marcantes para o público.
 
 Além disso, os participantes disseram gostar mais dos gráficos com elementos decorativos. Por fim, eles também notaram mais elementos interpretativos e opinativos nos trabalhos de Holmes - o que, pode-se argumentar, torna essas visualizações menos úteis como ferramentas que aumentam as capacidades de percepção do leitor.
 
@@ -230,23 +232,23 @@ Neste momento, vamos inverter o processo. Em vez de começar com uma lista de vi
 
 A apresentação segue essa ordem porque, para elaborar uma boa visualização de dados, é preciso ao menos ter alguma ideia prévia de sua **função** - ou seja, de que tipo de ferramenta mental o gráfico pretende ser.
 
-Depois dessa reflexão, é necessário escolher um formato de representação funcional. Assim, vamos descobrir quais são os formatos de gráficos que funcionam melhor para fazer comparações precisas ou ver a evolução de fenômenos ao longo, entre outras possibilidades.
+Depois dessa reflexão, é necessário escolher um formato de representação funcional. Assim, **vamos descobrir quais são os formatos de gráficos que funcionam melhor para fazer comparações precisas ou ver a evolução de fenômenos ao longo, entre outras possibilidades**.
 
 Vamos começar por formatos mais comuns, que costumam aparecer com frequência na televisão e nos jornais, em programas e notícias generalistas. Conforme a lista avança, porém, surgirão alguns formatos que não são tão usuais fora da análise de dados e da estatística.
 
 ### Comparar valores de forma precisa
 
-Essa, talvez, seja a tarefa perceptiva mais simples que uma visualização de dados pode ajudar a executar. Aqui, o objetivo é fazer com que o leitor consiga contrastar de forma precisa o tamanho de poucas grandezas.
+Essa, talvez, seja a tarefa perceptiva mais simples que uma visualização de dados pode ajudar a executar. Aqui, **o objetivo é fazer com que o leitor consiga contrastar de forma precisa o tamanho de poucas grandezas**.
 
 Assim, faz sentido escolher formas visuais que tenham maior precisão na escala elaborada por Cleveland e McGill. Entre as formas de representação mais perto do topo, como vimos, estão aquelas que posicionam os dados em um eixo fixo.
 
-Dessa forma, os formatos mais indicados para essa tarefa são **gráficos de barra** ou alguma de suas variantes. Veja abaixo uma visualização que compara a quantidade de imposto pago em relação a renda em alguns países.
+Dessa forma, os formatos mais indicados para essa tarefa são **gráficos de barra** ou alguma de suas variantes. Veja a seguir uma visualização que compara a quantidade de imposto pago em relação a renda em alguns países.
 
 ![Gráfico de barras publicado na The Economist. Note que aqui a barra é composta por dois valores, cada um representado por uma cor. Na prática, eles se somam para representar uma barra única.](images/visualize/figura20.png)
 
 Para decodificá-la, o leitor precisa localizar o ponto final da barra e comparar a posição dela com a das demais, que estão na mesma escala. É fácil perceber, por exemplo, que Hong Kong tem uma carga tributária de perto de 12% e que a Suíça se aproxima dos 18%.
 
-O exemplo acima é particularmente interessante porque funciona para fazer uma comparação entre os diferentes países, mas também permite enxergar a distribuição do imposto **dentro** de cada um deles. Vamos falar mais sobre essa segunda tarefa a seguir.
+O exemplo é particularmente interessante porque funciona para fazer uma **comparação entre os diferentes países**, mas também permite enxergar a distribuição do imposto **dentro** de cada um deles. Vamos falar mais sobre essa segunda tarefa a seguir.
 
 **Comparar partes do todo**
 
@@ -266,31 +268,31 @@ Agora, para descobrir qual parte é maior, em vez de comparar ângulos, estamos 
 
 Ainda que os dois segmentos da barra não estejam alinhados verticalmente, é relativamente fácil perceber que a parte escura é cerca de três vezes menor que a parte clara.
 
-Caso você tenha ficado curioso, o nome desse tipo de gráfico é "barra empilhada", ou "stacked bar".
+Caso você tenha ficado curioso, o nome desse tipo de gráfico é **barra empilhada**, ou **stacked bar**.
 
 A ideia é que as diferentes partes de um mesmo item sejam representadas por pedaços de reta colocados um em cima do outro. Assim, a barra pode ser lida a partir de cada segmento individual e também como a soma de todos eles.
 
 Esse formato traz a vantagem, como vimos, de permitir a comparação da distribuição interna de diferentes grupos.
 
-Se isso não for uma preocupação, porém, talvez o melhor a se fazer seja usar um gráfico de barras simples, separadas e alinhadas. Assim, ganha-se mais precisão.
+Se essa não for uma preocupação, porém, talvez o melhor a se fazer seja usar um gráfico de barras simples, separadas e alinhadas. Assim, ganha-se mais precisão.
 
 Nesse caso, o formato não sugeriria que todos os itens fazem parte de um mesmo grupo, mas esse é um problema que pode ser superado facilmente com informações de contexto, com em um título ou legenda.
 
 ### Enxergar tendências temporais
 
-Na prática, quando queremos ver a evolução de um valor ao longo do tempo, poderíamos usar gráficos de barra, com uma barra para cada data. No final das contas, a tarefa executada é uma comparação entre valores.
+Na prática, quando queremos ver a evolução de um valor ao longo do tempo, poderíamos usar gráficos de barra, com uma barra para cada data. No final das contas, a tarefa executada é uma **comparação entre valores**.
 
-Geralmente, ao analisar uma série temporal, não queremos que o foco de leitor seja na diferença **exata** entre uma data e outra. Usualmente, queremos que ele perceba se o movimento dos dados é de subida ou de queda.
+Geralmente, ao analisar uma série temporal, não queremos que o foco de leitor seja na diferença **exata** entre uma data e outra. Usualmente, queremos que ele perceba **se o movimento dos dados é de subida ou de queda**.
 
 Assim, faz sentido usar um formato de visualização que realça a tendência e, de quebra, mostra que os pontos de dados estão conectados de forma linear: gráficos de linha.
 
 Vamos analisar o gráfico abaixo, [publicado pelo The New York Times](https://archive.nytimes.com/www.nytimes.com/imagepages/2006/08/26/weekinreview/27leon_graph2.html?ref=patrick.net) em 2006.
 
-![](images/visualize/figura22.png)
+![Gráfico de linhas apresenta tendências de ascensão e queda](images/visualize/figura22.png)
 
 Na prática, poderíamos substituir essa linha por uma série de barras ou pontos: o valor de cada ano é representado, afinal, pela posição do ponto mais alta da linha.
 
-Ao conectar esses pontos, porém, o tracejado sugere conexão e movimento. Além disso, a inclinação gerada pelas ligações enfatiza a ideia de queda e subida, ainda que seja mais difícil perceber a variação exata de valor entre um ano e outro.
+Ao conectar esses pontos, porém, o **tracejado sugere conexão e movimento**. Além disso, a inclinação gerada pelas ligações enfatiza a ideia de **queda e subida**, ainda que seja mais difícil perceber a variação exata de valor entre um ano e outro.
 
 Perceba que aqui começamos a passar para a outra ponta da hierarquia da percepção, onde a preocupação passa a ser a percepção de tendências mais amplas e não a comparação exata entre valores.
 
@@ -302,9 +304,9 @@ Parece um contrassenso escolher formas menos precisas quando temos à disposiç�
 
 Quando, afinal, faz sentido usar as representações visuais que ocupam a parte de baixo do ranking elaborado por Cleveland e McGill?
 
-Geralmente, isso acontece quando um olhar mais distante revela padrões que não podem ser detectados comparando poucos pontos de dados.
+Geralmente, isso acontece quando um olhar mais distante **revela padrões que não podem ser detectados comparando poucos pontos de dados**.
 
-De vez em quando, é melhor perder precisão e ganhar escopo, permitindo assim que a visualização de dados revele uma realidade mais ampla.
+De vez em quando, é melhor perder precisão e ganhar escopo, permitindo assim que a **visualização de dados revele uma realidade mais ampla**.
 
 Vamos olhar para um exemplos prático e marcante que mostra como uma abordagem menos precisa pode ser útil. A visualização de dados usa cores, tidas como a mais imprecisa das formas de representação, para oferecer um olhar original sobre um tema já muito explorado.
 
@@ -324,13 +326,11 @@ Logicamente, seria possível produzir vários outros gráfico que passe a mesma 
 
 Por fim, vamos apresentar um formato muito parecido com o gráfico de barras, mas que não é exatamente a mesma coisa: o **histograma.**
 
-Trata-se de um tipo de visualização que mostra qual é a **distribuição** dos seus dados, o que é essencial para entender melhor as características do fenômeno que estamos analisando.
+Trata-se de um tipo de visualização que mostra qual é a **distribuição** dos dados, o que é essencial para entender melhor as características do fenômeno que estamos analisando.
 
-![Histograma com distribuição das notas no ENEM](images/visualize/figura26.png)
+![Histograma com distribuição das notas no Enem](images/visualize/figura26.png)
 
-_O gráfico acima mostra a distribuição das notas no Enem 2018: muitos alunos tiraram entre 400 e 600. Poucos tiraram um valor perto de 800. Fonte: elaboração própria_
-
-No exemplo acima, o eixo horizontal representa a variedade possível de notas no Enem, de 0 a 800. O eixo vertical mostra quantos alunos tiraram cada nota nesse intervalo.
+O gráfico anterior mostra a distribuição das notas no Enem 2018: muitos alunos tiraram entre 400 e 600. Poucos tiraram um valor perto de 800. No exemplo, o eixo horizontal representa a variedade possível de notas no Enem, de 0 a 800. O eixo vertical mostra quantos alunos tiraram cada nota nesse intervalo.
 
 A barra mais alta, por exemplo, mostra que cerca de 200 mil estudantes tiraram uma nota próxima de 500. Essa é a **moda** , o valor mais comum do banco de dados.
 
@@ -342,7 +342,7 @@ Depois de ver um gráfico como esse, o leitor consegue uma percepção mais deta
 
 De teor um pouco mais técnico, esse tipo de gráfico não costuma aparecer muito em reportagens, apesar de ser muito útil na hora de analisar dados.
 
-Entretanto, com cuidado e atenção especial para as explicações, ele pode ser uma ferramenta útil para explicar fenômenos complexos para o leitor, como no exemplo abaixo, retirado de [uma reportagem do Estadão](https://www.estadao.com.br/infograficos/educacao,no-enem-1-a-cada-4-alunos-de-classe-media-triunfa-pobres-sao-1-a-cada-600,953041) sobre o impacto da desigualdade socioeconômica nos resultados do Enem.
+Com cuidado e atenção especial para as explicações, ele pode ser uma ferramenta útil para explicar fenômenos complexos para o leitor, como no exemplo abaixo, retirado de [uma reportagem do Estadão](https://www.estadao.com.br/infograficos/educacao,no-enem-1-a-cada-4-alunos-de-classe-media-triunfa-pobres-sao-1-a-cada-600,953041) sobre o impacto da desigualdade socioeconômica nos resultados do Enem.
 
 ![Histogramas sobrepostos para a comparação de distribuições](images/visualize/figura27.png)
 
@@ -361,29 +361,28 @@ Ao fazer isso, é inevitável pensar nas tarefas perceptivas que a sua visualiza
 
 Sobre este último ponto, vale destacar algo que, de tão óbvio, muitas vezes acaba ignorado. Visualizações de dados são ferramentas que ajudam pessoas a entender melhor valores quantitativos, como vimos ao longo das páginas anteriores.
 
-Entretanto, no jornalismo, é comum tratar um gráfico como ponto final do processo de apuração, etapa em que aquilo que foi descoberto durante a análise de dados é comunicado para o leitor.
+Separamos uma seleção de 10 ferramentas para visualização de dados, que são úteis tanto para quem está começando quanto para pessoas com mais conhecimento. 
 
-Pensar dessa maneira, porém, é ignorar um dos maiores potenciais da visualização de dados no jornalismo. Ainda durante a fase da análise de dados, vale a pena elaborar gráficos para entender melhor os números com os quais você está trabalhando.Com paciência, tentativa e erro, é bem possível que tendências até então ignoradas aparecem, revelando novos ângulos para uma reportagem.
+- **Flourish** (web): tem uma interface amigável e permite a criação de gráficos interativos, que podem ser unidos em histórias;
 
+- **Datawrapper** (web): produz gráficos elegantes facilmente, com atualização em tempo real e edição colaborativa;
 
-Dito isso, separamos uma seleção de 10 ferramentas para visualização de dados, que são úteis tanto para quem está começando quanto para pessoas com mais conhecimento. Todas são gratuitas e aquelas baseadas na web são altamente indicadas para iniciantes, que podem gerar visualizações de alto nível, sem precisar recorrer à programação.
+- **Raw Graphs** (web): bom para gráficos pouco usuais, é baseado em D3 (JavaScript) e tem código aberto;
 
+- **GGplot2** (R): tem uma "gramática" para visualização de dados que é considerada referência, permitindo produzir gráficos muito elegantes em poucas linhas;
 
-- Flourish (web): tem uma interface amigável e permite a criação de gráficos interativos, que podem ser unidos em histórias;
-- Datawrapper (web): produz gráficos elegantes facilmente, com atualização em tempo real e edição colaborativa;
+- **Tableau** (Windows/MacOS): fácil de usar, bom para análises exploratórias;
 
-- Raw Graphs (web): bom para gráficos pouco usuais, é baseado em D3 (JavaScript) e tem código aberto;
+- **Matplotlib** (Python): bom para gráficos simples e análises exploratórias;
 
-- GGplot2 (R): tem uma "gramática" para visualização de dados que é considerada referência, permitindo produzir gráficos muito elegantes em poucas linhas;
+- **Seaborn** (Python): permite a criação de gráficos mais complexos;
 
-- Tableau (Windows/MacOS): fácil de usar, bom para análises exploratórias;
+- **Google Charts** (JavaScript): conta com diversos modelos/templates, além de gráficos responsivos;
 
-- Matplotlib (Python): bom para gráficos simples e análises exploratórias;
+- **D3** (JavaScript): permite a criação de isualizações complexas na web, conta com ampla documentação e exemplos;
 
-- Seaborn (Python): permite a criação de gráficos mais complexos;
+- **C3** (JavaScript): baseado em D3, porém, mais simples, permite gerar visualizações interativas e responsivas.
 
-- Google Charts (JavaScript): conta com diversos modelos/templates, além de gráficos responsivos;
+No jornalismo, é comum tratar um gráfico como ponto final do processo de apuração, etapa em que aquilo que foi descoberto durante a análise de dados é comunicado para o leitor.
 
-- D3 (JavaScript): permite a criação de isualizações complexas na web, conta com ampla documentação e exemplos;
-
-- C3 (JavaScript): baseado em D3, porém, mais simples, permite gerar visualizações interativas e responsivas;
+Pensar dessa maneira, porém, é ignorar um dos maiores potenciais da visualização de dados. Ainda durante a fase da análise de dados, vale a pena elaborar gráficos para entender melhor os números com os quais você está trabalhando. Com paciência, tentativa e erro, é bem possível que tendências até então ignoradas aparecem, revelando novos ângulos para uma reportagem.
