@@ -88,7 +88,7 @@ Fique de olho em possíveis conflitos de interesse e em outras formas que a auto
 Os dados vêm de um censo que fala com todas as pessoas do país, batendo de porta em porta? São feitos com base em um recorte amostral da população? São coletados por telefone? São inseridos em um programa de banco de dados por policiais ou médicos? São consolidados automaticamente por um sistema automático? Tudo isso afeta a representatividade, a qualidade e as conclusões que podemos tirar dos números.
 
 **Quando os dados foram coletados ou atualizados?** 
-Uma pegadinha comum é que os dados divulgados em um ano mostram, na realidade, o cenário de outro momento. Um exemplo comum são os resultados de pesquisas eleitorais. Como, em época de eleição, a opinião pública costuma mudar rápido, a pesquisa representa o estado das coisas no dia de campo (ou seja, no dia em que os pesquisadores fizeram as entrevistas) e não na data de divulgação, que costuma ser até dois dias depois. |
+Uma pegadinha comum é que os dados divulgados em um ano mostram, na realidade, o cenário de outro momento. Um exemplo comum são os resultados de pesquisas eleitorais. Como, em época de eleição, a opinião pública costuma mudar rápido, a pesquisa representa o estado das coisas no dia de campo (ou seja, no dia em que os pesquisadores fizeram as entrevistas) e não na data de divulgação, que costuma ser até dois dias depois. 
 
 
 ## Tópicos de atenção
