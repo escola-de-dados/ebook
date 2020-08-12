@@ -43,12 +43,17 @@ Vale a pena anotar tudo o que você fizer, desde a origem dos arquivos que baixo
 
 Ao permitir que terceiros avaliem se seu métodos são sólidos, você também minimiza a chance de que um erro passe despercebido por todos. Mais do que isso, você demonstra que está trabalhando de boa fé e constrói uma relação de confiança com os leitores. Quanto mais gente prestar atenção e discutir os méritos e falhas do jornalismo, mais a qualidade dos conteúdos tende a crescer.
 
+---
+
 **Dicas para começar uma análise**
+
 **Desenvolva um método:** em vez de mergulhar na base de dados de forma livre, olhando para todos os lados em busca de algo que possa ser interessante, é importante elaborar um plano de ação. Assim, nos obrigamos a tomar consciência das hipóteses e premissas que envolvem o trabalho. O que exatamente você espera encontrar? De que maneira vai sistematizar essa busca? Que evidências seriam suficientes para corroborar suas hipóteses?
 
 **Reporte contra suas convicções:** quando começamos uma análise de dados, é natural que o esforço de investigação enfatize elementos que corroborem a história que queremos contar. Entretanto, precisamos pensar também naquilo que pode derrubar a matéria. Que evidências fariam você desistir da reportagem? Procure por elas também.
 
 **Seja transparente:** desenvolver um método claro de trabalho não é útil apenas para guiar nossos próprios esforços de apuração. Quando a metodologia é publicada junto com uma reportagem, você ajuda o público a entender quais foram os passos da investigação, o que aumenta a credibilidade do material e permite que interessados verifiquem se os resultados são mesmo sólidos. 
+
+---
 
 ## Vieses e limitações
 
