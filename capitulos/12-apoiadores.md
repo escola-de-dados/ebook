@@ -1,5 +1,20 @@
+---
+papersize: a4
+documentclass: article
+header-includes:
+    - \usepackage{multicol}
+    - \newcommand{\hideFromPandoc}[1]{#1}
+    - \hideFromPandoc{
+        \let\Begin\begin
+        \let\End\end
+      }
+
+...
+
 # Apoiadores
 Esta publicação foi realizada graças ao apoio de 282 pessoas, que colaboraram com a primeira campanha de financiamento colaborativo da Escola de Dados em 2019.
+
+\Begin{multicols}{2}
 
 Adriana Farias
 
@@ -542,3 +557,10 @@ Viviane Machado
 Yan Dutra Hill
 
 Yuri Almeida
+
+
+
+\End{multicols}
+
+--------------
+

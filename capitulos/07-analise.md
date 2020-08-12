@@ -212,7 +212,7 @@ A análise de dados que envolve valores monetários deve, necessariamente, consi
 
 Tomemos como ponto de partida o poder de compra de um cidadão que, em janeiro de 2005, recebeu R$ 1 mil pelo seu trabalho. Em valores corrigidos pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA), esses R$ 1 mil tornaram-se R$ 2,13 mil em janeiro de 2019. Em outras palavras, este cidadão não teria o mesmo poder de compra caso continuasse recebendo R$ 1 mil em 2019. Por isso, a inflação do período precisa ser observada. Como afirma a jornalista Mariana Segala [neste trecho do livro Siga os Números](https://sigaosnumeros.com/sumario/descomplicando-os-dados/como-encontrar-pautas-nos-dados/as-tres-operacoes-fundamentais-da-matematica-para-jornalistas/), atualizar valores de acordo com a inflação ou com os juros do período é uma das habilidades demandadas especialmente dos jornalistas que cobrem economia e finanças. A ausência de correção de valores provocaria uma análise equivocada.
 
-### Série históricas
+### Séries históricas
 
 A análise temporal de um fenômeno exige dados de série histórica, isto é, informações correspondentes a um grande período de tempo. Podemos pensar, por exemplo, sobre dados de emprego e desemprego, distribuição de renda entre a população, produção agrícola e números de importação e exportação em determinado país.
 
