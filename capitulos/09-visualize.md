@@ -208,7 +208,7 @@ Uma [pesquisa](http://hci.usask.ca/uploads/173-pap0297-bateman.pdf) feita por Sc
 
 Os estudiosos pediram para que voluntários avaliassem gráficos que representavam os mesmos dados, mas em duas versões diferentes: uma no estilo decorado de Holmes e outro em um formato minimalista que se aproximava mais das convicções de Tufte.
 
-![Exemplo de um gráfico com *chartjunk* e um gráfico minimalista com os mesmos dados](images/visualize/figura19.png)
+![Exemplo de um gráfico com *chart junk* e um gráfico minimalista com os mesmos dados](images/visualize/figura19.png)
 
 Os leitores eram questionados, logo depois de ler o gráfico, sobre os números que viram e outras questões de ordem mais técnica, como a tendência demonstrada pelos dados.
 
