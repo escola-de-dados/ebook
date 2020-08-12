@@ -102,7 +102,7 @@ Outra forma de representar dados é em forma de **redes ou grafos**. Na prática
 
 Estes mesmos dados poderiam ser "traduzidos" para uma representação em redes com o grafo abaixo.
 
-![O grafo mostra uma forma de representação da rede]
+![O grafo mostra uma forma de representação da rede](images/defina/grafo.png)
 
 Ao invés de organizar a informação em uma matriz ou uma tabela, os dados são estruturados a partir de nós (os pontos nas imagens acima) e arestas (os traços que conectam os pontos). Essa estrutura é especialmente útil quando seu interesse são relações entre entidades. Não é à toa que os grafos se tornaram bastante populares para entender a disseminação da informação e relações entre pessoas na análise de redes sociais. Assim como os dados geográficos, as redes possuem conceitos, metodologias e técnicas de análises próprias, que seriam impossíveis ou muito difíceis de serem realizadas utilizando tabelas.
 
