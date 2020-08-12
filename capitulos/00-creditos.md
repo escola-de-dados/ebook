@@ -21,7 +21,7 @@ Adriano Belisário
 
 Os capítulos do livro possuem a seguinte autoria:
 
-Introdução: Adriano Belisário e Marília Gehrke
+Introdução: Adriano Belisário, Rodrigo Menegat e Marília Gehrke
 
 Defina: Adriano Belisário
 
