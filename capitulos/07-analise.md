@@ -356,7 +356,7 @@ Imagine que você queira compreender os hábitos de consumo dos brasileiros ou m
 
 Ao trabalhar com dados amostrais, portanto, fique atento à margem de erro, que corresponde a quantos percentuais (para mais ou para menos) as informações podem variar. Se 90% dos respondentes de uma pesquisa concordaram com uma afirmação, por exemplo, e a margem de erro for de cinco pontos percentuais, estima-se, então, que entre 85% e 95% pessoas responderam afirmativamente a esta questão.
 
-Pesquisas com margens de erro muito altas (a partir de 10 pontos percentuais) dificilmente trazem dados que representam de forma qualificada uma determinada realidade, e por vezes indicam problemas na metodologia. A margem de erro em pontos percentuais é uma característica importante a ser levada em conta, e deve, inclusive, ser comunicada claramente na reportagem. Em geral, as pesquisas amostrais também divulgam o intervalo de confiança, normalmente de 95%. Isso significa que, se a pesquisa for repetida com amostras aleatórias 100 vezes, em 95 delas o resultado será mesmo.
+**Pesquisas com margens de erro muito altas (a partir de 10 pontos percentuais) dificilmente trazem dados que representam de forma qualificada uma determinada realidade**, e por vezes indicam problemas na metodologia. A margem de erro em pontos percentuais é uma característica importante a ser levada em conta, e deve, inclusive, ser comunicada claramente na reportagem. Em geral, as pesquisas amostrais também divulgam o intervalo de confiança, normalmente de 95%. Isso significa que, se a pesquisa for repetida com amostras aleatórias 100 vezes, em 95 delas o resultado será mesmo.
 
 ## Operações de análise de dados
 

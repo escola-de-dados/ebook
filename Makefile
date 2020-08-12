@@ -36,7 +36,7 @@ PANDOC_COMMAND = pandoc
 
 EPUB_ARGS = --epub-cover-image=$(COVER_IMAGE) 
 HTML_ARGS = --standalone --to=html5
-PDF_ARGS = -V geometry:margin=1in -V documentclass=report --pdf-engine=xelatex --variable urlcolor=cyan
+PDF_ARGS = -V geometry:margin=1in -V documentclass=report --pdf-engine=xelatex --variable urlcolor=NavyBlue
 DOCX_ARGS =
 
 ####################################################################################################
@@ -50,6 +50,7 @@ book:	epub html pdf docx
 clean:
 	rm -r $(BUILD)
 
+
 ####################################################################################################
 # File builders
 ####################################################################################################
@@ -59,6 +60,10 @@ epub:	$(BUILD)/epub/$(OUTPUT_FILENAME).epub
 html:	$(BUILD)/html/$(OUTPUT_FILENAME).html
 
 pdf:	$(BUILD)/pdf/$(OUTPUT_FILENAME).pdf
+	convert images/cover.png images/cover.pdf
+	pdftk images/cover.pdf build/pdf/$(OUTPUT_FILENAME).pdf cat output build/pdf/ebookcomcapa.pdf
+	mv build/pdf/ebookcomcapa.pdf build/pdf/$(OUTPUT_FILENAME).pdf
+	rm images/cover.pdf
 
 docx:	$(BUILD)/docx/$(OUTPUT_FILENAME).docx
 
