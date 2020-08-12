@@ -3,10 +3,10 @@
 - [Bad Data Handbook - Q. Ethan McCallum](https://www.oreilly.com/library/view/bad-data-handbook/9781449324957/)
 - [Entrevistando planilhas: estudo das crenças e do ethos de um grupo de profissionais de jornalismo guiado por dados no Brasil - Marcelo Träsel](http://tede2.pucrs.br/tede2/bitstream/tede/4590/1/461784.pdf)
 - [Guia para Quartz para Limpeza de Dados](https://escoladedados.org/tutoriais/guia-quartz-para-limpeza-de-dados/#planilha-tem-65536-linhas)
-- [How you're feeling when machine learning might help - Jeremy Merrill]((https://qz.ai/how-youre-feeling-when-machine-learning-might-help/)
+- [How you're feeling when machine learning might help - Jeremy Merrill](https://qz.ai/how-youre-feeling-when-machine-learning-might-help/)
 - [Monitor da Violência - G1](https://g1.globo.com/monitor-da-violencia/noticia/monitor-da-violencia-do-g1-vence-o-data-journalism-awards-na-categoria-escolha-do-publico.ghtml) 
 - [O uso de fontes documentais no jornalismo guiado por dados - Marília Gehrke](https://lume.ufrgs.br/bitstream/handle/10183/172614/001060430.pdf?sequence=1)
-- [Precision Journalism: a reporter's introduction to social science methods - Philip Meyer]
+- Precision Journalism: a reporter's introduction to social science methods - Philip Meyer
 - [Tutoriais da Escola de Dados](https://escoladedados.org/tutoriais/guia-quartz-para-limpeza-de-dados/#planilha-tem-65536-linhas)
 - [The Functional Art - Alberto Cairo]()
 - [The next wave of data journalism? - Paul Bradshaw](https://medium.com/@paulbradshaw/the-next-wave-of-data-journalism-7e2e10087bb3)
