@@ -48,7 +48,7 @@ Coordenador da Escola de Dados e jornalista com mais de 10 anos de experiência 
 Doutoranda em Comunicação e Informação pela Universidade Federal do Rio Grande do Sul (UFRGS), onde também fez mestrado. É jornalista graduada pela Universidade de Santa Cruz do Sul (Unisc), e na mesma instituição realizou aperfeiçoamento em Assessoria em Comunicação Política. Trabalhou como repórter multimídia no interior do RS e pesquisa temas como jornalismo guiado por dados, transparência e desinformação. Integra o Núcleo de Pesquisa em Jornalismo (Nupejor/UFRGS) e o Laboratório de Popularização da Ciência (Popcicom). Auxilia na gestão de cursos da Escola de Dados e integra a rede de pessoas embaixadoras da Open Knowledge. É uma das organizadoras do Open Data Day de Porto Alegre.
 
 ### Marina Gama Cubas
-Minibio
+Marina Gama Cubas é jornalista de dados. Colabora com investigações e análises de dados em projetos especiais do Aos Fatos. Trabalhou no DeltaFolha, editoria de dados do jornal Folha de S. Paulo, e no Estadão. No exterior, passou pelas seções de dados dos jornais El Mundo, na Espanha, e La Nacion, na Argentina. Possui master em jornalismo investigativo e de dados pela Universidade Rey Juan Carlos, de Madri, e graduações em Comunicação Social e Letras.
 
 ### Rodrigo Menegat
 Minibio
