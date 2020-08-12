@@ -1,16 +1,3 @@
----
-papersize: a4
-documentclass: article
-header-includes:
-    - \usepackage{multicol}
-    - \newcommand{\hideFromPandoc}[1]{#1}
-    - \hideFromPandoc{
-        \let\Begin\begin
-        \let\End\end
-      }
-
-...
-
 # Apoiadores
 Esta publicação foi realizada graças ao apoio de 282 pessoas, que colaboraram com a primeira campanha de financiamento colaborativo da Escola de Dados em 2019.
 
@@ -30,9 +17,9 @@ Alessandra Ferreira
 
 Alessandra Midori
 
-Amanda Fernandes de Carvalho
+Amanda Carvalho
 
-Amanda Martins Gomes Lemos
+Amanda Lemos
 
 Amanda Moura
 
@@ -44,17 +31,17 @@ Ana Carolina Castro
 
 Ana Freitas
 
-Ana Laura Moura dos Santos Azevedo
+Ana Laura Azevedo
 
-Ana Paula Borges de Oliveira
+Ana Paula de Oliveira
 
-Ana Paula Gomes Ferreira
+Ana Paula Ferreira
 
 Andre Spritzer
 
 André Tamura
 
-Andre Yukio Abe Mota
+Andre Mota
 
 Ângela Prestes
 
@@ -64,11 +51,11 @@ Anna Livia Arida
 
 Anne Clinio
 
-Anselmo Geraldo do Nascimento Dias
+Anselmo Dias
 
-Antonio Arles dos Anjos Junior
+Antonio Junior
 
-Antônio Rafael Santos Prestes
+Antônio Prestes
 
 Augusto Conconi
 
@@ -84,23 +71,23 @@ Bárbara Libório
 
 Bianca Berti
 
-Bruno Bitencourt Luiz
+Bruno Luiz
 
-Bruno Costa Teixeira
+Bruno Teixeira
 
-Bruno Elmano Lemos
+Bruno Lemos
 
 Bruno Evangelista
 
-Bruno Luis Marra Silva
+Bruno Silva
 
-Bruno Miessa De Barros
+Bruno De Barros
 
 Bruno Nunes
 
 Café.art.br
 
-Caio Vinicius do Nascimento
+Caio do Nascimento
 
 Carol Moreno
 
@@ -110,15 +97,15 @@ Carol Queiroz
 
 Carolina Assunção
 
-Carolina Guimarães Ribeiro
+Carolina Ribeiro
 
-Caroline da Rocha Franco
+Caroline Franco
 
 Cecília Do Lago
 
 Celia Beatriz Rosemblum
 
-Cesar Cano de Oliveira
+Cesar de Oliveira
 
 Christian Moryah
 
@@ -126,19 +113,19 @@ Christina Brentano
 
 Clara Sacco
 
-Clarissa Rodrigues Mendes
+Clarissa Mendes
 
 Colaboradados
 
-Cristian Edel Weiss
+Cristian Weiss
 
 Cristiane Paião
 
 Cristiano Pavini
 
-Daniel Augusto Silveira
+Daniel Silveira
 
-Daniel B Mariani
+Daniel Mariani
 
 Daniel Bramatti
 
@@ -156,21 +143,21 @@ Daniel Torquato
 
 Danilo Torini
 
-Dênis Braga Tavares
+Dênis Tavares
 
 Denise Businaro
 
-Denise Maria Neumann
+Denise Neumann
 
 Diana Yukari
 
-Diego Rabatone Oliveira
+Diego Oliveira
 
-Diogo Carpanedo do Carmo
+Diogo do Carmo
 
-Diogo Edegar Mafra
+Diogo Mafra
 
-Diogo Tolezano Pires
+Diogo Pires
 
 Edna Simao de Souza
 
@@ -178,17 +165,17 @@ Edson Alves Jr
 
 Eduardo Belo
 
-Eduardo de Moura Almeida
+Eduardo Almeida
 
-Elisângela Mendonça – Lili
+Elisângela Mendonça
 
-Emanuele Marques dos Santos
+Emanuele dos Santos
 
-Eric Ribeiro Daher
+Eric Daher
 
-Érico Monte Lima
+Érico Lima
 
-Everton Zanella Alvarenga
+Everton Alvarenga
 
 Fabiana Cambricoli
 
@@ -196,7 +183,7 @@ Fabiana Pulcineli
 
 Fabiano Silos
 
-Fábio Luiz Batista de Araujo
+Fábio de Araujo
 
 Fabio Takahashi
 
@@ -206,15 +193,15 @@ Felippe Mercurio
 
 Fernanda Campagnucci
 
-Fernanda Costa Távora
+Fernanda Távora
 
 Fernando Barbalho
 
-Filipe Almeida Mendonça da Silva
+Filipe da Silva
 
 Filipe Augusto
 
-Filipe José de Mattos Quintans
+Filipe José Quintans
 
 Filipe Menezes
 
@@ -226,17 +213,17 @@ Flávio Passos
 
 Flavio Shirahige
 
-Francisco Alves de Oliveira Júnior
+Francisco de Oliveira Júnior
 
-Francisco Artur de Lima Moacyr Filho
+Francisco de Lima Moacyr Filho
 
-Gabriel Carrasco Santo
+Gabriel Santo
 
 Gabriel Cortilio
 
 Gabriela Caesar
 
-Géssica Brandino Gonçalves
+Géssica Gonçalves
 
 Gilberto Vieira
 
@@ -246,13 +233,13 @@ Giulia Afiune
 
 Glaucia Campregher
 
-Guilherme Jardim Duarte
+Guilherme Duarte
 
-Guilherme Paim Mendes
+Guilherme Mendes
 
-Guilherme R. Storck
+Guilherme Storck
 
-Gustavo Sigal Macedo
+Gustavo Macedo
 
 Gustavo Tosello 
 
@@ -280,13 +267,13 @@ Isabella Sander
 
 Isis Reis 
 
-Ivan Grego Lemos
+Ivan Lemos
 
 Ivana Bentes 
 
 Jamile Santana
 
-Jardel Farias Duque
+Jardel Duque
 
 Jean Prado
 
@@ -304,7 +291,7 @@ Juciano
 
 Julia Mente
 
-Juliana Alves Marques
+Juliana Marques
 
 Juliana Lopes
 
@@ -314,7 +301,7 @@ Juliana Vitor
 
 Júlio Boaro
 
-Júlio C. Oliveira
+Júlio Oliveira
 
 Karina Barcellos
 
@@ -336,9 +323,9 @@ Ligia Guimarães
 
 Liraucio Girardi Júnior
 
-Lucas de Oliveira Gelape
+Lucas Gelape
 
-Lucas Marchesini Palma
+Lucas Palma
 
 Lucas Rizzi
 
@@ -348,13 +335,13 @@ Lui Pillmann
 
 Luís Guilherme Julião
 
-Luiz Claudio Rezende Reis
+Luiz Claudio Reis
 
 Luiz Fernando Teixeira
 
 Luiz Fernando Toledo
 
-Luiz Roberto Barros Farias
+Luiz Farias
 
 Luiza Bodenmüller
 
@@ -362,7 +349,7 @@ Manoel Galdino
 
 Marcela Miller
 
-Marcelo Crispim da Fontoura
+Marcelo da Fontoura
 
 Marcelo Dias
 
@@ -376,7 +363,7 @@ Marcelo Soares
 
 Marcelo Träsel
 
-Márcio Aparecido Nogueira Viana
+Márcio Viana
 
 Marco Antonio Konopacki
 
@@ -384,9 +371,9 @@ Marco Túlio Pires
 
 Marcos André
 
-Marcos Araujo Côrtes
+Marcos Côrtes
 
-Marcos Huet Nioac de Salles
+Marcos de Salles
 
 Maria Rosa
 
@@ -408,7 +395,7 @@ Marlise
 
 Marlos Pereira
 
-Mateus de Carvalho Sousa
+Mateus Sousa
 
 Matheus de Araújo
 
@@ -416,51 +403,51 @@ Max Stabile
 
 Melissa Lüdeman
 
-Michele Cruz Vieira
+Michele Vieira
 
-Moisés Tedeschi de Melo
+Moisés de Melo
 
-Nitai Bezerra da Silva
+Nitai da Silva
 
 Patricia Bado
 
-Patrícia Santos da Silva
+Patrícia da Silva
 
 Pedro Burgos
 
 Pedro Capetti
 
-Pedro dos Santos Maia
+Pedro Maia
 
-Pedro Futuro Rodrigues Hazan
+Pedro Hazan
 
 Pedro Markun
 
 Pedro Renaux Wanderley
 
-Pedro Rocha Franco
+Pedro Franco
 
 Pedro Sarvat
 
-Pedro Vilanova dos Reis
+Pedro dos Reis
 
 Philippe Watanabe
 
 Priscila Santos
 
-Rachel Bertol Domingues
+Rachel Domingues
 
-Rafael Aldin Vazquez
+Rafael Vazquez
 
-Rafael Cunha Alves Moreira
+Rafael Moreira
 
 Rafael Kenski
 
-Rayan Tinoco Alves
+Rayan Alves
 
-Reinaldo Chaves da Silva
+Reinaldo Silva
 
-Renata Massami Hirota
+Renata Hirota
 
 Renata Montechiare
 
@@ -470,15 +457,15 @@ Revista AzMina
 
 Ricardo Rossetto
 
-Robson Junqueira da Rosa
+Robson da Rosa
 
 Rodolfo Almeida
 
 Rodrigo Cunha
 
-Rodrigo Duarte Guedes
+Rodrigo Guedes
 
-Rodrigo Godoy Coelho
+Rodrigo Coelho
 
 Rodrigo Schuinski
 
@@ -486,9 +473,9 @@ Rodrigo Takenouchi
 
 Rosangela Lotfi
 
-Rose angélica do nascimento
+Rose do Nascimento
 
-Rosental Calmon Alves
+Rosental Alves
 
 Rui Barros
 
@@ -500,17 +487,17 @@ Sérgio Seabra
 
 Sérgio Spagnuolo
 
-Silvana Torquato Fernandes
+Silvana Fernandes
 
-Silvia Rodrigues Follador
+Silvia Follador
 
 Stefano Wrobleski
 
 Stephanie de Paula
 
-Suzana Oliveira Barbosa
+Suzana Barbosa
 
-Tadeu Henriques Junior
+Tadeu Junior
 
 Tadeu Teixeira
 
@@ -520,37 +507,37 @@ Talita Duvanel
 
 Tatiana Balachova
 
-tatiana coelho
+Tatiana Coelho
 
 testecolab
 
-Thays Mariana de Oliveira Lavor
+Thays Lavor
 
-Thiago Aguiar de Moraes
+Thiago de Moraes
 
-Thiago Reis Corte
+Thiago Corte
 
 Thomaz Barbosa
 
 Thomaz Rezende
 
-Tiago Maranhao Barreto Pereira
+Tiago Pereira
 
 Tiago Rogero
 
-Tomas Rodriguez Martinez
+Tomas Martinez
 
 Verónica Goyzueta
 
-Victor Dias Grinberg
+Victor Grinberg
 
 Vinícius Valle
 
-Vitor de Oliveira Mafra
+Vitor Mafra
 
 Vitor Paulos Bellini
 
-Vívian Vaghetti Vieira
+Vívian Vieira
 
 Viviane Machado
 
@@ -558,8 +545,4 @@ Yan Dutra Hill
 
 Yuri Almeida
 
-
-\End{multicols}
-
---------------
 
