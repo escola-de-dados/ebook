@@ -39,6 +39,8 @@ Analise: Rodrigo Menegat
 
 Visualize: Rodrigo Menegat 
 
+## Equipe
+
 ### Adriano Belisário
 Coordenador da Escola de Dados e jornalista com mais de 10 anos de experiência com projetos na área de comunicação e tecnologias livres.  É autor e organizador de diversas publicações sobre o assunto, como o 'Copyfight - Pirataria & Cultura Livre' (2012). Atualmente, é pesquisador associado ao Medialab da Universidade Federal do Rio de Janeiro, onde desenvolve investigações baseadas em dados e técnicas de Open Source Intelligence (OSINT). Tem mestrado em Comunicação na mesma universidade e foi colaborador de veículos de jornalismo investigativo como a Agência Pública e organizações internacionais como a UNESCO e Witness.
 
