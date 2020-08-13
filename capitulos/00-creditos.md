@@ -1,5 +1,8 @@
 # Créditos
-Esta é a primeira edição do guia **Fluxo de trabalho com dados - do zero à prática**, publicada em agosto de 2020. O ebook foi produzido graças aos recursos obtidos com o primeiro financiamento coletivo da Escola de Dados, que alcançou sua meta e contou com o apoio de 282 pessoas. A listagem completa dos nomes encontra-se no final do livro.
+Esta é a primeira edição do guia **Fluxo de trabalho com dados - do zero à prática**, publicada em agosto de 2020. O ebook foi produzido graças aos recursos obtidos com o primeiro financiamento coletivo da Escola de Dados, o programa educacional da Open Knowledge Brasil, que alcançou sua meta e contou com o apoio de 282 pessoas. A listagem completa dos nomes encontra-se no final do livro. 
+
+**Licença**
+Este livro está disponibilizado sob uma licença *Creative Commons Attribution-ShareAlike 4.0 International*.
 
 --------------
 
@@ -35,11 +38,11 @@ Cheque: Marina Gama Cubas e Rodrigo Menegat
 
 Limpe: Marina Gama Cubas e Adriano Belisário
 
-Analise: Rodrigo Menegat
+Analise: Rodrigo Menegat e Marina Gama Cubas
 
 Visualize: Rodrigo Menegat 
 
-**Equipe**
+**Autores(as) do livro**
 
 *Adriano Belisário*
 
@@ -56,3 +59,25 @@ Marina Gama Cubas é jornalista de dados. Colabora com investigações e anális
 *Rodrigo Menegat*
 
 Rodrigo Menegat trabalha como jornalista na editoria de infografia digital do Estadão, onde produz reportagens e visualizações feitas a partir da exploração de bases de dados. Antes disso, trabalhou como redator e repórter na Folha de S.Paulo e teve conteúdo publicado em veículos como The Intercept e Agência Pública. É formado em jornalismo pela Universidade Estadual de Ponta Grossa, no Paraná, e fez uma especialização em jornalismo de dados na Universidade de Columbia, em Nova York.
+
+**Equipe - Escola de Dados**
+
+**Direção-executiva da Open Knowledge Brasil**
+
+Fernanda Campagnucci
+
+**Coordenação da Escola de Dados**
+
+Adriano Belisário
+
+**Comunicação**
+
+Isis Reis
+
+**Apoio pedagógico**
+
+Marília Gehrke
+
+**Estágio**
+
+Edilaine dos Santos
