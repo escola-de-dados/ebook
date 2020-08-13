@@ -26,7 +26,8 @@ Outro problema que pode ser visto na tabela são as linhas referentes à coluna 
 
 Porém, percebemos que os nomes dos alunos estão separados dos registros por um hífen. Deste modo, podemos usar esse padrão para separar estes valores em colunas ou variáveis distintas, utilizando editores de planilha ou linguagens de programação, por exemplo. Como dissemos, o reconhecimento de padrões que permitam a limpeza dos dados será o seu maior aliado nesta etapa.
 
-Para Hadley Wickham, todas estas questões precisam ser corrigidas antes de qualquer trabalho de análise ou visualização de dados. Assim, a tabela deveria ficar assim para atender o formato do tidy data.
+Para Hadley Wickham, todas estas questões precisam ser corrigidas antes de qualquer trabalho de análise ou visualização de dados. Assim, a tabela deveria ficar assim para atender o formato do tidy data. Com a organização dos dados, as disciplinas se tornaram uma única coluna, com diferentes valores. Além disso, há uma linha para cada observação (ou seja, notas de aluno em disciplinas) e o nome e número de registro do aluno também foram separados.
+
 
 | **Nome** | **Registro** | **Turma** | **Disciplina** | **Nota** |
 | --- | --- | --- | --- | --- |
@@ -37,7 +38,6 @@ Para Hadley Wickham, todas estas questões precisam ser corrigidas antes de qual
 | Ricardo Fernandes | 20589 | C | Química | 4 |
 | Ricardo Fernandes | 20589 | C | Física | 7 |
 
-Com a organização dos dados, as disciplinas se tornaram uma única coluna, com diferentes valores. Além disso, há uma linha para cada observação (ou seja, notas de aluno em disciplinas) e o nome e número de registro do aluno também foram separados.
 
 ## Ferramentas e técnicas de limpeza
 
