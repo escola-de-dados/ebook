@@ -55,7 +55,7 @@ Doutoranda em Comunicação e Informação pela Universidade Federal do Rio Gran
 
 *Marina Gama Cubas*
 
-Marina Gama Cubas é jornalista de dados. Colabora com investigações e análises de dados em projetos especiais do Aos Fatos. Trabalhou no DeltaFolha, editoria de dados do jornal Folha de S. Paulo, e no Estadão. No exterior, passou pelas seções de dados dos jornais El Mundo, na Espanha, e La Nacion, na Argentina. Possui master em jornalismo investigativo e de dados pela Universidade Rey Juan Carlos, de Madri, e graduações em Comunicação Social e Letras.
+Marina Gama Cubas é jornalista de dados. Colabora com investigações e análises de dados em projetos especiais do Aos Fatos. Trabalhou no DeltaFolha, editoria de dados do jornal Folha de S. Paulo, e no Estadão. No exterior, passou pelas seções de dados dos jornais El Mundo, na Espanha, e La Nación, na Argentina. Possui master em jornalismo investigativo e de dados pela Universidade Rey Juan Carlos, de Madri, e graduações em Comunicação Social e Letras.
 
 *Rodrigo Menegat*
 
