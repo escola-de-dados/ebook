@@ -82,7 +82,9 @@
 </ul>
 </nav>
 <h1 id="créditos">Créditos</h1>
-<p>Esta é a primeira edição do guia <strong>Fluxo de trabalho com dados - do zero à prática</strong>, publicada em agosto de 2020. O ebook foi produzido graças aos recursos obtidos com o primeiro financiamento coletivo da Escola de Dados, que alcançou sua meta e contou com o apoio de 282 pessoas. A listagem completa dos nomes encontra-se no final do livro.</p>
+<p>Esta é a primeira edição do guia <strong>Fluxo de trabalho com dados - do zero à prática</strong>, publicada em agosto de 2020. O ebook foi produzido graças aos recursos obtidos com o primeiro financiamento coletivo da Escola de Dados, o programa educacional da Open Knowledge Brasil, que alcançou sua meta e contou com o apoio de 282 pessoas. A listagem completa dos nomes encontra-se no final do livro.</p>
+<p><strong>Licença</strong></p>
+<p>Este livro está disponibilizado sob uma licença <em>Creative Commons Attribution-ShareAlike 4.0 International</em>.</p>
 <hr />
 <p><strong>Organização</strong></p>
 <p>Adriano Belisário</p>
@@ -100,9 +102,9 @@
 <p>Obtenha: Adriano Belisário</p>
 <p>Cheque: Marina Gama Cubas e Rodrigo Menegat</p>
 <p>Limpe: Marina Gama Cubas e Adriano Belisário</p>
-<p>Analise: Rodrigo Menegat</p>
+<p>Analise: Rodrigo Menegat e Marina Gama Cubas</p>
 <p>Visualize: Rodrigo Menegat</p>
-<p><strong>Equipe</strong></p>
+<p><strong>Autores(as) do livro</strong></p>
 <p><em>Adriano Belisário</em></p>
 <p>Coordenador da Escola de Dados e jornalista com mais de 10 anos de experiência com projetos na área de comunicação e tecnologias livres. É autor e organizador de diversas publicações, tutoriais e textos sobre o assunto, como o livro ‘Copyfight - Pirataria &amp; Cultura Livre’ (2012) e dezenas de conteúdos publicados regularmente no site da Escola de Dados. Atualmente, também é pesquisador associado ao Medialab da Universidade Federal do Rio de Janeiro, onde desenvolve investigações baseadas em dados e técnicas de Open Source Intelligence (OSINT). Tem mestrado em Comunicação na mesma universidade e foi colaborador de veículos de jornalismo investigativo, como a Agência Pública, e organizações internacionais, como a UNESCO e Witness.</p>
 <p><em>Marília Gehrke</em></p>
@@ -111,6 +113,18 @@
 <p>Marina Gama Cubas é jornalista de dados. Colabora com investigações e análises de dados em projetos especiais do Aos Fatos. Trabalhou no DeltaFolha, editoria de dados do jornal Folha de S. Paulo, e no Estadão. No exterior, passou pelas seções de dados dos jornais El Mundo, na Espanha, e La Nacion, na Argentina. Possui master em jornalismo investigativo e de dados pela Universidade Rey Juan Carlos, de Madri, e graduações em Comunicação Social e Letras.</p>
 <p><em>Rodrigo Menegat</em></p>
 <p>Rodrigo Menegat trabalha como jornalista na editoria de infografia digital do Estadão, onde produz reportagens e visualizações feitas a partir da exploração de bases de dados. Antes disso, trabalhou como redator e repórter na Folha de S.Paulo e teve conteúdo publicado em veículos como The Intercept e Agência Pública. É formado em jornalismo pela Universidade Estadual de Ponta Grossa, no Paraná, e fez uma especialização em jornalismo de dados na Universidade de Columbia, em Nova York.</p>
+<hr />
+<p><strong>Equipe - Escola de Dados</strong></p>
+<p><strong>Direção-executiva da Open Knowledge Brasil</strong></p>
+<p>Fernanda Campagnucci</p>
+<p><strong>Coordenação da Escola de Dados</strong></p>
+<p>Adriano Belisário</p>
+<p><strong>Comunicação</strong></p>
+<p>Isis Reis</p>
+<p><strong>Apoio pedagógico</strong></p>
+<p>Marília Gehrke</p>
+<p><strong>Estágio</strong></p>
+<p>Edilaine dos Santos</p>
 <h1 id="apresentação">Apresentação</h1>
 <p>A <a href="https://escoladedados.org">Escola de Dados</a> é o programa da <a href="http://ok.org.br/">Open Knowledge Brasil</a> que tem o objetivo de ajudar pessoas e organizações a transformarem dados em histórias, evidências e mudanças sociais, compartilhando conhecimento, encontros, plataformas e materiais didáticos gratuitos. De 2013 até 2020, já envolvemos mais de 18 mil pessoas em nossas atividades, em todas as regiões do Brasil, e realizamos quatro edições do <a href="https://coda.escoladedados.org">Coda.Br</a>, a maior conferência de jornalismo de dados e métodos digitais da América Latina. Reunindo esta experiência e aproveitando o acúmulo de diversas colaborações com profissionais externos, preparamos esta publicação, que foi viabilizada com o apoio de mais de 280 pessoas em nossa primeira campanha de financiamento coletivo.</p>
 <p>Esta publicação é um guia prático destinado a profissionais e estudantes interessados em trabalhar com dados no campo da comunicação, em especial no jornalismo. <strong>O guia é baseado no fluxo de trabalho com dados (<em>data pipeline</em>), uma metodologia desenvolvida pela rede da Escola de Dados internacionalmente, que aborda todas etapas do trabalho</strong>.</p>
@@ -496,7 +510,7 @@
 <p>Você pode estar com uma planilha (aparentemente) bem estruturada na sua frente e ansioso para analisá-la, mas se você seguir direto para essa etapa e pular este capítulo poderá se frustrar, ter que refazer a análise ou, pior, publicar informações erradas.</p>
 <p>É comum que as bases de dados não cheguem prontas para análise e precisem passar por uma série de verificações e limpezas. É bastante frequente detectar inconsistências ou retirar colunas para reduzir o tamanho de uma base de dados e lidar com elas mais facilmente.</p>
 <p>A <strong>verificação</strong> consiste na busca de elementos que comprovem que os dados coletados estão corretos, são consistentes e que não há falta de informação que comprometa o seu trabalho posterior. Esse processo envolve desde as checagens mais básicas e aparentemente banais, como verificações de formato (texto ou numérico, por exemplo) a outros pontos mais complexos, que envolvam comparar os dados com outras fontes.</p>
-<p>A checagem é uma etapa fundamental do trabalho que dados. Na prática, ela deve ocorrer de forma transversal, desde a obtenção até a visualização. Ou seja, ao realizar uma raspagem de dados, é importante que durante esta coleta você já verifique se as informações estão sendo capturadas corretamente. Na análise e visualização, o mesmo acontece. Faça a checagem dos dados e, se possível, compare-os com os resultados obtidos por outras fontes.</p>
+<p>A checagem é uma etapa fundamental do trabalho com dados. Na prática, ela deve ocorrer de forma transversal, desde a obtenção até a visualização. Ou seja, ao realizar uma raspagem de dados, é importante que durante esta coleta você já verifique se as informações estão sendo capturadas corretamente. Na análise e visualização, o mesmo acontece. Faça a checagem dos dados e, se possível, compare-os com os resultados obtidos por outras fontes.</p>
 <p>Já falamos sobre a importância de observar a documentação que acompanha as bases de dados. Este é o primeiro passo para começar a verificação: procure pelo dicionário de dados. Em alguns casos, esse documento pode vir com diferentes nomes: leia-me, nota técnica, nota informativa, anexo etc. Esse arquivo, que funciona como uma espécie de bula, incluirá explicações sobre as variáveis adotadas na estruturação das informações.</p>
 <p>Nesse documento, idealmente, haverá também informações detalhadas sobre as unidades de medidas utilizadas (gramas, quilos ou toneladas, por exemplo) e os formatos adotados (número absoluto, índice, taxa, percentual etc.).</p>
 <p><strong>Dados, assim como humanos, são imperfeitos</strong></p>
@@ -544,7 +558,7 @@
 <p>A identificação da eventual falta de registros em um banco de dados deve ser imediatamente verificada junto à fonte original. Exemplo: você obteve os dados do Ministério da Saúde sobre os contaminados pela Covid-19 nas 27 unidades federativas do Brasil e, ao checar se todas elas estão presentes na base de dados, constata que um estado ou um município está ausente. Reflita: o que tal ausência significa? Significa que ninguém foi contaminado ou que os municípios ou estados não foram analisados?</p>
 <p>Se você receber soma, dados agregados ou operações matemáticas já realizadas, mas também tiver acesso aos dados desagregados, a recomendação é refazer e checar os cálculos. Especialmente se a base de dados foi elaborada manualmente, erros neste sentido não são incomuns.</p>
 <p>Para entender melhor a importância desse processo, aí vai uma história real. Em uma redação de jornal, dois profissionais estavam produzindo uma matéria sobre filiações partidárias e as migrações de pessoas entre partidos. Enquanto um jornalista de dados ficou responsável pela a obtenção dos dados na página do Tribunal Superior Eleitoral (TSE), via web scraping, outro tinha a missão de fazer as análises a partir dos dados coletados.</p>
-<p>Quando as perguntas foram respondidas e o texto e a visualização estavam prontos, foi notada a ausência de dois partidos da análise. Consequentemente, as duas siglas estavam ausentes na reportagem e na infografia. O fato provocou estranheza: será que nenhuma pessoa dessas duas legendas políticas nunca trocaram de partido? Onde estão seus filiados?</p>
+<p>Quando as perguntas foram respondidas e o texto e a visualização estavam prontos, foi notada a ausência de dois partidos na análise. Consequentemente, as duas siglas estavam ausentes na reportagem e na infografia. O fato provocou estranheza: será que nenhuma pessoa dessas duas legendas políticas nunca trocaram de partido? Onde estão seus filiados?</p>
 <p>Após uma conversa entre os profissionais, eles resolveram checar cada etapa do processo e concluíram que havia um erro no processo. Em função dos descuidos, a reportagem estava comprometida, uma vez que retratava as migrações de filiados de um partido ao outro utilizando tanto números absolutos quanto percentuais. Portanto, a ausência das duas legendas alterava, também, os cálculos realizados para os demais partido. Por sorte, porém, a matéria estava “pronta” com antecedência, o que permitiu refazê-la antes do envio do conteúdo para a gráfica responsável pela impressão do jornal.</p>
 <p>Este caso permite refletir sobre o que poderia ser feito para evitar o erro e a consequente repetição de procedimentos. O desfecho seria diferente se houvesse uma verificação básica que mostrasse a presença de todos os 33 partidos na base de dados obtida via web scraping. O erro ocorreu duas vezes: na ausência de verificação da planilha recebida e, antes disso, na falta de detecção do problema na hora da captura dos dados, quando uma primeira verificação deveria ter sido feita.</p>
 <p>A história se torna ainda mais complexa porque o código que havia sido desenvolvido para a raspagem e obtenção dos dados fora usado para uma reportagem anterior, que não apresentou erro em relação ao número de partidos.</p>
