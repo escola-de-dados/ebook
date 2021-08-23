@@ -1,5 +1,5 @@
 # Fluxo do trabalho com dados: do zero à prática
-Guia da [Escola de Dados](htttps://escoladedados.org) sobre o fluxo de trabalho com dados.
+Guia da [Escola de Dados](https://escoladedados.org) sobre o fluxo de trabalho com dados. O ebook está disponível também na [seção ebooks da Escola de Dados](https://escoladedados.org/ebooks) 
 
 ## Exportação do ebook
 
